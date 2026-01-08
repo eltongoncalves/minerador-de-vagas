@@ -1,0 +1,14 @@
+{
+  "name": null,
+  "headline": null,
+  "location": null,
+  "about": null,
+  "experience": [],
+  "education": [],
+  "skills": [],
+  "url": "https://www.linkedin.com/in/elton-dias-goncalves/",
+  "raw_html_length": 0,
+  "status": "erro",
+  "error": "HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /in/elton-dias-goncalves/ (Caused by SSLError(PermissionError(1, 'Operation not permitted')))",
+  "message": "Erro ao acessar o perfil: HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /in/elton-dias-goncalves/ (Caused by SSLError(PermissionError(1, 'Operation not permitted')))"
+}
