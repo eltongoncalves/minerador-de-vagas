@@ -1,0 +1,198 @@
+DOSSIÊ PROFISSIONAL CONSOLIDADO (VERSÃO MESTRA 2026)
+ELTON JHON DIAS GONÇALVES
+
+ESTE DOCUMENTO É A FONTE ÚNICA DE VERDADE PARA TODA A TRAJETÓRIA PROFISSIONAL, 
+REUNINDO DADOS TÉCNICOS, NARRATIVAS DE VALOR, INSIGHTS E DETALHES DE PROJETOS.
+
+================================================================================
+DADOS PESSOAIS E CONTATO
+================================================================================
+Nome: Elton Jhon Dias Gonçalves
+Localização: Belém, PA / Remoto
+Contato: +55 (91) 98353-8941
+Email: elton.jd.goncalves@gmail.com
+LinkedIn: https://www.linkedin.com/in/elton-dias-goncalves/
+
+================================================================================
+PERFIL PROFISSIONAL E IMPACTO ESTRATÉGICO
+================================================================================
+Arquiteto de Software e Desenvolvedor Sênior com mais de 22 anos de trajetória. 
+Reconhecido como um "Troubleshooter" de alto nível — o profissional acionado para 
+destravar projetos críticos em atraso ou com falhas de segurança gravíssimas. 
+Possui uma visão holística rara que une a "escovação de bits" (baixa infraestrutura 
+e hardware) à vanguarda da Inteligência Artificial Vertical (Agentes Autônomos). 
+Especialista em transitar entre o legado pesado (Mainframe/Cobol) e arquiteturas 
+modernas (Cloud Native/Quarkus/EDA/Serverless), sempre com foco absoluto no ROI 
+e no valor de produto.
+
+================================================================================
+STACK TÉCNICA COMPLETA (CATALOGAÇÃO EXAUSTIVA)
+================================================================================
+AI & AUTOMAÇÃO:
+- Vertical AI, Agentes Autônomos, Model Context Protocol (MCP).
+- n8n (Maestro de Orquestração), Prompt Engineering, Tokenização.
+- Gestão de Memória de Contexto (Curto e Longo Prazo).
+- Whisper (Processamento de áudio), Computer Vision, Integração Odoo/Chatwoot.
+
+ECOSSISTEMA JAVA & BACKEND:
+- Java (8, 11, 17, 21), Spring Boot, Spring Cloud, Spring Data JPA.
+- Quarkus (Alta Performance), J2EE, Hibernate, Thymeleaf, Feign Client.
+- Node.js, C#, .NET Core, ASP.NET.
+- PHP (5, 7, 8), Zend Framework 2, Doctrine 2, Python (Automação e Lambdas).
+
+CLOUD, DEVOPS & INFRAESTRUTURA:
+- AWS (Lambda, ECS, EKS, SQS, SNS, Batch, Aurora, RDS, VPC, API Gateway, CloudFormation).
+- OpenShift (Enterprise Kubernetes), Docker, ArgoCD (GitOps).
+- Terraform (IaC), Helm, Kubernetes, Kibana, SonarQube.
+
+FRONTEND:
+- Angular (2+), Ionic (8 - Mobile), TypeScript, JavaScript (ES6+).
+- Bootstrap, JQuery, CSS3/LESS, HTML5.
+
+DADOS & MENSAGERIA:
+- Bancos SQL: Oracle (PL/SQL Avançado), SQL Server (T-SQL Avançado), PostgreSQL, MySQL.
+- Bancos NoSQL: MongoDB, DynamoDB, Firebase (Firestore, Realtime DB), Elasticsearch.
+- Mensageria: Apache Kafka, AWS SQS, RabbitMQ, MQ.
+
+SEGURANÇA & FINANÇAS:
+- Open Finance, Open Insurance, MED (Bacen - Mecanismo Especial de Devolução).
+- Segurança de JWT, mTLS, FAPI, Autenticação/Autorização avançada.
+
+================================================================================
+TRAJETÓRIA PROFISSIONAL CRONOLÓGICA (DETALHADA)
+================================================================================
+
+[2025 - PRESENTE] PROJETO EVAH (Ecossistema de Valor Automatizado para Humanos)
+Cargo: Fundador & Arquiteto de IA
+- Desenvolvimento de ecossistema de Vertical AI (IA de Ação).
+- Superação da IA passiva de chat para uma IA ativa que executa processos de negócio.
+- Implementação de orquestração de agentes via n8n, integrando ERP (Odoo) e Omnichannel (Chatwoot).
+- Uso avançado de Protocolo MCP para permitir que a IA execute ações reais (agendamentos, gestão de leads, relatórios).
+- Case de Sucesso: Redução de 99% no tempo de resposta em operações automotivas (Bira Veículos).
+
+[10/2025 - 12/2025] 200DEV SVCS LTDA.
+Cargo: Arquiteto de Software / Desenvolvedor Sênior (CLT)
+- Implementação do Mecanismo Especial de Devolução (MED) do Banco Central para o ciclo de 2026.
+- Consolidação de padrões de acesso seguro e identificação de falhas sistêmicas (Vulnerabilidade JWT).
+- Resolução de falha onde usuários logados manipulavam permissões para elevar privilégios.
+- Refatoração do fluxo de login para validar credenciais antes da emissão do token.
+
+[05/2025 - 10/2025] ACCENTURE DO BRASIL LTDA (Projeto Sicredi)
+Cargo: Consultor Sênior de Arquitetura e Governança (CLT)
+- Consultoria para melhoria de segurança, arquitetura e governança de software para o Banco Sicredi.
+- Assessment Arquitetural: Auditorias para identificar falhas de segurança e gargalos de performance.
+- Proposição de modelos de resiliência (Security by Design).
+- Consultoria Executiva: Defesa de soluções técnicas em reuniões estratégicas com stakeholders.
+
+[02/2025 - 05/2025] G4F SOLUÇÕES CORPORATIVAS LTDA
+Cargo: Desenvolvedor Java Sênior (CLT)
+- Desenvolvimento de sistemas críticos para o setor público e privado.
+- Foco em escalabilidade e integração de sistemas de alta complexidade.
+
+[05/2023 - 12/2024] MINSAIT BRASIL (INDRA COMPANY) - Consultoria Banco do Brasil
+Cargo: Arquiteto de Soluções SR / Cloud Architect (CLT)
+- Atuação no maior Data Center da América Latina (Banco do Brasil).
+- Implementação de cultura GitOps utilizando ArgoCD sobre OpenShift.
+- Participação na implantação da solução H2O (IA) na cloud interna do banco.
+- Planejamento e implantação da API de Desagendamento Spotfire via Quarkus.
+- Treinamento e orientação de novos funcionários sobre tecnologias e soluções.
+
+[06/2021 - 02/2023] NTT DATA BRASIL (Antiga Everis)
+Cargo: Consultor em Engenharia de Software Sênior / Especialista AWS (CLT)
+- BANCO ITAÚ (1 ano): Migração de tecnologia mainframe para AWS. Engenharia reversa de COBOL para arquitetura Serverless (Lambda/Python), utilizando Terraform e CloudFormation.
+- CONSELHO NACIONAL DE JUSTIÇA (CNJ): Troubleshooter no projeto Domicílio Eletrônico. Assumiu a liderança do Frontend (Angular) em atraso, garantindo a entrega do sistema de notificações judiciais.
+- AMBEV: Desenvolvimento de motor de relatórios crítico. Redução do prazo de entrega de 3 meses para 3 semanas utilizando Thymeleaf e Spring Boot (Arquitetura EDA com Quarkus).
+- SOUTH SYSTEM: Desenvolvimento de microserviços em Quarkus para o projeto Shop360 e busca via Elasticsearch.
+
+[10/2021 - 01/2022] FOURSYS TECH LTDA
+Cargo: Desenvolvedor Java Full Stack (CLT)
+- Atuação na squad de Cartão e Fatura do Banco Pan.
+- Desenvolvimento de microserviços Java/Spring Boot para processamento de transações.
+
+[04/2020 - 06/2021] COMPANHIA DE SANEAMENTO DO PARÁ (COSANPA)
+Cargo: Analista de Sistemas / Analista de TI (Cargo Público)
+- Gestão de sistemas de infraestrutura de saneamento básico durante a pandemia.
+- Levantamento de requisitos e modelagem de processos de negócio (BPMN).
+- Análise de mercado para sistemas CMMS (eMainT, Fracttal, SoftExpress, TOTVS).
+
+[2018 - 2021] DO BEM CONTABILIDADE (Startup Acelerada)
+Cargo: Co-fundador e CTO (PJ)
+- Marketplace B2B conectando contadores a empresas.
+- Acelerada pelo programa STARTURAR com investimento de R$ 200.000,00.
+- Experiência sólida em Product Discovery, Marketing, Vendas e Product Mindset.
+
+[2014 - 2018] VIBE DESENVOLVIMENTO (Consultoria Banpará)
+Cargo: Desenvolvedor Java Sênior / Especialista em Banco de Dados (PJ)
+- Atuação no Internet Banking (PF e PJ) do Banco do Estado do Pará (Banpará).
+- Engenharia de Dados Pesada: Domínio de PL/SQL (Oracle) e T-SQL (SQL Server) para lógicas financeiras complexas (Procedures, Triggers, Functions).
+- Implementação do Sistema VPJ (Visão Projeto) e metodologias MPS Nível G.
+
+[09/2012 - 11/2014] KIIWEB TECNOLOGIA & Projeto Aba Pai
+Cargo: Empreendedor / Desenvolvedor Full Stack (PJ)
+- Motor de Pagamentos: Implementação de Split de Pagamentos customizado em 2013 (lógica complexa de fracionamento em boleto/cartão/transferência).
+- Desenvolvimento de ERPs, sites e manutenção de sistemas legados via Scrum.
+
+[2012 - ATUAL] DOBEM TECNOLOGIA & CONSULTORIA (Empresa Própria)
+- BIOTEC-AMAZÔNIA: Desenvolvimento da Rede Amazônica de Bionegócios e do Sistema de Insumos Georreferenciados.
+- SOLUS (ESAMAZ): Projeto completo de Sistema Acadêmico (Matrículas, Transferências, Planejamento Estratégico).
+- PANVEL: Desenvolvimento backend para e-commerce e sistema EAD Omni PDV.
+
+[2012 - 2013] IMG SEGURADORA (Corretora de Seguros)
+Cargo: Consultor de TI / Líder de Desenvolvimento (PJ)
+- Desenvolvimento de CRM/ERP para gestão de clientes e produtos de seguros.
+- Implementação de módulo financeiro com geração de boletos.
+
+[2010 - 2012] UFRA – PROJETO PARFOR (Plano Nacional de Formação de Professores)
+Cargo: Desenvolvedor Full Stack / Webmaster
+- Case de Sucesso: Redução de equipe operacional de 15 para 3 pessoas (80% de eficiência) através de automação em PHP/MySQL.
+- Sistema exportado para Brasília para eventos de nível nacional.
+
+[2007 - 2009] BELLIVERY - Belém Delivery Online
+Cargo: Co-fundador e CTO (Pioneirismo Startup)
+- O "iFood" de 2007: Marketplace de delivery com geolocalização via Google Maps antes da era dos smartphones.
+- Foco em Levantamento de Requisitos e Visão de Produto ("Planejar para não refazer").
+
+================================================================================
+EXPERIÊNCIAS INICIAIS E FUNDAMENTOS
+================================================================================
+- 100% AMAZÔNIA (2010-2011): Estágio em exportação e desenvolvimento web.
+- UFPA (2009): Estágio em manutenção de portais CMS (Joomla).
+- CAIXA ECONÔMICA FEDERAL (2008-2009): Estágio em .NET (C#/ASP.NET) para Gestão de Patrimônio e Imóveis.
+- UFRA - DTI (2007-2008): Estágio em infraestrutura de redes e manutenção do portal institucional.
+- CONNECT INFORMÁTICA (2003-2004): Instrutor de Informática (Windows, Office, Hardware). Base da didática e mentoria.
+- KODAK / CONSELHO TUTELAR (2003): Suporte de Hardware e Administrativo. Base da consciência sobre a camada física do software.
+
+================================================================================
+FORMAÇÃO ACADÊMICA
+================================================================================
+- Especialização (Pós-Graduação) em Arquitetura de Software | UFPA
+- Bacharelado em Ciência da Computação | UFPA
+- Técnico em Informática | Instituto Monitor (SP)
+
+================================================================================
+DETALHAMENTO DE PROJETOS E CONQUISTAS
+================================================================================
+REDE AMAZÔNICA DE BIONEGÓCIOS (BIOTEC-AMAZÔNIA):
+- Registro de laboratórios CT&I.
+- Integração com Plataforma Lattes (CNPq) para mapeamento de pesquisadores.
+- Vitrine virtual de ensaios laboratoriais para empresários.
+
+REDE DE INSUMOS GEORREFERENCIADOS (BIOTEC-AMAZÔNIA):
+- Integração de informações biológicas (açaí, cacau) em camadas de mapas.
+- Módulo administrativo para gestão de usuários e camadas.
+- Módulo de importação de massa de dados significativa com tratamento de duplicidade.
+
+SISTEMA ZARPAR (BELLIVERY):
+- Sistema de passagens de barco com 1.822 arquivos (PHP/CSS/HTML).
+- Interface web completa e múltiplos módulos operacionais.
+
+================================================================================
+NOTAS FINAIS E INSIGHTS DO RH ESTRATÉGICO
+================================================================================
+- Perfil "Casca Grossa": Experiência real com falhas de segurança críticas e resgates de cronogramas.
+- Versatilidade: Transita entre .NET, Java, PHP, Python e Node.js com facilidade.
+- Foco em IA: Atualizado com os conceitos de IA Vertical e Agentes (EVAH), pronto para o cargo de AI Architect.
+- Comunicação: Ex-professor, capaz de traduzir termos técnicos para executivos e mentorar equipes júnior/pleno.
+
+Data de Atualização: Janeiro de 2026
+Versão: 3.5 - Consolidação Master Exaustiva
