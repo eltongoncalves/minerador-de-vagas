@@ -1,80 +1,50 @@
-# Minerador de Vagas - Currículos
+# 🏗️ MINERADOR DE VAGAS - THE RESUME FACTORY
 
-Este diretório contém uma coleção de currículos de Elton Jhon Dias Gonçalves ao longo dos anos.
+Este repositório é um ecossistema inteligente para gestão de carreira e geração de currículos altamente customizados para **Elton Jhon Dias Gonçalves**.
 
-## 📁 Estrutura
+---
 
-### Diretório: `curriculos_elton/`
+## 📁 ESTRUTURA DO WORKSPACE
 
-Contém **31 arquivos de currículos** organizados cronologicamente:
+O projeto está organizado para separar dados brutos, diretrizes de estilo e resultados finais:
 
-#### Currículos por Ano:
+- **`curriculos/`**: Versões prontas para uso.
+  - `CURRICULO_2026.md`: Dossiê consolidado de trajetória.
+  - `CORRICULO_ELTON_2026_REFERENCIA.md`: Modelo de referência atualizado.
+- **`dados_brutos/`**: Fontes primárias de informação.
+  - `historico_profissional_bate_papo.md`: Diálogos detalhados sobre cada experiência.
+  - `CTPSDigital_...pdf`: Registros oficiais de trabalho.
+  - `EXTRACAO_TEXTO_CURRICULOS.md`: Texto extraído dos currículos antigos (PDF/DOCX).
+  - `curriculos_elton/`: Pasta com os 31 arquivos históricos originais.
+- **`diretrizes/`**: Regras de negócio para a IA.
+  - `prompt_sobriedade.md`: Guia de tom e estilo executivo (evita clichês).
+  - `PLANEJAMENTO_CRIACAO_CURRICULO.md`: Histórico de planejamento do projeto.
+- **`ferramentas/`**: Scripts de suporte.
+  - `read_docx.py`: Extrator de texto de arquivos Word.
+  - `extract_linkedin.py`: Script para tentativas de extração via LinkedIn.
+- **`arquivo/`**: Versões obsoletas e backups para auditoria.
 
-- **2013-2014**: 
-  - Curriculo - Elton Jhon Dias Gonçalves - 2013.pdf
-  - Curriculo - Elton Jhon Dias Gonçalves - 2014.pdf
-  - Curriculo 2014 - Elton.pdf
-  - Curriculo 2014 - sem foto.pdf
-  - Curriculo 2014.pdf
+---
 
-- **2018**: 
-  - Curriculo 2018.pdf
+## 🧠 O CORAÇÃO DO PROJETO
 
-- **2020**: 
-  - curriculo_elton_2020.pdf
+### [PERFIL_MESTRE_CARREIRA.md](PERFIL_MESTRE_CARREIRA.md)
+Este é o arquivo mais importante do repositório. Ele funciona como uma **Knowledge Base (Base de Conhecimento)** que contém:
+- Matriz completa de competências técnicas.
+- Deep Dive em todas as experiências (Contexto, Ação e Resultado).
+- Diferenciais estratégicos e "cicatrizes de guerra".
 
-- **2021**: 
-  - Curriculo 2021- Elton Gonçalves.pdf
-  - Curriculo 2021- Elton Gonçalves (1).pdf
-  - Curriculo 2021- Elton Gonçalves com logos.pdf
+---
 
-- **2023**: 
-  - Currículo Elton Jhon Dias Gonçalves Foto - 2023.pdf
-  - Currículo Elton Jhon Dias Gonçalves Foto .pdf
+## 🚀 COMO GERAR UM NOVO CURRÍCULO
 
-- **2024**: 
-  - Currículo Elton 31-10-2024.pdf
-  - Currículo Elton 31-10-202.pdf
-  - Currículo Elton Jhon Dias Gonçalves Foto - 2024.pdf
-  - Currículo Elton Jhon Dias Gonçalves Foto - 2024 - cópia.pdf
-  - Currículo Elton Jhon Dias Gonçalves Foto 2024 -Agosto.pdf
+Para gerar uma versão customizada, siga as instruções no **[GUIA_CUSTOMIZACAO_CURRICULOS.md](GUIA_CUSTOMIZACAO_CURRICULOS.md)**.
 
-- **2025**: 
-  - Currículo Elton Jhon Dias Gonçalves - 2025.pdf
-  - 2025 - Currículo Elton Jhon Dias Gonçalves  .pdf.pdf
-  - Linkedin_ Curriculo Elton Gonçalves 2025 - Ultimo - Documentos Google.pdf
+A ideia central é usar a IA como seu "Redator Executivo", fornecendo o Perfil Mestre e a vaga desejada para que ela gere um documento focado no que o recrutador realmente busca.
 
-#### Outros Arquivos:
+---
 
-- **Lattes**: 
-  - Currículo do Sistema de Currículos Lattes (Elton jhon Dias Gonçalves).pdf
-
-- **Variações**: 
-  - Currículo Elton Jhon Dias Gonçalves  sem foto.pdf
-  - Currículo Currículo Elton Jhon Dias Gonçalves  foto 01.pdf
-  - Curriculo Elton Gonçalves.pdf
-  - curriculo_elton_goncalves.pdf
-  - Curriculo+Elton+Gon_alves.pdf
-  - Elton_Currículo_2.pdf
-  - EltonJD_Gonçalves_Currículo.pdf
-
-#### Documentos Word:
-
-- SISTEMAS DE INFORMAÇÃO TEXTO ELTON.docx
-- TEXTO ELTON - VERSÃO ATUALIZADA.docx
-- TEXTO ELTON - VERSÃO FINAL.docx
-
-## 📊 Estatísticas
-
-- **Total de arquivos**: 31
-- **PDFs**: 28 arquivos
-- **DOCX**: 3 arquivos
-- **Período**: 2013 a 2025 (12 anos de evolução profissional)
-
-## 📝 Observações
-
-- Os currículos estão organizados por ano, mostrando a evolução profissional ao longo do tempo
-- Há variações com e sem foto
-- Alguns arquivos são versões específicas para LinkedIn
-- Inclui também currículo do sistema Lattes (plataforma acadêmica brasileira)
-- Existem versões em texto (DOCX) além das versões formatadas em PDF
+## 📊 HISTÓRICO RÁPIDO
+- **Total de Currículos Históricos:** 31 (2013-2025).
+- **Status Atual:** 2026 Ready.
+- **Foco Atual:** AI Architect (Vertical AI & Agentes Autônomos).
