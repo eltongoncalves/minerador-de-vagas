@@ -49,10 +49,10 @@ Este documento é a "Fonte da Verdade" sobre a trajetória profissional do Elton
 
 ### 3. Bellivery – Co-fundador & CTO (2007 – 2009)
 **Período:** 2007 – 2009  
-**Contexto:** Startup pioneira em delivery em Belém criada durante o início da faculdade; poucos recursos e tecnologias emergentes.  
-**Desafio:** Criar um marketplace antes do boom das apps e integrar geolocalização (Google Maps API) e cadastro de restaurantes.  
-**Ação:** Conduzi o levantamento de requisitos, arquitetura, base de dados e integração com maps, além da operação comercial.  
-**Resultado:** Aprendizado de produto completo (SDLC + Viabilidade) e estabelecimento da mentalidade “planejar para não refazer”.
+**Contexto:** Startup pioneira em delivery em Belém criada ainda nos primeiros anos da faculdade, com recursos limitados e a necessidade de provar um novo modelo de marketplace antes do surgimento dos apps de delivery.  
+**Desafio:** Desenvolver um portal completo, cadastrar restaurantes, incorporar geolocalização com Google Maps API e criar um modelo sustentável de anúncios e parcerias.  
+**Ação:** Levantamento de requisitos, modelagem de dados, arquitetura do sistema, desenvolvimento do portal público e da área administrativa (PHP/MySQL), integração com APIs de geolocalização e operação comercial para atrair parceiros.  
+**Resultado:** Portal lançado em bellivery.com.br, público relevante conquistado, monetização via anúncios e consolidação da mentalidade “planejar para não refazer”, base para futuras iniciativas empreendedoras.
 
 ### 4. UFRA – Estagiário de TI (2007 – 2008)
 **Período:** 2007 – 2008  
@@ -94,6 +94,13 @@ Este documento é a "Fonte da Verdade" sobre a trajetória profissional do Elton
 **Desafio:** Substituir uma operação manual de eventos com 15 pessoas e complexidade nacional.  
 **Ação:** Desenvolvi sistema completo de gestão de eventos, kits, tickets, presença digital e portal institucional (PHP, MySQL, Joomla).  
 **Resultado:** Redução da equipe operacional de 15 para 3 pessoas (80% ganho) e adoção do sistema em Brasília para eventos nacionais.
+
+### 26. Conquest One – Desenvolvedor de Software Sênior (Set/2024 – Presente)
+**Período:** Setembro/2024 – Presente  
+**Contexto:** Squad do Banco Panamericano responsável por cartões e faturas.  
+**Desafio:** Entregar recursos regulatórios (retentativa de débito automático, portabilidade de dívidas) em compliance com BACEN.  
+**Ação:** Desenvolvi as features de Retentativa de Pagamento em Débito em Conta e Portabilidade de Dívidas utilizando Java, Spring Cloud, AWS SQS/Batch/API Gateway e Feign Client. Implementei infraestrutura de testes com SonarQube, realizei deploys em DEV/HML/PRD e conduzi orientações técnicas ao time para manter qualidade e entrega contínua.  
+**Resultado:** Soluções escaláveis e regulamentadas que garantiram estabilidade transacional e atenderam aos prazos do cliente.
 
 ### 10. IMG Seguradora – Consultor/Líder (2012 – 2013)
 **Período:** 2012 – 2013  
@@ -214,6 +221,49 @@ Este documento é a "Fonte da Verdade" sobre a trajetória profissional do Elton
 **Desafio:** Fazer a transição de IA passiva para agentes autônomos que executam operações.  
 **Ação:** Arquitetura via MCP, orquestração n8n (Odoo + Chatwoot), RAG, engenharia de prompt e memória de contexto.  
 **Resultado:** Redução de 99% no tempo de resposta em ciclos críticos de atendimento (Case Bira Veículos) e plataforma pronta para escala.
+
+---
+
+## 🔎 Detalhes enriquecidos a partir do LinkedIn
+
+O PDF do seu LinkedIn reforça o tom narrativo e técnico que queremos preservar. Abaixo, reproduzo as seções mais densas com verbos de ação, métricas e tecnologias específicas, mantendo o foco nas experiências mais recentes:
+
+### Conquest One (set/2024 – presente) – Apps de cartões e faturas
+- **Contexto:** Squad do Banco Panamericano dedicado a cartões e faturas, com foco em disponibilidade regulatória.
+- **Ações:** Desenvolvimento das features “Retentativa de Pagamento em Débito em Conta” (Java + AWS SQS) e “Portabilidade de Dívidas” com AWS SQS, AWS Batch, API Gateway, Spring Cloud e Feign Client; testes com SonarQube; deploys nos ambientes DEV/HML/PRD; orientação técnica da equipe.
+- **Resultado:** Regras de cobrança atendidas, relatórios em PDF entregues e entrega contínua de features críticas dentro das normativas do BACEN.
+
+### Minsait / Banco do Brasil (mai/2023 – out/2024)
+- **Contexto:** Arquiteto e desenvolvedor back-end com atuação direta no maior Data Center da América Latina.
+- **Ações:** Implantação da Solução H2O (IA), planejamento e entrega da API de Desagendamento Spotfire em Quarkus, treinamentos e apresentações para novos funcionários e alta administração.
+- **Resultado:** APIs padronizadas e capacidade interna de entrega guiada por DevOps, garantindo automação e governança técnica.
+
+### NTT Data (jun/2021 – mar/2023)
+- **Itau:** Migração mainframe→AWS (Terraform/CloudFormation), microserviços Python/Java, integração Lambda/ECS/Kafka/SQS/Aurora e runtime MQ.
+- **CNJ:** Aplicação de Hexagonal Architecture em Quarkus, criação de servidor mock em Node.js para acelerar testes backend/frontend.
+- **Ambev:** Substituição de Jasper por Thymeleaf para relatórios críticos (importação Panamá), entregues em 2 semanas em vez de 3 meses, com Spring Boot + PDF.
+
+### Dobem Contabilidade (jul/2018 – jun/2021)
+- **Contexto:** CTO de marketplace B2B para contadores.
+- **Ações:** Criação de chatbot Angular + Firebase (Firestore), ERP contábil completo, modelagem de dados, diagramas, automação de deploys com AWS CodePipeline/CodeBuild/CodeDeploy e fortalecimento digital (site/blog).
+- **Resultado:** Operação escalável com foco em produtividade, visibilidade digital e automação do SDLC.
+
+### Avantti / Tecban (mar/2020 – dez/2020)
+- **Atuação:** Open Insurance (BACEN/SUSEP) e Banco24Horas.
+- **Ações:** APIs Spring Boot, testes e deploys em DEV/HML/PRD, migração Firebase→DynamoDB via Node.js, autenticação com AWS Cognito (Apple/Google) e serviços de verificação.
+- **Resultado:** Conformidade regulatória, integração móvel e governança sobre dados sensíveis.
+
+### Grupo Panvel (mar/2019 – mar/2020)
+- **Ações:** Monitoramento de conectividade, fallback dinâmico, sincronizações automáticas, manutenção de micro serviços de frente de caixa e mentoring de desenvolvedores juniores.
+- **Resultado:** Alta disponibilidade do varejo e evolução de squads críticos com governança reforçada.
+
+### i9Amazon (jul/2018 – jun/2019)
+- **Ações:** Arquitetura e APIs RESTful (modularização, exception handling, profiles), DevOps (Nginx + Spring Boot standalone).
+- **Projetos:** ERP web, aplicativo de controle de estoque e WebApp ERP.
+
+### Vibe Desenvolvimento (nov/2014 – mar/2018)
+- **Ações:** Projetos de Internet Banking PF/PJ/Governos com .NET/C#, ASP, HTML5, XML, JavaScript, SQL Server (procedures/functions/views), levantamento de requisitos, UML/ER, web services e suporte contínuo.
+- **Resultado:** Plataformas robustas para canais digitais críticos e integração sistêmica.
 
 ---
 
