@@ -33,40 +33,40 @@ Este documento é a "Fonte da Verdade" sobre a trajetória profissional do Elton
 
 ## 💼 INVENTÁRIO CRONOLÓGICO COMPLETO
 
-### 1. COMDAC-Conselho Municipal dos Direitos da Criança e do Adolescente de Belém – Assistente Administrativo (2003)
-**Período:** 2003  
+### 1. COMDAC - Conselho Municipal dos Direitos da Criança e do Adolescente de Belém – Estagiário de TI (2002)
+**Período:** Janeiro/2002 – Dezembro/2002  
 **Contexto:** Primeiro contato corporativo em um órgão do Conselho Tutelar de Belém, com foco em rotinas administrativas e equipamentos.  
 **Desafio:** Apoiar processos operacionais enquanto profissionais experientes lidavam com volume alto de demandas sociais.  
-**Ação:** Automatizei tarefas administrativas usando informática e garanti a operacionalidade dos equipamentos.  
-**Resultado:** Entendimento precoce de que software depende da infraestrutura física; abriu caminho para atuação técnica futura.
+**Ação:** Atuei como estagiário no setor de informática, onde ajudava a digitar memorandos, ofícios e outros documentos necessários para o bom funcionamento do órgão. Foi nessa primeira oportunidade que tive a chance de aprender mais sobre computação, sistema operacional, programas de escritório como Word, Excel, e-mail e internet.  
+**Resultado:** Entendimento precoce de que software depende da infraestrutura física; abriu caminho para atuação técnica futura e base sólida em ferramentas de escritório e comunicação digital.
 
-### 2. Connect Informática – Instrutor de Informática (2003 – 2004)
-**Período:** 2003 – 2004  
+### 2. Connect Informática – Professor de Informática (2003 – 2004)
+**Período:** Janeiro/2003 – Janeiro/2004  
 **Contexto:** Escola de cursos profissionalizantes local; público com pouca familiaridade tecnológica.  
 **Desafio:** Transmitir conceitos básicos e complexos de Windows, Office e hardware para alunos iniciantes.  
-**Ação:** Estruturei aulas práticas de Excel, PowerPoint e manutenção básica de computadores, com linguagem acessível.  
-**Resultado:** Desenvolvimento da didática e da capacidade de comunicação técnica que se tornaram diferenciais de mentoria.
+**Ação:** Atuei como professor de informática, ensinando conceitos básicos sobre sistemas operacionais, pacote Office, internet e manutenção básica de computadores. Estruturei aulas práticas de Excel, PowerPoint e manutenção básica de computadores, com linguagem acessível.  
+**Resultado:** Desenvolvimento da didática e da capacidade de comunicação técnica que se tornaram diferenciais de mentoria, consolidando habilidades de ensino e tradução de conceitos técnicos para iniciantes.
 
-### 3. Bellivery – Co-fundador & CTO (2007 – 2009)
-**Período:** 2007 – 2009  
+### 3. Bellivery – Desenvolvedor e Co-fundador (2007 – 2010)
+**Período:** Agosto/2007 – Julho/2010  
 **Contexto:** Startup pioneira em delivery em Belém criada ainda nos primeiros anos da faculdade, com recursos limitados e a necessidade de provar um novo modelo de marketplace antes do surgimento dos apps de delivery.  
 **Desafio:** Desenvolver um portal completo, cadastrar restaurantes, incorporar geolocalização com Google Maps API e criar um modelo sustentável de anúncios e parcerias.  
-**Ação:** Levantamento de requisitos, modelagem de dados, arquitetura do sistema, desenvolvimento do portal público e da área administrativa (PHP/MySQL), integração com APIs de geolocalização e operação comercial para atrair parceiros.  
-**Resultado:** Portal lançado em bellivery.com.br, público relevante conquistado, monetização via anúncios e consolidação da mentalidade “planejar para não refazer”, base para futuras iniciativas empreendedoras.
+**Ação:** Idealizei e desenvolvi, em parceria com um sócio, o portal Bellivery (Belém Delivery Online), uma plataforma pioneira de pedidos online de restaurantes, antes mesmo da popularização de serviços como iFood no Brasil. Lideramos o projeto desde a concepção da ideia até o desenvolvimento completo utilizando PHP e MySQL, incluindo modelagem de dados, criação do portal e da área administrativa. Realizamos o deploy do site em bellivery.com.br, atraindo um público relevante e implementando um modelo de negócio baseado na venda de anúncios. Levantamento de requisitos, arquitetura do sistema, integração com APIs de geolocalização e operação comercial para atrair parceiros.  
+**Resultado:** Portal lançado em bellivery.com.br, público relevante conquistado, monetização via anúncios e consolidação da mentalidade "planejar para não refazer", base para futuras iniciativas empreendedoras. Foi um projeto desafiador e inovador, especialmente pela superação da curva de aprendizado em programação, consolidando minha visão empreendedora e habilidades técnicas em desenvolvimento web.
 
-### 4. UFRA – Estagiário de TI (2007 – 2008)
-**Período:** 2007 – 2008  
+### 4. UFRA – Estagiário em Suporte de Redes e Computadores (2007)
+**Período:** Janeiro/2007 – Dezembro/2007  
 **Contexto:** Universidade Federal Rural da Amazônia durante o curso de Ciência da Computação.  
 **Desafio:** Manter portal institucional e infraestrutura de redes com recursos limitados.  
-**Ação:** Combinei suporte a redes com manutenção do portal e suporte técnico em ambiente acadêmico.  
-**Resultado:** Base híbrida entre infraestrutura e desenvolvimento, antecipando o perfil de arquiteto.
+**Ação:** Atuei como estagiário no setor de manutenção de microcomputadores e suporte em rede de computadores. Tive a oportunidade de aprender a configurar e manter rede de computadores tanto na parte física (realizando crimpagem de cabos e instalação de switches) quanto configurando domínios e faixas de IP nos computadores da universidade. Também tive um breve contato com programação e manutenção de sites feitos em Joomla.  
+**Resultado:** Base híbrida entre infraestrutura e desenvolvimento, antecipando o perfil de arquiteto, com conhecimento prático de redes físicas e lógicas.
 
-### 5. Caixa Econômica Federal – Estagiário (.NET/Interno, 2008 – 2009)
-**Período:** 2008 – 2009  
+### 5. Caixa Econômica Federal – Estágio em Desenvolvimento de Sistemas Web (2008 – 2009)
+**Período:** Janeiro/2008 – Fevereiro/2009  
 **Contexto:** Sistema de patrimônio e imóveis da Caixa, ambiente bancário com regras rígidas.  
-**Desafio:** Traduzir regras de inventário em funcionalidades sólidas.  
-**Ação:** Desenvolvi portal .NET (C#/ASP.NET) para gestão de imóveis e inventário patrimonial.  
-**Resultado:** Primeira imersão em governança bancária, conformidade e ciclos de aprovação estruturados.
+**Desafio:** Traduzir regras de inventário em funcionalidades sólidas e otimizar processos internos.  
+**Ação:** Desenvolvi e mantive o site institucional do órgão GIFUG/BE utilizando ASP.NET, garantindo sua funcionalidade e alinhamento às necessidades institucionais. Identifiquei uma oportunidade de otimização nos processos de manutenção de imóveis da Caixa e, por iniciativa própria, projetei e implementei um sistema de gerenciamento de imóveis. O sistema permitia o cadastro de imóveis, rastreava o histórico de manutenções e calculava os custos acumulados. Caso o custo das manutenções ultrapassasse o valor do imóvel, o sistema recomendava o descarte ou doação do bem, evitando gastos excessivos. Desenvolvi também o sistema API (Análise de Perfil Individual), uma plataforma voltada para a avaliação e melhoria pessoal dos funcionários da Caixa, onde colaboradores criavam perfis relatando desafios pessoais ou profissionais, e gestores forneciam recomendações personalizadas para desenvolvimento e superação.  
+**Resultado:** Primeira imersão em governança bancária, conformidade e ciclos de aprovação estruturados. Soluções que trouxeram maior controle e eficiência financeira para a gestão dos ativos e desenvolvimento de pessoas.
 
 ### 6. UFPA – Estagiário em Desenvolvimento Web (2009)
 **Período:** 2009  
@@ -87,34 +87,27 @@ Este documento é a "Fonte da Verdade" sobre a trajetória profissional do Elton
 **Ação:** Atuei em manutenção de sites, suporte operacional e automação de processos internos.  
 **Resultado:** Experiência em domínios internacionais e fluência em múltiplas funções.
 
-### 9. UFRA – Projeto PARFOR (2010 – 2012)
-**Período:** 2010 – 2012  
+### 9. UFRA – Projeto PARFOR / Desenvolvedor Full Stack (2009 – 2010)
+**Período:** Fevereiro/2009 – Outubro/2010  
 **Cargo:** Desenvolvedor Full Stack / Webmaster  
 **Contexto:** Programa nacional de formação de professores (PARFOR).  
 **Desafio:** Substituir uma operação manual de eventos com 15 pessoas e complexidade nacional.  
-**Ação:** Desenvolvi sistema completo de gestão de eventos, kits, tickets, presença digital e portal institucional (PHP, MySQL, Joomla).  
-**Resultado:** Redução da equipe operacional de 15 para 3 pessoas (80% ganho) e adoção do sistema em Brasília para eventos nacionais.
+**Ação:** Fui responsável pelo desenvolvimento e manutenção do site funcional, criando o design e utilizando um CMS poderoso em PHP chamado Joomla. Implementei um sistema de gestão de eventos, substituindo processos manuais e de planilhas por uma plataforma online. O sistema permitia o cadastro de participantes, check-in digital e emissão de certificados, otimizando a operação dos eventos, economizando recursos e melhorando o controle de presença. Desenvolvi sistema completo de gestão de eventos, kits, tickets, presença digital e portal institucional (PHP, MySQL, Joomla).  
+**Resultado:** Redução da equipe operacional de 15 para 3 pessoas (80% ganho) e adoção do sistema em Brasília para eventos nacionais. Otimização completa da operação de eventos com economia de recursos e melhor controle de presença.
 
-### 26. Conquest One – Desenvolvedor de Software Sênior (Set/2024 – Presente)
-**Período:** Setembro/2024 – Presente  
-**Contexto:** Squad do Banco Panamericano responsável por cartões e faturas.  
-**Desafio:** Entregar recursos regulatórios (retentativa de débito automático, portabilidade de dívidas) em compliance com BACEN.  
-**Ação:** Desenvolvi as features de Retentativa de Pagamento em Débito em Conta e Portabilidade de Dívidas utilizando Java, Spring Cloud, AWS SQS/Batch/API Gateway e Feign Client. Implementei infraestrutura de testes com SonarQube, realizei deploys em DEV/HML/PRD e conduzi orientações técnicas ao time para manter qualidade e entrega contínua.  
-**Resultado:** Soluções escaláveis e regulamentadas que garantiram estabilidade transacional e atenderam aos prazos do cliente.
-
-### 10. IMG Seguradora – Consultor/Líder (2012 – 2013)
-**Período:** 2012 – 2013  
+### 10. IMG Corretora de Seguros – Desenvolvedor Full Stack (2010 – 2012)
+**Período:** Outubro/2010 – Setembro/2012  
 **Contexto:** Corretora de seguros de médio porte com necessidade de CRM/ERP e módulos financeiros.  
-**Desafio:** Consolidar cadastros de clientes, produtos e fluxo financeiro em uma plataforma única.  
-**Ação:** Desenvolvi CRM/ERP com faturamento, boleto automático e visão estratégica; conduzi times e orientações de tecnologia.  
-**Resultado:** Transição de executor para estrategista, elevando maturidade do time.
+**Desafio:** Consolidar cadastros de clientes, produtos e fluxo financeiro em uma plataforma única, substituindo sistema legado.  
+**Ação:** Atuei na reengenharia de um sistema legado, realizando a análise e extração de dados para a construção de um novo sistema. Fui responsável pela análise dos relatórios e estrutura de dados do sistema antigo, com foco na criação de um novo banco de dados. A modelagem dos dados foi feita utilizando UML (Unified Modeling Language), onde criei o diagrama de entidade-relacionamento e o modelo lógico da aplicação. Desenvolvi CRM/ERP com faturamento, boleto automático e visão estratégica; conduzi times e orientações de tecnologia.  
+**Resultado:** Transição de executor para estrategista, elevando maturidade do time. Sistema moderno e estruturado que substituiu completamente o legado, com modelagem sólida e arquitetura bem definida.
 
-### 11. KIIWEB – Empreendedor / Desenvolvedor Full Stack (2013 – 2014)
+### 11. KIIWEB Tecnologia – Empreendedor / Desenvolvedor Full Stack (2013 – 2014)
 **Período:** 2013 – 2014  
 **Contexto:** Empresa de software sob encomenda, com múltiplos clientes e metodologias ágeis.  
 **Desafio:** Entregar sistemas variados com prazos curtos e requisitos financeiros complexos.  
-**Ação:** Realizei levantamento de requisitos, planejamento, desenvolvimento back/front (PHP, Zend, Bootstrap) e gestão de projetos com Scrum.  
-**Resultado:** Consolidação da visão de negócio e prática do SDLC completo.
+**Ação:** Atuei no desenvolvimento de modelos de negócio, modelagem de bases de dados, coleta e análise de requisitos, prototipação e gestão de projetos com Scrum. Utilizei tecnologias como PHP5, Zend Framework 2, Doctrine 2, CSS3, Less, JavaScript, jQuery, HTML5, além de plataformas como WordPress e Joomla para sites e PrestaShop, Magento para e-commerce. Realizei levantamento de requisitos, planejamento, desenvolvimento back/front e gestão de projetos com Scrum.  
+**Resultado:** Consolidação da visão de negócio e prática do SDLC completo, com experiência em diversas tecnologias e metodologias ágeis, entregando soluções web completas (sites, e-commerce e sistemas) para PMEs.
 
 ### 12. Projeto Aba Pai – Arquiteto da Solução (2013 – 2014)
 **Período:** 2013 – 2014  
@@ -123,147 +116,113 @@ Este documento é a "Fonte da Verdade" sobre a trajetória profissional do Elton
 **Ação:** Arquitetura completa com PHP/Zend, notificações por e-mail, painel administrativo e integração de comprovantes.  
 **Resultado:** Automação financeira, redução de erros e experiência avançada com MVC e UX responsivo.
 
-### 13. Vibe Desenvolvimento / Consultoria Banpará – Especialista Java/DB (2014 – 2018)
-**Período:** Dez/2014 – Mar/2018  
+### 13. Vibe Desenvolvimento / Consultoria Banpará – Desenvolvedor Full Stack (2014 – 2018)
+**Período:** Novembro/2014 – Março/2018  
 **Contexto:** Internet Banking PF e PJ do Banco do Estado do Pará; ambiente de missão crítica.  
 **Desafio:** Garantir integridade transacional e performance em canais digitais de alta concorrência.  
-**Ação:** Programação intensa em Oracle (PL/SQL) e SQL Server (T-SQL), migração de sistemas, manutenção de módulos e suporte estratégico.  
-**Resultado:** Quatro anos de estabilidade, segurança e performance em soluções bancárias, aprendizado profundo em lógica de dados.
+**Ação:** Atuei no desenvolvimento e manutenção de diversos projetos, implementando e mantendo o sistema de acesso aos dados bancários (contas, saldos, extratos) para Internet Banking PF, PJ, Governo e Prefeitura. Trabalhei com a stack .NET (C# para back-end e ASP, HTML5, XML, JavaScript para front-end), integrando com SQL Server (Stored Procedures, Functions, Views) e Web Services/APIs externas. Desenvolvi o Sistema de Análise do Perfil do Investidor (API) e fui responsável pelo levantamento de requisitos, diagramas UML e modelagem ER. Programação intensa em Oracle (PL/SQL) e SQL Server (T-SQL), migração de sistemas, manutenção de módulos e suporte estratégico.  
+**Resultado:** Quatro anos de estabilidade, segurança e performance em soluções bancárias, aprendizado profundo em lógica de dados. Robustez e eficiência da aplicação, suporte contínuo aos sistemas do Internet Bank, maior controle e eficiência na gestão de ativos, e uma plataforma para desenvolvimento pessoal dos colaboradores.
 
 ### 14. Do Bem Contabilidade (Startup Acelerada) – CTO & Co-fundador (2018 – 2021)
-**Período:** 2018 – 2021  
+**Período:** Julho/2018 – Junho/2021  
 **Contexto:** Marketplace B2B para contadores acelerado pelo Startup-PA (investimento de R$ 200 mil).  
 **Desafio:** Construir uma plataforma consultiva, articular produto, vendas e tecnologia.  
-**Ação:** Liderança do SDLC, gestão de roadmap, contratação de equipe, engenharia de produto e arquitetura de marketplace.  
-**Resultado:** Modelo validado, aporte financeiro recebido e maturidade comercial e analítica consolidada.
+**Ação:** Liderança no desenvolvimento de soluções tecnológicas para conectar empresas e contadores. Desenvolvi chatbot em Angular com Firebase (Firestore) para automatizar atendimentos. Criei ERP para gestão de contadores e empresas (emissão de boletos e acompanhamento de atividades). Realizei projeção e modelagem do sistema, criação de diagramas e definição da arquitetura de dados. Implementei e automatizei deploys utilizando AWS (CodePipeline, CodeBuild, CodeDeploy). Desenvolvi áreas exclusivas para empresas e contadores, além de site e blog. Liderança do SDLC, gestão de roadmap, contratação de equipe, engenharia de produto e arquitetura de marketplace.  
+**Resultado:** Modelo validado, aporte financeiro recebido e maturidade comercial e analítica consolidada, com soluções eficientes e seguras para o setor contábil, operação escalável com foco em produtividade, visibilidade digital e automação do SDLC.
 
-### 15. I9Amazon (Inova Amazon) – Desenvolvedor Full Stack (2018 – 2019)
-**Período:** 2018 – 2019  
+### 15. I9Amazon (Inova Amazon) – Arquiteto de Software / Desenvolvedor Full Stack (2018 – 2019)
+**Período:** Julho/2018 – Junho/2019  
 **Contexto:** Projetos de ERP e logística de exportação.  
-**Desafio:** Integrar backend Java com front-end Angular e mobilidade.  
-**Ação:** Evoluí o ERP, implementei aplicação mobile via Ionic e sincronia entre plataformas.  
-**Resultado:** Sistema multi-plataforma robusto para operações comerciais complexas.
+**Desafio:** Integrar backend Java com front-end Angular e mobilidade, garantindo arquitetura robusta e DevOps eficiente.  
+**Ação:** Atuei como arquiteto de software e desenvolvedor de aplicações webApp com integração. No back-end, desenvolvi APIs Restful com modularização do projeto, exception handler, profiles dev, prod e test. No DevOps, realizei configuração e manutenção de servidor Linux, utilizando Nginx e service standalone com Spring Boot. Desenvolvi aplicativo de controle de estoque, WebApp ERP i9Amazon e ERP i9Amazon. Evoluí o ERP, implementei aplicação mobile via Ionic e sincronia entre plataformas.  
+**Resultado:** Sistema multi-plataforma robusto para operações comerciais complexas, com foco em segurança e eficiência nos processos de entrega contínua.
 
-### 16. Biotec  – Desenvolvedor Full Stack (2018 – 2019)
+### 16. Biotec – Desenvolvedor Full Stack (2018 – 2019)
 **Período:** 2018 – 2019  
 **Contexto:** Empresa de biotecnologia com laboratórios sensíveis.  
 **Desafio:** Dar visibilidade e controle aos processos laboratoriais em ambiente regulado.  
-**Ação:** Desenvolvi portal de gestão de laboratórios e interfaces Angular com foco em UX para profissionais da saúde.  
-**Resultado:** Plataforma funcional e segura que atendeu requisitos da biotecnologia.
+**Ação:** Desenvolvi portal de gestão de laboratórios e interfaces Angular com foco em UX para profissionais da saúde, garantindo funcionalidade e segurança em ambiente regulado.  
+**Resultado:** Plataforma funcional e segura que atendeu requisitos da biotecnologia, com foco em usabilidade e organização de processos técnicos e fluxos de dados sensíveis.
 
 ### 17. COSANPA – Analista de TI (Cargo Público) (2020 – 2021)
 **Período:** 2020 – 2021  
 **Contexto:** Companhia de saneamento do Pará.  
-**Desafio:** Garantir estabilidade operacional em sistemas de utilidade pública.  
-**Ação:** Suporte e desenvolvimento de sistemas internos, atuando em conformidade e processos públicos.  
-**Resultado:** Manutenção da estabilidade em momento crítico e experiência com governança estatal.
+**Desafio:** Gerenciar sistemas de infraestrutura de saneamento básico durante a pandemia, garantindo estabilidade operacional e conformidade estatal.  
+**Ação:** Atuei na gestão e manutenção de sistemas de suporte à infraestrutura de saneamento básico. Realizei análise de mercado para sistemas CMMS (eMainT, Fracttal, SoftExpress, TOTVS) e estudos de viabilidade técnica para modernização. Suporte e desenvolvimento de sistemas internos, atuando em conformidade e processos públicos.  
+**Resultado:** Estabilidade operacional dos sistemas críticos e subsídio técnico para decisões de investimento em software e JasperReports, com experiência em compliance e governança em grandes estatais.
 
-### 18. NTT Data (Projetos Itaú, CNJ e Ambev) – Arquiteto / Especialista (2021 – 2023)
-**Período:** 2021 – 2023  
+### 18. NTT Ltd. (Projetos Itaú, CNJ e Ambev) – Desenvolvedor Java Sênior / Arquiteto (2021 – 2023)
+**Período:** Junho/2021 – Março/2023  
 **Contexto:** Consultoria global com frentes bancária, judiciária e de bens de consumo.  
-- **Itaú (Previdência):** Engenharia reversa de COBOL/Mainframe para migração Serverless (AWS Lambda/Python).  
-- **CNJ:** Troubleshooter Full Stack que liderou frontend Angular para recuperar cronograma de notificações judiciais.  
-- **Ambev:** Arquitetura baseada em eventos (EDA) com Quarkus, Thymeleaf e mensageria; entregou motor de relatórios em 3 semanas (vs. 3 meses).  
-**Resultado:** Consolidação como Arquiteto resiliente e mestre em legados.
+**Desafio:** Contribuir para a migração de tecnologia mainframe para AWS no Banco Itaú, atuar no projeto Domicílio Eletrônico do CNJ e desenvolver relatórios críticos para a Ambev.  
+**Ação:**  
+- **Banco Itaú:** Contribuí para a migração de tecnologia mainframe para AWS, desenvolvendo soluções arquitetônicas com Terraform e CloudFormation. Implementei microsserviços em Python e Java, integrando Lambda, ECS, Kafka, SQS e Aurora (MySQL). Gerenciei rotinas em mainframe, integrando com MQ e Kafka para processamento de dados.  
+- **Conselho Nacional de Justiça (CNJ):** Atuando no projeto Domicílio Eletrônico, utilizei Java, Quarkus e AWS, aplicando o padrão Hexagonal para APIs. Identifiquei e resolvi falhas de integração entre back-end e front-end, propondo a criação de um servidor de mock em Node.js para agilizar os testes e entrega, garantindo o cumprimento do prazo.  
+- **Ambev:** Responsável pelo desenvolvimento de relatório crítico para a abertura de uma operação no Panamá. Substituí a tecnologia Jasper por Thymeleaf, utilizando Spring Boot para gerar relatórios em HTML/CSS e convertê-los em PDF, entregando uma solução ágil em duas semanas e reduzindo o prazo de 3 meses.  
+**Resultado:** Consolidação como Arquiteto resiliente e mestre em legados, com habilidade em tomar decisões rápidas e implementar novas soluções para atender a necessidades urgentes, garantindo o cumprimento de prazos e a qualidade das entregas.
 
 ### 19. Foursys Tech Ltda – Engenheiro de Software / Consultor (Out/2021 – Jan/2022)
-**Período:** Out/2021 – Jan/2022  
+**Período:** Outubro/2021 – Janeiro/2022  
 **Contexto:** Squad de Cartões e Fatura no Banco Pan, equipe de missão crítica responsável pelos módulos de processamento.  
-**Desafio:** Apoiar squads bancários com entregas de microsserviços financeiros e documentar requisitos de governança para ambientes de cobrança.  
-**Ação:** Desenvolvi componentes em Java/Spring Boot, participei do suporte diário e garanti a entrega de APIs utilizadas no fluxo de cartão. Além disso, forneci documentação técnica e treinamento para suporte interno.  
+**Desafio:** Atuação no Banco Panamericano na squad de cartões e faturas, desenvolvendo microsserviços para processamento de transações financeiras.  
+**Ação:** Atuação na squad de Cartão e Fatura do Banco Pan, desenvolvendo microsserviços para processamento de transações financeiras. Desenvolvi componentes em Java/Spring Boot, participei do suporte diário e garanti a entrega de APIs utilizadas no fluxo de cartão. Além disso, forneci documentação técnica e treinamento para suporte interno.  
 **Resultado:** Manutenção contínua dos serviços de transações do Banco Pan e suporte a upgrade de versões sem impacto para os clientes finais.
 
-### 20. Panvel Farmácias – Desenvolvedor Back-end Sênior / Líder Técnico (2022 – 2023)
-**Período:** 2022 – 2023  
+### 20. Grupo Panvel – Desenvolvedor Back-end Sênior / Líder Técnico (2019 – 2020)
+**Período:** Março/2019 – Março/2020  
 **Contexto:** Rede farmacêutica com ênfase em varejo e logística.  
-**Desafio:** Elevar a qualidade técnica do time e garantir arquitetura de e-commerce/PDV.  
-**Ação:** Mentoria, grooming de histórias, definição de arquitetura e treinamento de juniores (Java Quarkus/Spring + Angular).  
-**Resultado:** Times com governança técnica clara e entregas regulares em ambientes críticos de varejo.
+**Desafio:** Implementar um serviço para monitorar a conectividade com o banco de dados e APIs externas, desenvolver funcionalidade de redirecionamento dinâmico de requisições e atuar na manutenção e evolução de microsserviços internos.  
+**Ação:** Implementei um serviço para monitorar a conectividade com o banco de dados e APIs externas, verificando sua disponibilidade em tempo real. Desenvolvi a funcionalidade de redirecionamento dinâmico de requisições para serviços e banco de dados locais em caso de indisponibilidade. Projetei e implementei uma rotina de sincronização automática dos dados. Atuei na manutenção e evolução de microsserviços internos da frente de caixa das farmácias Panvel, com foco na disponibilidade. Fui responsável por dar treinamento e supervisionar programadores com menor senioridade. Mentoria, grooming de histórias, definição de arquitetura e treinamento de juniores (Java Quarkus/Spring + Angular).  
+**Resultado:** Continuidade do funcionamento da aplicação, integridade e consistência das informações, e otimização da qualidade técnica do time. Alta disponibilidade do varejo e evolução de squads críticos com governança reforçada.
 
-### 21. TecBan (via Consultoria Avante) – Especialista Backend / Open Finance (2023)
-**Período:** 2023  
+### 21. Avantti / TecBan (via Consultoria Avante) – Especialista Backend / Open Finance (2020)
+**Período:** Março/2020 – Dezembro/2020  
 **Contexto:** Banco24Horas, Open Finance/Insurance e aplicativo cliente.  
-**Desafio:** Entregar serviços regulados dentro do ecossistema do Banco Central.  
-**Ação:** Desenvolvi API backend em Node.js com microserviços, padrões mTLS/FAPI e funcionalidades de geolocalização, recompensas e resgates.  
-**Resultado:** Conformidade regulatória e ampliação de funcionalidades digitais para milhões de usuários.
+**Desafio:** Desenvolver duas das três fases do Open Insurance em conformidade com as normativas do BACEN e especificações da SUSEP, e atuar na migração de dados e autenticação do aplicativo.  
+**Ação:** Desenvolvi duas das três fases do Open Insurance, implementando APIs em Spring Boot e validando os endpoints. Realizei deploys nos ambientes DEV, HML e PRD, além de criar testes unitários e de integração. Atuei na migração de dados do banco Firebase para DynamoDB, desenvolvendo uma rotina em Node.js. Implementei a autenticação do aplicativo utilizando AWS Cognito, incluindo integração com contas Apple e Google. Desenvolvi API backend em Node.js com microserviços, padrões mTLS/FAPI e funcionalidades de geolocalização, recompensas e resgates.  
+**Resultado:** Conformidade regulatória, qualidade das entregas, e segurança e eficiência na autenticação e gestão de dados do aplicativo. Conformidade regulatória e ampliação de funcionalidades digitais para milhões de usuários.
 
-### 22. Banco do Brasil (via Indra / Minsait) – Arquiteto de Soluções Cloud (2023 – 2024)
-**Período:** 2023 – 2024  
+### 22. Minsait / Banco do Brasil (via Indra) – Arquiteto de Soluções / Dev Sênior (2023 – 2024)
+**Período:** Maio/2023 – Outubro/2024  
 **Contexto:** Maior Data Center da América Latina, ambiente on-prem e auto-gerenciado.  
-**Desafio:** Padronizar e automatizar operações em OpenShift e GitOps.  
-**Ação:** Implantação de cultura GitOps (ArgoCD), automação de deploys, definição de padrões e mentoring técnico.  
-**Resultado:** Escala segura e arquiteturas resilientes em ambiente híbrido e stateful.
+**Desafio:** Oferecer consultoria sobre a implantação de APIs e aplicações robustas, desenvolver soluções completas e participar da implantação de ferramentas de IA em ambiente de cloud interna.  
+**Ação:** Atuei como arquiteto de soluções e desenvolvedor back-end, oferecendo consultoria sobre a implantação de APIs e aplicações robustas, além de desenvolver soluções completas, abrangendo codificação e atividades de DevOps. Participei da implantação da Solução H2O (IA para análise de dados automatizada), desenvolvendo a API de Desagendamento Spotfire em Java com Quarkus. Treinei novos funcionários, orientando sobre melhores práticas e apresentação de soluções à alta administração. Implantação de cultura GitOps (ArgoCD), automação de deploys, definição de padrões e mentoring técnico.  
+**Resultado:** Padronização técnica de APIs e automação do ciclo de delivery em escala bancária, com soluções eficientes e seguras para o setor bancário. Escala segura e arquiteturas resilientes em ambiente híbrido e stateful.
 
 ### 23. Accenture (Consultoria Sicredi) – Arquiteto Consultor Sênior (2024 – 2025)
 **Período:** 2024 – 2025  
 **Contexto:** Comitê de governança, segurança e arquitetura corporativa do Sicredi.  
-**Desafio:** Avaliar maturidade tecnológica e propor políticas de segurança e governança.  
+**Desafio:** Avaliar a maturidade arquitetural e de segurança de uma das maiores cooperativas de crédito do país e propor políticas de segurança e governança.  
 **Ação:** Conduzi assessment arquitetural, definindo modelos Security by Design, políticas de codificação e fluxos de aprovação.  
-**Resultado:** Elevação da governança, processos técnicos e apoio executivo em decisões estratégicas.
+**Resultado:** Elevação da governança, processos técnicos e apoio executivo em decisões estratégicas, fortalecendo a segurança sistêmica contra vulnerabilidades críticas.
 
 ### 24. Chaintech – Arquiteto de Software / Consultor de Segurança (2025)
 **Período:** 2025  
 **Contexto:** Consultoria em projetos críticos de órgãos públicos (Detran/Prodesp).  
-**Desafio:** Recuperar projeto com seis meses de atraso e corrigir vulnerabilidades em microsserviços.  
-**Ação:** Liderança técnica, migração Mainframe para Quarkus e refatoração de fluxos JWT.  
-**Resultado:** Entrega do projeto em 2 meses e eliminação de risco de elevação indevida de privilégios.
+**Desafio:** Recuperar um cronograma com 6 meses de atraso e modernizar aplicações Mainframe, além de garantir a conformidade com as normas do BACEN.  
+**Ação:** Assumi a liderança técnica, remapeei a arquitetura e executei a migração para Quarkus. Realizei auditoria de segurança em tokens JWT para prevenir elevação de privilégios. Liderança técnica, migração Mainframe para Quarkus e refatoração de fluxos JWT.  
+**Resultado:** Entrega total do sistema em 2 meses (redução de 66% no tempo estimado). Conformidade plena com as normas do BACEN (MED 2026). Eliminação de risco de elevação indevida de privilégios.
 
 ### 25. 200Dev – Arquiteto de Software / Projetos Regulatórios (Out/2025 – Dez/2025)
-**Período:** Out/2025 – Dez/2025  
+**Período:** Outubro/2025 – Dezembro/2025  
 **Contexto:** Demanda regulatória crítica do MED (Mecanismo Especial de Devolução) do Banco Central.  
-**Desafio:** Implementar padrões de segurança e conformidade precisos em prazo curto.  
-**Ação:** Consolidei controles de autenticação, endureci a emissão de JWT e garanti aderência às regras do MED.  
-**Resultado:** Entrega regulatória em tempo e baseline auditável para o ciclo 2026.
+**Desafio:** Implementar padrões de segurança e conformidade precisos em prazo curto, resolvendo problemas de interceptação e alteração de acesso do usuário.  
+**Ação:** Consolidei controles de autenticação, endureci a emissão de JWT e garanti aderência às regras do MED. Propus e implementei uma nova lógica de autenticação que valida as credenciais e permissões antes da emissão do token JWT, impedindo o retorno de tokens autenticados para usuários sem as devidas autorizações.  
+**Resultado:** Entrega regulatória em tempo e baseline auditável para o ciclo 2026, com eliminação de risco de elevação indevida de privilégios e proteção da integridade transacional da aplicação.
 
 ### 26. EVAH Platform – AI Architect (Jan/2025 – Presente)
-**Período:** Jan/2025 – Presente  
+**Período:** Janeiro/2025 – Presente  
 **Contexto:** Ecossistema pessoal de Inteligência Operacional Vertical.  
-**Desafio:** Fazer a transição de IA passiva para agentes autônomos que executam operações.  
-**Ação:** Arquitetura via MCP, orquestração n8n (Odoo + Chatwoot), RAG, engenharia de prompt e memória de contexto.  
-**Resultado:** Redução de 99% no tempo de resposta em ciclos críticos de atendimento (Case Bira Veículos) e plataforma pronta para escala.
+**Desafio:** Fazer a transição de IA passiva para agentes autônomos que executam operações, integrando modelos de linguagem (LLMs) com sistemas legados de forma segura e autônoma.  
+**Ação:** Implementação de agentes autônomos utilizando o protocolo MCP e orquestração via n8n. Integração com Odoo e Chatwoot. Arquitetura via MCP, orquestração n8n (Odoo + Chatwoot), RAG, engenharia de prompt e memória de contexto.  
+**Resultado:** Redução de 99% no tempo de resposta em fluxos de atendimento automotivo (Case Bira Veículos) e plataforma pronta para escala.
 
----
-
-## 🔎 Detalhes enriquecidos a partir do LinkedIn
-
-O PDF do seu LinkedIn reforça o tom narrativo e técnico que queremos preservar. Abaixo, reproduzo as seções mais densas com verbos de ação, métricas e tecnologias específicas, mantendo o foco nas experiências mais recentes:
-
-### Conquest One (set/2024 – presente) – Apps de cartões e faturas
-- **Contexto:** Squad do Banco Panamericano dedicado a cartões e faturas, com foco em disponibilidade regulatória.
-- **Ações:** Desenvolvimento das features “Retentativa de Pagamento em Débito em Conta” (Java + AWS SQS) e “Portabilidade de Dívidas” com AWS SQS, AWS Batch, API Gateway, Spring Cloud e Feign Client; testes com SonarQube; deploys nos ambientes DEV/HML/PRD; orientação técnica da equipe.
-- **Resultado:** Regras de cobrança atendidas, relatórios em PDF entregues e entrega contínua de features críticas dentro das normativas do BACEN.
-
-### Minsait / Banco do Brasil (mai/2023 – out/2024)
-- **Contexto:** Arquiteto e desenvolvedor back-end com atuação direta no maior Data Center da América Latina.
-- **Ações:** Implantação da Solução H2O (IA), planejamento e entrega da API de Desagendamento Spotfire em Quarkus, treinamentos e apresentações para novos funcionários e alta administração.
-- **Resultado:** APIs padronizadas e capacidade interna de entrega guiada por DevOps, garantindo automação e governança técnica.
-
-### NTT Data (jun/2021 – mar/2023)
-- **Itau:** Migração mainframe→AWS (Terraform/CloudFormation), microserviços Python/Java, integração Lambda/ECS/Kafka/SQS/Aurora e runtime MQ.
-- **CNJ:** Aplicação de Hexagonal Architecture em Quarkus, criação de servidor mock em Node.js para acelerar testes backend/frontend.
-- **Ambev:** Substituição de Jasper por Thymeleaf para relatórios críticos (importação Panamá), entregues em 2 semanas em vez de 3 meses, com Spring Boot + PDF.
-
-### Dobem Contabilidade (jul/2018 – jun/2021)
-- **Contexto:** CTO de marketplace B2B para contadores.
-- **Ações:** Criação de chatbot Angular + Firebase (Firestore), ERP contábil completo, modelagem de dados, diagramas, automação de deploys com AWS CodePipeline/CodeBuild/CodeDeploy e fortalecimento digital (site/blog).
-- **Resultado:** Operação escalável com foco em produtividade, visibilidade digital e automação do SDLC.
-
-### Avantti / Tecban (mar/2020 – dez/2020)
-- **Atuação:** Open Insurance (BACEN/SUSEP) e Banco24Horas.
-- **Ações:** APIs Spring Boot, testes e deploys em DEV/HML/PRD, migração Firebase→DynamoDB via Node.js, autenticação com AWS Cognito (Apple/Google) e serviços de verificação.
-- **Resultado:** Conformidade regulatória, integração móvel e governança sobre dados sensíveis.
-
-### Grupo Panvel (mar/2019 – mar/2020)
-- **Ações:** Monitoramento de conectividade, fallback dinâmico, sincronizações automáticas, manutenção de micro serviços de frente de caixa e mentoring de desenvolvedores juniores.
-- **Resultado:** Alta disponibilidade do varejo e evolução de squads críticos com governança reforçada.
-
-### i9Amazon (jul/2018 – jun/2019)
-- **Ações:** Arquitetura e APIs RESTful (modularização, exception handling, profiles), DevOps (Nginx + Spring Boot standalone).
-- **Projetos:** ERP web, aplicativo de controle de estoque e WebApp ERP.
-
-### Vibe Desenvolvimento (nov/2014 – mar/2018)
-- **Ações:** Projetos de Internet Banking PF/PJ/Governos com .NET/C#, ASP, HTML5, XML, JavaScript, SQL Server (procedures/functions/views), levantamento de requisitos, UML/ER, web services e suporte contínuo.
-- **Resultado:** Plataformas robustas para canais digitais críticos e integração sistêmica.
+### 27. Conquest One – Desenvolvedor de Software Sênior (Set/2024 – Presente)
+**Período:** Setembro/2024 – Presente  
+**Contexto:** Squad do Banco Panamericano responsável por cartões e faturas, em ambiente de missão crítica.  
+**Desafio:** Desenvolver funcionalidades regulamentadas como "Retentativa de Pagamento" e "Portabilidade de Dívidas" e garantir a qualidade e estabilidade das entregas.  
+**Ação:** Atuação no Banco Panamericano na squad de cartões e faturas, realizando as seguintes atividades: desenvolvimento da feature "Retentativa de Pagamento em Débito em Conta", utilizando Java e integração com AWS SQS para gerenciar retentativas de pagamento e aplicar validações complexas conforme regras de negócio; implementação da "Portabilidade de Dívidas" conforme a normativa do BACEN, usando AWS SQS, AWS Batch, API Gateway, Spring Cloud e Feign Client, criando soluções escaláveis e regulamentadas, incluindo relatórios em PDF; criação de testes unitários e validação de qualidade com SonarQube; realização de deploys nos ambientes DEV, HML e PRD, garantindo estabilidade e entrega contínua; suporte técnico e orientação à equipe, promovendo boas práticas de desenvolvimento.  
+**Resultado:** Soluções escaláveis e regulamentadas entregues com estabilidade e qualidade, garantindo a conformidade com as normativas do BACEN.
 
 ---
 
