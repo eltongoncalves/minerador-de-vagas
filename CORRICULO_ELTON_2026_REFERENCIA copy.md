@@ -30,19 +30,24 @@ Belém, PA (Disponível para Remoto) | +55 (91) 98353-8941
 
 ## 💼 TRAJETÓRIA PROFISSIONAL
 
+### **200DEV** | Arquiteto de Software / Desenvolvedor Sênior
+*Outubro/2025 – Dezembro/2025*
+
+- **Contexto:** Demandas de alta criticidade regulatória e segurança cibernética para o setor bancário.
+- **Ação:** Liderança técnica na implementação do **MED (Mecanismo Especial de Devolução)** conforme normativa do Banco Central para o ciclo de 2026. Realizei auditoria de segurança no fluxo de autenticação/autorização, identificando uma vulnerabilidade crítica em tokens JWT que permitia a interceptação e alteração indevida de permissões de acesso. 
+- **Resultado:** Refatorei a lógica de autorização para validação de credenciais pré-emissão de token, garantindo a conformidade regulatória plena perante o BACEN e eliminando o risco crítico de elevação de privilégios e proteção da integridade transacional da aplicação.
+- **Tecnologias:** Java 21, Spring Boot, Spring Security, JWT, Microserviços, AWS.
+
 ### **Chaintech** | Arquiteto de Software e Líder Técnico
-*Janeiro/2025 – Dezembro/2025*
+*Janeiro/2025 – Setembro/2025*
 
 - **Recuperação de Projeto (Detran/Prodesp):** Assumi a liderança técnica de um projeto estratégico com 6 meses de atraso crítico. Identifiquei gargalos na arquitetura, reorganizei o time técnico e os padrões de entrega, atuando no desenvolvimento Full Stack para viabilizar o cronograma.
 - **Modernização de Legado:** Planejamento e execução técnica da migração de aplicações críticas que rodavam em ambiente **Mainframe** para uma arquitetura moderna **Cloud Native** utilizando **Quarkus**, visando redução de custos operacionais e ganho de escalabilidade.
 - **Resultado:** Entrega do sistema completo em apenas 2 meses (redução de 66% no tempo estimado) e modernização bem-sucedida do sistema legado para o ecossistema de containers.
-- **Contexto:** Demandas de alta criticidade regulatória e segurança cibernética para o setor bancário.
-- **Ação:** Liderança técnica na implementação do **MED (Mecanismo Especial de Devolução)** conforme normativa do Banco Central para o ciclo de 2026. Realizei auditoria de segurança no fluxo de autenticação/autorização, identificando uma vulnerabilidade crítica em tokens JWT que permitia a interceptação e alteração indevida de permissões de acesso. 
-- **Resultado:** Refatorei a lógica de autorização para validação de credenciais pré-emissão de token, garantindo a conformidade regulatória plena perante o BACEN e eliminando o risco crítico de elevação de privilégios e proteção da integridade transacional da aplicação.
-- **Tecnologias:** Java 17,21, Quarkus, Angular, OpenShift, Kubernetes, Docker, GitOps., Spring Boot, Spring Security, JWT, Microserviços, AWS.
+- **Tecnologias:** Java 17, Quarkus, Angular, OpenShift, Kubernetes, Docker, GitOps.
 
 ### **Accenture (Projeto Sicredi)** | Arquiteto Consultor Sênior
-*Maio/2025 – Outubro/2025*
+*Maio/2025 – Dezembro/2025*
 
 - **Contexto:** Consultoria especializada em governança, segurança e arquitetura para o sistema Sicredi.
 - **Ação:** Atuação em comitê de elite para realizar **assessment arquitetural** completo, identificando falhas de segurança e gargalos de escalabilidade. Propus e ajudei a implementar modelos de arquitetura sólida baseados em **Security by Design**, definindo padrões de codificação segura e fluxos de aprovação técnica seguidos pelas squads.
@@ -50,19 +55,23 @@ Belém, PA (Disponível para Remoto) | +55 (91) 98353-8941
 - **Tecnologias:** Java, Microserviços, Cloud Architecture, Segurança de Aplicações.
 
 ### **Minsait (Indra Company) – Banco do Brasil** | Arquiteto de Soluções Sênior
-*Março/2023 – Dezembro/2024*
+*Maio/2023 – Dezembro/2024*
 
 - **Contexto:** Arquitetura de soluções no maior Data Center da América Latina, operando em ambiente On-Premise massivo de altíssima escala.
 - **Ação:** Desenho técnico de soluções de alta disponibilidade e escalabilidade. Implementação de cultura **GitOps utilizando ArgoCD sobre OpenShift**. Participei da implantação da solução H2O (IA para análise de dados automatizada) na cloud interna e planejei a API de Desagendamento Spotfire utilizando o framework **Quarkus**. Forneci mentoria técnica e padronização de APIs para diversos times.
 - **Resultado:** Automação do ciclo de entrega (delivery), padronização arquitetural e deploys em escala massiva para um dos maiores bancos do país.
+- **Tecnologias:** OpenShift, Kubernetes, ArgoCD, Docker, Java, Spring Cloud, GitLab CI.
 
- - **Open Finance:** Desenvolvimento de serviços essenciais para as fases de compartilhamento de dados financeiros e de seguros (**Open Insurance** / OpIns), seguindo as normas rigorosas do BACEN e protocolos mTLS e FAPI.
+### **TecBan (via Consultoria Avante)** | Especialista Backend
+*Janeiro/2023 – Abril/2023*
+
+- **Open Finance:** Desenvolvimento de serviços essenciais para as fases de compartilhamento de dados financeiros e de seguros (**Open Insurance** / OpIns), seguindo as normas rigorosas do BACEN e protocolos mTLS e FAPI.
 - **App Banco24Horas:** Desenvolvimento do backend em **Node.js** para funcionalidades de geolocalização de caixas, programas de recompensas e resgate de prêmios no aplicativo móvel oficial.
 - **Resultado:** Conformidade regulatória plena com as normas do BACEN e expansão das funcionalidades digitais do ecossistema TecBan.
-- **Tecnologias:** OpenShift, Kubernetes, ArgoCD, Docker, Java, Spring Cloud, GitLab CI, Node.js, Microserviços, APIs REST, Padrões de Segurança Bancária.
+- **Tecnologias:** Node.js, Microserviços, APIs REST, Padrões de Segurança Bancária.
 
 ### **NTT DATA (Projetos Itaú, Ambev e CNJ)** | Arquiteto de Software / Especialista
-*Junho/2021 – Fevereiro/2023*
+*Junho/2021 – Janeiro/2023*
 
 - **Itaú (Previdência):** Liderei a engenharia reversa de sistemas complexos em **Mainframe/Cobol** para migração estratégica para arquitetura **Serverless na AWS**, utilizando Lambda, Python, SQS, SNS e Terraform.
 - **Ambev:** Atuação como Arquiteto em sistemas de alta escala baseados em eventos (**EDA**). Identifiquei obsolescência em motor de relatórios legado e propus a substituição tecnológica por uma solução baseada em **Quarkus** e **Thymeleaf/HTML**.

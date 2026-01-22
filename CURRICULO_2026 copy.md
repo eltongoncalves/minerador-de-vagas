@@ -23,19 +23,13 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ## 💼 EXPERIÊNCIAS CORPORATIVAS (CLT)
 
-### CHAINTECH
-
-**Cargo:** Desenvolvedor Sênior/Arquiteto de Software
-
-**Período:** 01/2024 – 09/2025
-
-* **Liderança em Crise (Projeto Detran/Prodesp):** Assumi a liderança técnica de um projeto crítico com 6 meses de atraso, reestruturando o fluxo de desenvolvimento e garantindo a entrega total em apenas 2 meses.
-* **Modernização e Migração:** Planejamento e execução da migração de sistemas legados de arquitetura Mainframe para Quarkus, otimizando o processamento e a escalabilidade das aplicações.
-* **Segurança de Microsserviços:** Identificação e correção de vulnerabilidades críticas em fluxos de acesso, impedindo a interceptação e alteração indevida de permissões de usuários.
-* **Desenvolvimento Fullstack:** Atuação híbrida (Java no backend e tecnologias de Frontend), equilibrando a arquitetura de alta performance com a entrega de interfaces funcionais.
-* **💡 Insight (Recuperação de Projetos):** Demostrei capacidade analítica e resiliência técnica ao converter um cenário de atraso crítico em uma entrega bem-sucedida em tempo recorde.
-**Stacks:** Java, Quarkus, Microservices, Security, Legacy Migration, Frontend Development.
-
+### CHAIN TECNOLOGIA.
+**Cargo:** Arquiteto de Software / Desenvolvedor Sênior  
+**Período:** 04/04/2025 – 30/12/2025  
+- **Desafio Regulatório MED:** Liderança técnica na implementação do **Mecanismo Especial de Devolução (MED)** do Banco Central, garantindo conformidade com as regras rigorosas de devolução de recursos em casos de fraude ou erro para o ciclo de 2026.
+- **Arquitetura de Segurança:** Consolidação de padrões de acesso seguro e identificação de falhas sistêmicas para proteção da integridade da aplicação bancária.
+- **💡 Insight:** Atuação em demandas de altíssima criticidade regulatória, provando capacidade de alinhar necessidades de negócio complexas às normas do BACEN.
+**Stacks:** Java 17/21, Spring Boot, Microservices, Mensageria, Segurança Bancária.
 
 ### ACCENTURE DO BRASIL LTDA (Projeto Sicredi)
 **Cargo:** Consultor Sênior de Arquitetura e Governança  
