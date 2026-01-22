@@ -125,19 +125,19 @@ Este documento é a "Fonte da Verdade" sobre a trajetória profissional do Elton
 
 ### 14. Do Bem Contabilidade (Startup Acelerada) – CTO & Co-fundador (2018 – 2021)
 **Período:** 2018 – 2021  
-**Contexto:** Marketplace B2B para contadores acelerado pelo Starturar (investimento de R$ 200 mil).  
+**Contexto:** Marketplace B2B para contadores acelerado pelo Startup-PA (investimento de R$ 200 mil).  
 **Desafio:** Construir uma plataforma consultiva, articular produto, vendas e tecnologia.  
 **Ação:** Liderança do SDLC, gestão de roadmap, contratação de equipe, engenharia de produto e arquitetura de marketplace.  
 **Resultado:** Modelo validado, aporte financeiro recebido e maturidade comercial e analítica consolidada.
 
-### 15. I9Amazon (Inova Amazon) – Consultor / Arquiteto Full Stack (2018 – 2019)
+### 15. I9Amazon (Inova Amazon) – Desenvolvedor Full Stack (2018 – 2019)
 **Período:** 2018 – 2019  
 **Contexto:** Projetos de ERP e logística de exportação.  
 **Desafio:** Integrar backend Java com front-end Angular e mobilidade.  
 **Ação:** Evoluí o ERP, implementei aplicação mobile via Ionic e sincronia entre plataformas.  
 **Resultado:** Sistema multi-plataforma robusto para operações comerciais complexas.
 
-### 16. Biotec (Miotec) – Engenheiro de Software / Arquiteto (2018 – 2019)
+### 16. Biotec  – Desenvolvedor Full Stack (2018 – 2019)
 **Período:** 2018 – 2019  
 **Contexto:** Empresa de biotecnologia com laboratórios sensíveis.  
 **Desafio:** Dar visibilidade e controle aos processos laboratoriais em ambiente regulado.  
@@ -146,7 +146,7 @@ Este documento é a "Fonte da Verdade" sobre a trajetória profissional do Elton
 
 ### 17. COSANPA – Analista de TI (Cargo Público) (2020 – 2021)
 **Período:** 2020 – 2021  
-**Contexto:** Companhia de saneamento do Pará durante a pandemia.  
+**Contexto:** Companhia de saneamento do Pará.  
 **Desafio:** Garantir estabilidade operacional em sistemas de utilidade pública.  
 **Ação:** Suporte e desenvolvimento de sistemas internos, atuando em conformidade e processos públicos.  
 **Resultado:** Manutenção da estabilidade em momento crítico e experiência com governança estatal.
@@ -159,49 +159,56 @@ Este documento é a "Fonte da Verdade" sobre a trajetória profissional do Elton
 - **Ambev:** Arquitetura baseada em eventos (EDA) com Quarkus, Thymeleaf e mensageria; entregou motor de relatórios em 3 semanas (vs. 3 meses).  
 **Resultado:** Consolidação como Arquiteto resiliente e mestre em legados.
 
-### 19. Panvel Farmácias – Desenvolvedor Back-end Sênior / Líder Técnico (2022 – 2023)
+### 19. Foursys Tech Ltda – Engenheiro de Software / Consultor (Out/2021 – Jan/2022)
+**Período:** Out/2021 – Jan/2022  
+**Contexto:** Squad de Cartões e Fatura no Banco Pan, equipe de missão crítica responsável pelos módulos de processamento.  
+**Desafio:** Apoiar squads bancários com entregas de microsserviços financeiros e documentar requisitos de governança para ambientes de cobrança.  
+**Ação:** Desenvolvi componentes em Java/Spring Boot, participei do suporte diário e garanti a entrega de APIs utilizadas no fluxo de cartão. Além disso, forneci documentação técnica e treinamento para suporte interno.  
+**Resultado:** Manutenção contínua dos serviços de transações do Banco Pan e suporte a upgrade de versões sem impacto para os clientes finais.
+
+### 20. Panvel Farmácias – Desenvolvedor Back-end Sênior / Líder Técnico (2022 – 2023)
 **Período:** 2022 – 2023  
 **Contexto:** Rede farmacêutica com ênfase em varejo e logística.  
 **Desafio:** Elevar a qualidade técnica do time e garantir arquitetura de e-commerce/PDV.  
 **Ação:** Mentoria, grooming de histórias, definição de arquitetura e treinamento de juniores (Java Quarkus/Spring + Angular).  
 **Resultado:** Times com governança técnica clara e entregas regulares em ambientes críticos de varejo.
 
-### 20. TecBan (via Consultoria Avante) – Especialista Backend / Open Finance (2023)
+### 21. TecBan (via Consultoria Avante) – Especialista Backend / Open Finance (2023)
 **Período:** 2023  
 **Contexto:** Banco24Horas, Open Finance/Insurance e aplicativo cliente.  
 **Desafio:** Entregar serviços regulados dentro do ecossistema do Banco Central.  
 **Ação:** Desenvolvi API backend em Node.js com microserviços, padrões mTLS/FAPI e funcionalidades de geolocalização, recompensas e resgates.  
 **Resultado:** Conformidade regulatória e ampliação de funcionalidades digitais para milhões de usuários.
 
-### 21. Banco do Brasil (via Indra / Minsait) – Arquiteto de Soluções Cloud (2023 – 2024)
+### 22. Banco do Brasil (via Indra / Minsait) – Arquiteto de Soluções Cloud (2023 – 2024)
 **Período:** 2023 – 2024  
 **Contexto:** Maior Data Center da América Latina, ambiente on-prem e auto-gerenciado.  
 **Desafio:** Padronizar e automatizar operações em OpenShift e GitOps.  
 **Ação:** Implantação de cultura GitOps (ArgoCD), automação de deploys, definição de padrões e mentoring técnico.  
 **Resultado:** Escala segura e arquiteturas resilientes em ambiente híbrido e stateful.
 
-### 22. Accenture (Consultoria Sicredi) – Arquiteto Consultor Sênior (2024 – 2025)
+### 23. Accenture (Consultoria Sicredi) – Arquiteto Consultor Sênior (2024 – 2025)
 **Período:** 2024 – 2025  
 **Contexto:** Comitê de governança, segurança e arquitetura corporativa do Sicredi.  
 **Desafio:** Avaliar maturidade tecnológica e propor políticas de segurança e governança.  
 **Ação:** Conduzi assessment arquitetural, definindo modelos Security by Design, políticas de codificação e fluxos de aprovação.  
 **Resultado:** Elevação da governança, processos técnicos e apoio executivo em decisões estratégicas.
 
-### 23. Chaintech – Arquiteto de Software / Consultor de Segurança (2025)
+### 24. Chaintech – Arquiteto de Software / Consultor de Segurança (2025)
 **Período:** 2025  
 **Contexto:** Consultoria em projetos críticos de órgãos públicos (Detran/Prodesp).  
 **Desafio:** Recuperar projeto com seis meses de atraso e corrigir vulnerabilidades em microsserviços.  
 **Ação:** Liderança técnica, migração Mainframe para Quarkus e refatoração de fluxos JWT.  
 **Resultado:** Entrega do projeto em 2 meses e eliminação de risco de elevação indevida de privilégios.
 
-### 24. 200Dev – Arquiteto de Software / Projetos Regulatórios (Out/2025 – Dez/2025)
+### 25. 200Dev – Arquiteto de Software / Projetos Regulatórios (Out/2025 – Dez/2025)
 **Período:** Out/2025 – Dez/2025  
 **Contexto:** Demanda regulatória crítica do MED (Mecanismo Especial de Devolução) do Banco Central.  
 **Desafio:** Implementar padrões de segurança e conformidade precisos em prazo curto.  
 **Ação:** Consolidei controles de autenticação, endureci a emissão de JWT e garanti aderência às regras do MED.  
 **Resultado:** Entrega regulatória em tempo e baseline auditável para o ciclo 2026.
 
-### 25. EVAH Platform – AI Architect (Jan/2025 – Presente)
+### 26. EVAH Platform – AI Architect (Jan/2025 – Presente)
 **Período:** Jan/2025 – Presente  
 **Contexto:** Ecossistema pessoal de Inteligência Operacional Vertical.  
 **Desafio:** Fazer a transição de IA passiva para agentes autônomos que executam operações.  
@@ -209,6 +216,13 @@ Este documento é a "Fonte da Verdade" sobre a trajetória profissional do Elton
 **Resultado:** Redução de 99% no tempo de resposta em ciclos críticos de atendimento (Case Bira Veículos) e plataforma pronta para escala.
 
 ---
+
+## 📁 DOCUMENTAÇÃO DE REFERÊNCIA
+- `Dropbox/02 - PROFISSIONAL/CURRÍCULO/PLANEJAMENTO_CRIACAO_CURRICULO.md`: checklist completo da organização física, CLT x PJ e contratos, confirmando os 32 currículos e 68 contratos catalogados.
+- `Dropbox/02 - PROFISSIONAL/CURRÍCULO/RELATORIO_EXPERIENCIAS_PROFISSIONAIS.md`: resumo executivo de CLT, PJ e empresas próprias, incluindo Accenture, NTTDATA, INDRA, Foursys, TecBan, Dobem, Cosanpa, Biotec e Panvel.
+- `Dropbox/02 - PROFISSIONAL/CLIENTES/Accenture/CTPSDigital_832.054.622-20_16-04-2025.pdf` e `CTPSOutrosVinculos_832.054.622-20_16-04-2025.pdf`: confirmações oficiais de regime CLT (2024–2025) que sustentam a narrativa de liderança em governança e arquitetura executiva.
+- Estruturas fiscais/CNPJ e contratos descritos em `Dropbox/02 - PROFISSIONAL/CLIENTES/DOBEM TECNOLOGIA/` e pastas `04 - PJ` validam os projetos PJ (Panvel, Cosanpa, BIOTEC, Solus, G4F, Chaintech, etc.).
+- `Dropbox/02 - PROFISSIONAL/DESENVOLVIMENTO/diagrama_versao_html` e `onlinecv-uiCookies.zip`: documentos de engenharia e protótipos (CTPS e visualização de carreira) reforçam sua capacidade de traduzir requisitos em UX/infraestrutura.
 
 ## 🛡️ DIFERENCIAIS ESTRATÉGICOS
 1. **Troubleshooter Nato:** Resgate de cronogramas e segurança crítica (Detran, CNJ, Ambev, 200Dev).  
