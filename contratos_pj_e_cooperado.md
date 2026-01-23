@@ -30,15 +30,6 @@
 
 ---
 
-### 3. COSANPA (Companhia de Saneamento do Pará) - 4ADVISORY
-- **CNPJ da Contratante:** 25.129.117/0001-09 (4ADVISORY CONSULTORIA E PARTICIPAÇÕES LTDA-EPP)
-- **CNPJ da Contratada (Elton):** 32.281.120/0001-09 (DOBEM TECNOLOGIA E CONTABILIDADE LTDA)
-- **Período:** 2020 – 2021 (conforme PERFIL_MESTRE_CARREIRA.md)
-- **Modalidade:** PJ
-- **Objeto:** Prestação de Serviço de Licenciamento de Software, Implantação e Suporte Tecnológico (CHATBOT, ÁREA DA EMPRESA e PAINEL ADMINISTRATIVO)
-- **Arquivo de Referência:** `CLIENTES/COSANPA/Contrato 4advisory - Implantação e suporte.pdf`
-
----
 
 ### 4. SOLUS
 - **CNPJ da Contratante:** Não identificado
@@ -52,28 +43,6 @@
   - Cronogramas de entregas
   - Análise de Transferência (Farmácia, UNIFSA)
 - **Arquivo de Referência:** `CLIENTES/SOLUS/` (múltiplos documentos)
-
----
-
-### 5. VIBE DESENVOLVIMENTO
-- **CNPJ da Contratante:** Não identificado
-- **Período:** Novembro/2014 – Março/2018 (conforme PERFIL_MESTRE_CARREIRA.md)
-- **Modalidade:** PJ
-- **Objeto:** Consultoria Banpará - Internet Banking PF e PJ do Banco do Estado do Pará
-- **Projetos Identificados:**
-  - Metodologia de projetos
-  - Sistema VPJ (Visão Projeto)
-  - Gerenciamento de projetos - MPS Nível G
-- **Arquivo de Referência:** `CLIENTES/VIBE/` (96 arquivos)
-
----
-
-### 6. G4F SOLUÇÕES CORPORATIVAS
-- **CNPJ da Contratante:** 07.094.346/0005-79 (conforme CTPS Digital - CLT 2025)
-- **Período:** Fevereiro/2025 – Maio/2025 (conforme PERFIL_MESTRE_CARREIRA.md - CLT)
-- **Modalidade:** PJ (nota: também teve período CLT em 2025)
-- **Objeto:** Desenvolvimento Java para projetos corporativos
-- **Arquivo de Referência:** `CLIENTES/G4F/` (Termos de Confidencialidade identificados)
 
 ---
 
@@ -151,44 +120,3 @@
 - **Arquivo de Referência:** 
   - `CLIENTES/CHAINTECH/XCOOP_Contrato_de_Adesao.pdf`
   - `CLIENTES/CHAINTECH/XCOOP_Termo_de_prestacao_de_servicos.pdf`
-
----
-
-## 📊 RESUMO POR MODALIDADE
-
-### Contratos PJ Identificados: 11
-1. PANVEL (DIMED S/A)
-2. BIOTEC
-3. COSANPA (4ADVISORY)
-4. SOLUS
-5. VIBE DESENVOLVIMENTO
-6. G4F SOLUÇÕES CORPORATIVAS
-7. IMG SEGUROS
-8. I9AMAZON (INOVEAMAZON)
-9. CONQUEST ONE
-10. OPAH_CVC
-11. SOUTH SYSTEM
-
-### Contratos Cooperado Identificados: 1
-1. CHAINTECH / XCOOP
-
----
-
-## 📝 NOTAS IMPORTANTES
-
-### CNPJs das Empresas do Elton Utilizadas:
-- **46.418.343/0001-71** - ELTON JHON DIAS GONCALVES CONSULTORIA EM TECNOLOGIA (Empresário Individual)
-  - Utilizada em: PANVEL, CONQUEST ONE
-- **32.281.120/0001-09** - DOBEM TECNOLOGIA E CONTABILIDADE LTDA
-  - Utilizada em: COSANPA (4ADVISORY), I9AMAZON
-
-### Observações:
-- Alguns contratos podem ter períodos sobrepostos (ex: múltiplos clientes simultâneos)
-- Períodos indicados são baseados no PERFIL_MESTRE_CARREIRA.md e documentos encontrados
-- Alguns CNPJs de contratantes não foram identificados nos documentos extraídos (PDFs protegidos ou DOCX não convertidos)
-- O contrato cooperado XCOOP está relacionado à Chaintech, que também teve período CLT em 2025
-
----
-
-**Última atualização:** Janeiro/2026  
-**Status:** Histórico consolidado baseado em contratos e documentos disponíveis
