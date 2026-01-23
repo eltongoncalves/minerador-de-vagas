@@ -5,7 +5,7 @@
 ---
 
 ## 🚀 Resumo Profissional
-Arquiteto de Software e Desenvolvedor Sênior com quase 20 anos de experiência em engenharia de software, especializado na transformação de problemas de negócios complexos em soluções tecnológicas escaláveis e resilientes. Expertise comprovada em **Java (Spring Boot)** e **Python (FastAPI/Django)** para construção de APIs de alta performance, microsserviços e sistemas de missão crítica. Atualmente liderando a arquitetura de ecossistemas de **IA Vertical** e integração com  **Model Context Protocol (MCP)** e automação inteligente (**n8n**). Profundo conhecimento em **Cloud (AWS/OpenShift)**, **DevOps (Docker/Kubernetes)** e observabilidade, com histórico de otimização de ambientes e liderança técnica em grandes players como **Banco do Brasil**, **TecBan** e **NTT DATA**.
+Arquiteto de Software e Desenvolvedor Sênior com quase 20 anos de experiência em engenharia de software, especializado na transformação de problemas de negócios complexos em soluções tecnológicas escaláveis e resilientes. Expertise comprovada em **Java (Spring Boot)** e **Python (FastAPI/Django)** para construção de APIs de alta performance, microsserviços e sistemas de missão crítica. Atualmente liderando a arquitetura de ecossistemas de **IA Vertical** e integração com **Model Context Protocol (MCP)** e automação inteligente (**n8n**). Profundo conhecimento em **Cloud (AWS/OpenShift)**, **DevOps (Docker/Kubernetes)** e observabilidade, com histórico de otimização de ambientes e liderança técnica em grandes players como **Banco do Brasil**, **TecBan** e **NTT DATA**.
 
 ---
 
@@ -32,7 +32,7 @@ Arquiteto de Software e Desenvolvedor Sênior com quase 20 anos de experiência 
     *   Utilizei **Docker** para containerização de todos os módulos (Assistant, Omni, ERP, Flow), facilitando o deploy e escalabilidade.
 *   **Resultado:** Criação de uma plataforma funcional de "IA de Ação" que automatizou processos de agendamento e vendas, reduzindo o tempo de resposta operacional em 99% (Case Bira Veículos) e estabelecendo uma arquitetura modular pronta para escala.
 
-### **Chaintech (Detran/Prodesp)** | Desenvolvedor Java Sênior/Arquiteto de Software 
+### **Chaintech (Detran/Prodesp)** | *Desenvolvedor Java Sênior/Arquiteto de Software*
 **Período:** 2025
 *   **Situação:** Sistema crítico de órgão público com atraso de 6 meses e vulnerabilidades de segurança.
 *   **Tarefa:** Assumir a liderança técnica, modernizar a aplicação e garantir conformidade com normas de segurança (Bacen/MED).
@@ -43,7 +43,7 @@ Arquiteto de Software e Desenvolvedor Sênior com quase 20 anos de experiência 
 
 ### **Accenture do Brasil (Projeto Sicredi)** | *Consultor Sênior de Arquitetura*
 **Período:** 2024 – 2025
-*   **Ação:** Realizou assessment arquitetural de microsserviços **Java/Spring Boot**, propondo melhorias de performance e resiliência (Circuit Breaker, Retry). Definição de padrões de **API REST** e políticas de governança de código.
+*   **Ação:** Realizou assessment arquitetural de microsserviços **Java/Spring Boot**, propondo melhorias de performance e resiliência (Circuit Breaker, Retry). Definição de padrões de **API REST** e políticas de governança de código (Security by Design).
 
 ### **Minsait Brasil / Banco do Brasil** | *Arquiteto de Soluções Sênior (Cloud)*
 **Período:** 2023 – 2024
@@ -51,11 +51,31 @@ Arquiteto de Software e Desenvolvedor Sênior com quase 20 anos de experiência 
 
 ### **NTT DATA Brasil (Itaú, CNJ, Ambev)** | *Especialista Java/Cloud*
 **Período:** 2021 – 2023
-*   **Ação:** Desenvolveu e manteve arquiteturas serverless na **AWS** (Lambda/Python) e microsserviços **Java Spring Boot**. Atuou na engenharia reversa de COBOL para modernização de sistemas legados bancários, garantindo integridade transacional e alta disponibilidade.
+*   **Ação:** Desenvolveu e manteve arquiteturas serverless na **AWS** (Lambda/Python) e microsserviços **Java Spring Boot**. Atuou na engenharia reversa de COBOL para modernização de sistemas legados bancários, garantindo integridade transacional e alta disponibilidade com **Kafka** e **SQS**.
+
+### **Foursys Tech Ltda (Banco Pan)** | *Desenvolvedor Java Full Stack*
+**Período:** 2021 – 2022
+*   **Ação:** Atuou na squad de Cartões e Faturas, desenvolvendo microsserviços em **Java Spring Boot** para processamento de transações financeiras. Garantiu a entrega de APIs resilientes para o fluxo de cartões, com suporte a upgrades de versão sem impacto para o cliente final.
+
+### **COSANPA (Companhia de Saneamento do Pará)** | *Analista de Sistemas / TI*
+**Período:** 2020 – 2021
+*   **Ação:** Gerenciou sistemas críticos de infraestrutura durante a pandemia. Realizou levantamento de requisitos e modelagem de processos (**BPMN**), além de estudos de viabilidade técnica para modernização de sistemas legados e implantação de soluções de mercado (CMMS).
 
 ### **TecBan (Banco24Horas)** | *Desenvolvedor Backend Sênior*
 **Período:** 2019 – 2020
 *   **Ação:** Desenvolveu **APIs** para o ecossistema de **Open Finance** e Open Insurance, utilizando **Node.js** e **Java**. Implementou padrões de segurança rigorosos (mTLS, FAPI) e integrou sistemas de filas para processamento assíncrono de transações.
+
+### **Grupo Panvel** | *Líder Técnico / Desenvolvedor Back-end*
+**Período:** 2018 – 2019
+*   **Ação:** Liderou a implementação de serviços de monitoramento de conectividade e redundância para o varejo farmacêutico. Desenvolveu soluções em **Java Quarkus** e **Spring Boot**, garantindo alta disponibilidade das operações de frente de caixa. Atuou na mentoria técnica de desenvolvedores júnior.
+
+### **I9Amazon / Biotec** | *Desenvolvedor Full Stack / Arquiteto*
+**Período:** 2018
+*   **Ação:** Desenvolveu soluções ponta a ponta, incluindo ERPs e aplicativos móveis (**Ionic**). Criou APIs RESTful modulares em **Java** e **Node.js**, integrando com front-ends em **Angular** para gestão de laboratórios e logística.
+
+### **Vibe Desenvolvimento (Consultoria Banpará)** | *Desenvolvedor Java Sênior / DBA*
+**Período:** 2014 – 2018
+*   **Ação:** Atuou no Internet Banking do Banco do Estado do Pará. Especializou-se em lógica de negócios complexa e de missão crítica residente em banco de dados (**Oracle PL/SQL** e **SQL Server T-SQL**), garantindo performance e integridade em transações financeiras de alto volume.
 
 ---
 
