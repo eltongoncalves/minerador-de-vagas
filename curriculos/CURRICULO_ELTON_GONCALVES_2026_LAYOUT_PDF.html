@@ -28,44 +28,37 @@
             min-height: 297mm;
         }
 
-        /* Sidebar (Left Column) */
+        /* Sidebar (Left Column) - Dark Blue Background */
         .sidebar {
-            background: #f5f5f5;
-            padding: 25mm 15mm;
-            border-right: 1px solid #ddd;
+            background: #1e3a5f;
+            color: #fff;
+            padding: 25mm 20mm;
         }
 
         .sidebar h2 {
-            font-size: 14pt;
+            font-size: 13pt;
             font-weight: 700;
-            color: #000;
-            margin-bottom: 10pt;
+            color: #fff;
+            margin-bottom: 12pt;
             text-transform: uppercase;
             letter-spacing: 0.5pt;
-            border-bottom: 2px solid #000;
-            padding-bottom: 5pt;
-        }
-
-        .sidebar h3 {
-            font-size: 11pt;
-            font-weight: 600;
-            color: #000;
-            margin-top: 15pt;
-            margin-bottom: 8pt;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 6pt;
         }
 
         .contact-info {
-            margin-bottom: 20pt;
+            margin-bottom: 25pt;
         }
 
         .contact-info p {
-            margin-bottom: 5pt;
+            margin-bottom: 6pt;
             font-size: 10pt;
-            color: #333;
+            color: #fff;
+            line-height: 1.5;
         }
 
         .contact-info a {
-            color: #0066cc;
+            color: #fff;
             text-decoration: none;
         }
 
@@ -73,105 +66,121 @@
             text-decoration: underline;
         }
 
+        .education {
+            margin-bottom: 25pt;
+        }
+
         .education-item {
-            margin-bottom: 12pt;
+            margin-bottom: 15pt;
         }
 
         .education-item strong {
             display: block;
             font-weight: 600;
-            color: #000;
-            margin-bottom: 3pt;
+            color: #fff;
+            margin-bottom: 4pt;
+            font-size: 10.5pt;
         }
 
         .education-item span {
             font-size: 10pt;
-            color: #666;
+            color: #e0e0e0;
         }
 
-        .skills-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10pt;
-            font-size: 9pt;
-        }
-
-        .skills-table th {
-            background: #e0e0e0;
-            padding: 6pt;
-            text-align: left;
-            font-weight: 600;
-            border: 1px solid #ccc;
-        }
-
-        .skills-table td {
-            padding: 5pt;
-            border: 1px solid #ddd;
-            vertical-align: top;
-        }
-
-        .skills-table ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .skills-table li {
-            margin-bottom: 3pt;
-        }
-
-        /* Main Content (Right Column) */
-        .main-content {
-            padding: 25mm 20mm;
-        }
-
-        .header {
+        .summary-sidebar {
             margin-bottom: 20pt;
         }
 
+        .summary-sidebar p {
+            font-size: 10pt;
+            color: #fff;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Main Content (Right Column) - White Background */
+        .main-content {
+            padding: 25mm 20mm;
+            background: #fff;
+        }
+
+        .header {
+            margin-bottom: 25pt;
+        }
+
         .header h1 {
-            font-size: 28pt;
+            font-size: 32pt;
             font-weight: 700;
             color: #000;
-            margin-bottom: 5pt;
-            line-height: 1.2;
+            margin-bottom: 8pt;
+            line-height: 1.1;
         }
 
         .header .subtitle {
             font-size: 14pt;
-            color: #666;
-            font-weight: 400;
-            margin-bottom: 15pt;
+            color: #1e3a5f;
+            font-weight: 600;
+            margin-bottom: 5pt;
         }
 
         .section {
-            margin-bottom: 20pt;
+            margin-bottom: 25pt;
         }
 
         .section h2 {
-            font-size: 16pt;
+            font-size: 18pt;
             font-weight: 700;
             color: #000;
-            margin-bottom: 12pt;
+            margin-bottom: 20pt;
             text-transform: uppercase;
             letter-spacing: 0.5pt;
-            border-bottom: 2px solid #000;
-            padding-bottom: 5pt;
+            border-bottom: 3px solid #1e3a5f;
+            padding-bottom: 8pt;
         }
 
-        .summary p {
-            text-align: justify;
-            margin-bottom: 10pt;
-            font-size: 10.5pt;
-            line-height: 1.7;
+        /* Timeline Experience Layout */
+        .experience-timeline {
+            position: relative;
+            padding-left: 25pt;
+        }
+
+        .experience-timeline::before {
+            content: '';
+            position: absolute;
+            left: 6pt;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #1e3a5f;
+        }
+
+        .experience-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15pt;
+            margin-bottom: 20pt;
+            position: relative;
         }
 
         .experience-item {
-            margin-bottom: 18pt;
-            page-break-inside: avoid;
+            position: relative;
+            padding: 12pt;
+            background: #f8f9fa;
+            border-left: 3px solid #1e3a5f;
+            border-radius: 3px;
         }
 
-        .exp-header {
-            margin-bottom: 8pt;
+        .experience-item::before {
+            content: '';
+            position: absolute;
+            left: -9pt;
+            top: 18pt;
+            width: 10pt;
+            height: 10pt;
+            background: #1e3a5f;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            box-shadow: 0 0 0 2px #1e3a5f;
         }
 
         .exp-title {
@@ -185,21 +194,22 @@
         .exp-company {
             font-size: 11pt;
             font-weight: 600;
-            color: #0066cc;
+            color: #1e3a5f;
             display: block;
             margin-bottom: 3pt;
         }
 
         .exp-date {
-            font-size: 10pt;
+            font-size: 9.5pt;
             color: #666;
             font-style: italic;
             margin-bottom: 8pt;
+            display: block;
         }
 
         .exp-details {
-            font-size: 10pt;
-            line-height: 1.6;
+            font-size: 9.5pt;
+            line-height: 1.5;
         }
 
         .exp-details ul {
@@ -209,7 +219,7 @@
 
         .exp-details li {
             margin-bottom: 6pt;
-            padding-left: 15pt;
+            padding-left: 12pt;
             position: relative;
         }
 
@@ -217,13 +227,19 @@
             content: "•";
             position: absolute;
             left: 0;
-            color: #0066cc;
+            color: #1e3a5f;
             font-weight: bold;
+            font-size: 12pt;
         }
 
         .exp-details strong {
             color: #000;
             font-weight: 600;
+        }
+
+        /* Single column items (for odd numbers or full width) */
+        .experience-item.full-width {
+            grid-column: 1 / -1;
         }
 
         /* Print Styles */
@@ -241,6 +257,8 @@
 
             .sidebar {
                 page-break-inside: avoid;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
             }
 
             .experience-item {
@@ -268,7 +286,7 @@
 <body>
 
     <div class="container">
-        <!-- Sidebar (Left) -->
+        <!-- Sidebar (Left) - Dark Blue -->
         <aside class="sidebar">
             <div class="contact-info">
                 <h2>CONTATO</h2>
@@ -290,20 +308,35 @@
                 </div>
             </div>
 
-            <div class="skills">
-                <h2>&lt;/&gt; SKILLS & TECNOLOGIAS</h2>
-                <table class="skills-table">
+            <div class="summary-sidebar">
+                <h2>RESUMO</h2>
+                <p>
+                    Arquiteto de Software com quase 20 anos de experiência, especializado em soluções escaláveis com Java, Python e Cloud. Liderando ecossistemas de IA Vertical e integrações MCP.
+                </p>
+            </div>
+        </aside>
+
+        <!-- Main Content (Right) - White -->
+        <main class="main-content">
+            <div class="header">
+                <h1>Elton Jhon Dias Gonçalves</h1>
+                <div class="subtitle">Arquiteto de Software | Desenvolvedor Sênior (Java/Python/Cloud)</div>
+            </div>
+
+            <section class="skills section">
+                <h2>TECNOLOGIAS</h2>
+                <table style="width: 100%; border-collapse: collapse; margin-bottom: 15pt; font-size: 9.5pt;">
                     <thead>
                         <tr>
-                            <th>IA & Automação</th>
-                            <th>Linguagens</th>
-                            <th>Frameworks</th>
+                            <th style="background: #1e3a5f; color: #fff; padding: 8pt; text-align: left; border: 1px solid #ccc; font-weight: 600;">IA & Automação</th>
+                            <th style="background: #1e3a5f; color: #fff; padding: 8pt; text-align: left; border: 1px solid #ccc; font-weight: 600;">Linguagens</th>
+                            <th style="background: #1e3a5f; color: #fff; padding: 8pt; text-align: left; border: 1px solid #ccc; font-weight: 600;">Frameworks</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>
-                                <ul>
+                            <td style="padding: 6pt; border: 1px solid #ddd; vertical-align: top;">
+                                <ul style="list-style: none; padding: 0; margin: 0;">
                                     <li>MCP</li>
                                     <li>LangChain</li>
                                     <li>OpenAI API</li>
@@ -313,8 +346,8 @@
                                     <li>Prompt Engineering</li>
                                 </ul>
                             </td>
-                            <td>
-                                <ul>
+                            <td style="padding: 6pt; border: 1px solid #ddd; vertical-align: top;">
+                                <ul style="list-style: none; padding: 0; margin: 0;">
                                     <li>Java (8-21)</li>
                                     <li>Python</li>
                                     <li>Node.js</li>
@@ -324,8 +357,8 @@
                                     <li>T-SQL</li>
                                 </ul>
                             </td>
-                            <td>
-                                <ul>
+                            <td style="padding: 6pt; border: 1px solid #ddd; vertical-align: top;">
+                                <ul style="list-style: none; padding: 0; margin: 0;">
                                     <li>Spring Boot</li>
                                     <li>Spring Cloud</li>
                                     <li>FastAPI</li>
@@ -340,15 +373,15 @@
                     </tbody>
                     <thead>
                         <tr>
-                            <th>Cloud & DevOps</th>
-                            <th>Dados & Mensageria</th>
-                            <th>Arquitetura & Segurança</th>
+                            <th style="background: #1e3a5f; color: #fff; padding: 8pt; text-align: left; border: 1px solid #ccc; font-weight: 600;">Cloud & DevOps</th>
+                            <th style="background: #1e3a5f; color: #fff; padding: 8pt; text-align: left; border: 1px solid #ccc; font-weight: 600;">Dados & Mensageria</th>
+                            <th style="background: #1e3a5f; color: #fff; padding: 8pt; text-align: left; border: 1px solid #ccc; font-weight: 600;">Arquitetura & Segurança</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>
-                                <ul>
+                            <td style="padding: 6pt; border: 1px solid #ddd; vertical-align: top;">
+                                <ul style="list-style: none; padding: 0; margin: 0;">
                                     <li>AWS</li>
                                     <li>Docker</li>
                                     <li>Kubernetes</li>
@@ -358,8 +391,8 @@
                                     <li>GitHub Actions</li>
                                 </ul>
                             </td>
-                            <td>
-                                <ul>
+                            <td style="padding: 6pt; border: 1px solid #ddd; vertical-align: top;">
+                                <ul style="list-style: none; padding: 0; margin: 0;">
                                     <li>Oracle</li>
                                     <li>PostgreSQL</li>
                                     <li>MongoDB</li>
@@ -369,8 +402,8 @@
                                     <li>Elasticsearch</li>
                                 </ul>
                             </td>
-                            <td>
-                                <ul>
+                            <td style="padding: 6pt; border: 1px solid #ddd; vertical-align: top;">
+                                <ul style="list-style: none; padding: 0; margin: 0;">
                                     <li>Microsserviços</li>
                                     <li>Clean Architecture</li>
                                     <li>DDD</li>
@@ -383,190 +416,141 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
-        </aside>
-
-        <!-- Main Content (Right) -->
-        <main class="main-content">
-            <div class="header">
-                <h1>Elton Jhon Dias Gonçalves</h1>
-                <div class="subtitle">Arquiteto de Software | Desenvolvedor Sênior (Java/Python/Cloud)</div>
-            </div>
-
-            <section class="summary section">
-                <h2>RESUMO</h2>
-                <p>
-                    Arquiteto de Software e Desenvolvedor Sênior com quase 20 anos de experiência em engenharia de software, especializado na transformação de problemas de negócios complexos em soluções tecnológicas escaláveis e resilientes. Expertise comprovada em <strong>Java (Spring Boot)</strong> e <strong>Python (FastAPI/Django)</strong> para construção de APIs de alta performance, microsserviços e sistemas de missão crítica.
-                </p>
-                <p>
-                    Atualmente liderando a arquitetura de ecossistemas de <strong>IA Vertical</strong> e integração com <strong>Model Context Protocol (MCP)</strong> e automação inteligente (<strong>n8n</strong>). Profundo conhecimento em <strong>Cloud (AWS/OpenShift)</strong>, <strong>DevOps (Docker/Kubernetes)</strong> e observabilidade, com histórico de otimização de ambientes e liderança técnica em grandes players como <strong>Banco do Brasil</strong>, <strong>TecBan</strong> e <strong>NTT DATA</strong>.
-                </p>
             </section>
 
             <section class="experience section">
                 <h2>EXPERIÊNCIA PROFISSIONAL</h2>
 
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">EVAH Platform</span>
-                        <span class="exp-company">Arquiteto de IA & Desenvolvedor Líder</span>
-                        <span class="exp-date">Janeiro/2026 – Presente</span>
+                <div class="experience-timeline">
+                    <div class="experience-row">
+                        <!-- Left Column -->
+                        <div class="experience-item">
+                            <span class="exp-title">EVAH Platform</span>
+                            <span class="exp-company">Arquiteto de IA & Desenvolvedor Líder</span>
+                            <span class="exp-date">Janeiro/2026 - Presente</span>
+                            <div class="exp-details">
+                                <ul>
+                                    <li>Arquitetei ecossistema de IA Vertical com agentes autônomos integrados a ERPs (Odoo) e Chatwoot.</li>
+                                    <li>Desenvolvi servidores MCP em Python para conectar LLMs a bases de dados complexas.</li>
+                                    <li><strong>Resultado:</strong> Redução de 99% no tempo de resposta operacional.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="experience-item">
+                            <span class="exp-title">Chaintech (Detran/Prodesp)</span>
+                            <span class="exp-company">Desenvolvedor Java Sênior / Arquiteto</span>
+                            <span class="exp-date">2025</span>
+                            <div class="exp-details">
+                                <ul>
+                                    <li>Migrou microsserviços legados para Java Quarkus.</li>
+                                    <li>Segurança em JWT conforme normas Bacen/MED.</li>
+                                    <li><strong>Resultado:</strong> Entrega em 2 meses com conformidade regulatória.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li><strong>Contexto:</strong> Criação de um ecossistema de IA Vertical capaz de executar ações reais em sistemas corporativos e ERPs.</li>
-                            <li>Desenvolvi servidores <strong>MCP (Model Context Protocol)</strong> em <strong>Python</strong> para conectar LLMs a bases de dados complexas do ERP Odoo, permitindo leitura e escrita segura de dados.</li>
-                            <li>Implementei fluxos de automação robustos via <strong>n8n</strong>, orquestrando chamadas de <strong>API</strong> entre Stripe (pagamentos), Clicksign (contratos) e o núcleo da IA.</li>
-                            <li>Utilizei <strong>Docker</strong> para containerização de todos os módulos (Assistant, Omni, ERP, Flow), facilitando o deploy e escalabilidade.</li>
-                            <li><strong>Resultado:</strong> Criação de uma plataforma funcional de "IA de Ação" que automatizou processos de agendamento e vendas, reduzindo o tempo de resposta operacional em 99% (Case Bira Veículos) e estabelecendo uma arquitetura modular pronta para escala.</li>
-                        </ul>
+
+                    <div class="experience-row">
+                        <!-- Left Column -->
+                        <div class="experience-item">
+                            <span class="exp-title">Accenture (Sicredi)</span>
+                            <span class="exp-company">Consultor Sênior de Arquitetura</span>
+                            <span class="exp-date">2024 - 2025</span>
+                            <div class="exp-details">
+                                <ul>
+                                    <li>Assessment arquitetural de microsserviços Java/Spring Boot.</li>
+                                    <li>Definição de padrões de API REST e políticas Security by Design.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="experience-item">
+                            <span class="exp-title">Minsait / Banco do Brasil</span>
+                            <span class="exp-company">Arquiteto de Soluções Sênior (Cloud)</span>
+                            <span class="exp-date">2023 - 2024</span>
+                            <div class="exp-details">
+                                <ul>
+                                    <li>Modernização para nuvem privada OpenShift.</li>
+                                    <li>Pipelines CI/CD com GitOps (ArgoCD).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-row">
+                        <!-- Left Column -->
+                        <div class="experience-item">
+                            <span class="exp-title">NTT DATA (Itaú, CNJ, Ambev)</span>
+                            <span class="exp-company">Especialista Java/Cloud</span>
+                            <span class="exp-date">2021 - 2023</span>
+                            <div class="exp-details">
+                                <ul>
+                                    <li>Arquiteturas serverless AWS Lambda/Python.</li>
+                                    <li>Engenharia reversa COBOL para modernização bancária.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="experience-item">
+                            <span class="exp-title">Foursys Tech (Banco Pan)</span>
+                            <span class="exp-company">Desenvolvedor Java Full Stack</span>
+                            <span class="exp-date">2021 - 2022</span>
+                            <div class="exp-details">
+                                <ul>
+                                    <li>Squad de Cartões com Java Spring Boot.</li>
+                                    <li>APIs resilientes para transações financeiras.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-row">
+                        <!-- Left Column -->
+                        <div class="experience-item">
+                            <span class="exp-title">TecBan (Banco24Horas)</span>
+                            <span class="exp-company">Desenvolvedor Backend Sênior</span>
+                            <span class="exp-date">2019 - 2020</span>
+                            <div class="exp-details">
+                                <ul>
+                                    <li>APIs para Open Finance (Node.js/Java).</li>
+                                    <li>Padrões mTLS, FAPI e processamento assíncrono.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="experience-item">
+                            <span class="exp-title">Grupo Panvel</span>
+                            <span class="exp-company">Líder Técnico / Back-end</span>
+                            <span class="exp-date">2018 - 2019</span>
+                            <div class="exp-details">
+                                <ul>
+                                    <li>Monitoramento e redundância para varejo farmacêutico.</li>
+                                    <li>Mentoria técnica em Java Quarkus/Spring.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-row">
+                        <!-- Left Column - Full Width -->
+                        <div class="experience-item full-width">
+                            <span class="exp-title">Vibe Desenvolvimento (Banpará)</span>
+                            <span class="exp-company">Desenvolvedor Java Sênior / DBA</span>
+                            <span class="exp-date">2014 - 2018</span>
+                            <div class="exp-details">
+                                <ul>
+                                    <li>Internet Banking do Banco do Estado do Pará.</li>
+                                    <li>Lógica em Oracle PL/SQL e T-SQL.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">Chaintech (Detran/Prodesp)</span>
-                        <span class="exp-company">Desenvolvedor Java Sênior / Arquiteto de Software</span>
-                        <span class="exp-date">2025</span>
-                    </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li><strong>Contexto:</strong> Sistema crítico de órgão público com atraso de 6 meses e vulnerabilidades de segurança.</li>
-                            <li>Liderei a migração de microsserviços legados para <strong>Java Quarkus</strong>, otimizando o consumo de recursos e tempo de inicialização.</li>
-                            <li>Implementei segurança avançada em tokens <strong>JWT</strong> para mitigar riscos de elevação de privilégio.</li>
-                            <li><strong>Resultado:</strong> Entrega do sistema em 2 meses (recuperação do cronograma), garantindo conformidade regulatória e estabilidade em ambiente produtivo.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">Accenture do Brasil (Projeto Sicredi)</span>
-                        <span class="exp-company">Consultor Sênior de Arquitetura</span>
-                        <span class="exp-date">2024 – 2025</span>
-                    </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li>Realizei assessment arquitetural de microsserviços <strong>Java/Spring Boot</strong>, propondo melhorias de performance e resiliência (Circuit Breaker, Retry).</li>
-                            <li>Definição de padrões de <strong>API REST</strong> e políticas de governança de código (Security by Design).</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">Minsait Brasil / Banco do Brasil</span>
-                        <span class="exp-company">Arquiteto de Soluções Sênior (Cloud)</span>
-                        <span class="exp-date">2023 – 2024</span>
-                    </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li>Atuou na modernização de aplicações para nuvem privada (<strong>OpenShift</strong>).</li>
-                            <li>Implementou pipelines de <strong>CI/CD</strong> e cultura <strong>GitOps</strong> com <strong>ArgoCD</strong>, gerenciando deploys de microsserviços em containers <strong>Docker</strong> e orquestração via <strong>Kubernetes</strong>.</li>
-                            <li>Otimizou a observabilidade de APIs críticas do banco.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">NTT DATA Brasil (Itaú, CNJ, Ambev)</span>
-                        <span class="exp-company">Especialista Java/Cloud</span>
-                        <span class="exp-date">2021 – 2023</span>
-                    </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li>Desenvolveu e manteve arquiteturas serverless na <strong>AWS</strong> (Lambda/Python) e microsserviços <strong>Java Spring Boot</strong>.</li>
-                            <li>Atuou na engenharia reversa de COBOL para modernização de sistemas legados bancários, garantindo integridade transacional e alta disponibilidade com <strong>Kafka</strong> e <strong>SQS</strong>.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">Foursys Tech Ltda (Banco Pan)</span>
-                        <span class="exp-company">Desenvolvedor Java Full Stack</span>
-                        <span class="exp-date">2021 – 2022</span>
-                    </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li>Atuou na squad de Cartões e Faturas, desenvolvendo microsserviços em <strong>Java Spring Boot</strong> para processamento de transações financeiras.</li>
-                            <li>Garantiu a entrega de APIs resilientes para o fluxo de cartões, com suporte a upgrades de versão sem impacto para o cliente final.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">COSANPA (Companhia de Saneamento do Pará)</span>
-                        <span class="exp-company">Analista de Sistemas / TI</span>
-                        <span class="exp-date">2020 – 2021</span>
-                    </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li>Gerenciou sistemas críticos de infraestrutura durante a pandemia.</li>
-                            <li>Realizou levantamento de requisitos e modelagem de processos (<strong>BPMN</strong>), além de estudos de viabilidade técnica para modernização de sistemas legados e implantação de soluções de mercado (CMMS).</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">TecBan (Banco24Horas)</span>
-                        <span class="exp-company">Desenvolvedor Backend Sênior</span>
-                        <span class="exp-date">2019 – 2020</span>
-                    </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li>Desenvolveu <strong>APIs</strong> para o ecossistema de <strong>Open Finance</strong> e Open Insurance, utilizando <strong>Node.js</strong> e <strong>Java</strong>.</li>
-                            <li>Implementou padrões de segurança rigorosos (mTLS, FAPI) e integrou sistemas de filas para processamento assíncrono de transações.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">Grupo Panvel</span>
-                        <span class="exp-company">Líder Técnico / Desenvolvedor Back-end</span>
-                        <span class="exp-date">2018 – 2019</span>
-                    </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li>Liderou a implementação de serviços de monitoramento de conectividade e redundância para o varejo farmacêutico.</li>
-                            <li>Desenvolveu soluções em <strong>Java Quarkus</strong> e <strong>Spring Boot</strong>, garantindo alta disponibilidade das operações de frente de caixa.</li>
-                            <li>Atuou na mentoria técnica de desenvolvedores júnior.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">I9Amazon / Biotec</span>
-                        <span class="exp-company">Desenvolvedor Full Stack / Arquiteto</span>
-                        <span class="exp-date">2018</span>
-                    </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li>Desenvolveu soluções ponta a ponta, incluindo ERPs e aplicativos móveis (<strong>Ionic</strong>).</li>
-                            <li>Criou APIs RESTful modulares em <strong>Java</strong> e <strong>Node.js</strong>, integrando com front-ends em <strong>Angular</strong> para gestão de laboratórios e logística.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <span class="exp-title">Vibe Desenvolvimento (Consultoria Banpará)</span>
-                        <span class="exp-company">Desenvolvedor Java Sênior / DBA</span>
-                        <span class="exp-date">2014 – 2018</span>
-                    </div>
-                    <div class="exp-details">
-                        <ul>
-                            <li>Atuou no Internet Banking do Banco do Estado do Pará.</li>
-                            <li>Especializou-se em lógica de negócios complexa e de missão crítica residente em banco de dados (<strong>Oracle PL/SQL</strong> e <strong>SQL Server T-SQL</strong>), garantindo performance e integridade em transações financeiras de alto volume.</li>
-                        </ul>
-                    </div>
-                </div>
-
             </section>
         </main>
     </div>
