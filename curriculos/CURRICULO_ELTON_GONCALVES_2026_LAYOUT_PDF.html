@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Elton Jhon Dias Gonçalves</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            font-size: 11pt;
+        }
+
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            display: grid;
+            grid-template-columns: 35% 65%;
+            min-height: 297mm;
+        }
+
+        /* Sidebar (Left Column) */
+        .sidebar {
+            background: #f5f5f5;
+            padding: 25mm 15mm;
+            border-right: 1px solid #ddd;
+        }
+
+        .sidebar h2 {
+            font-size: 14pt;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 10pt;
+            text-transform: uppercase;
+            letter-spacing: 0.5pt;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5pt;
+        }
+
+        .sidebar h3 {
+            font-size: 11pt;
+            font-weight: 600;
+            color: #000;
+            margin-top: 15pt;
+            margin-bottom: 8pt;
+        }
+
+        .contact-info {
+            margin-bottom: 20pt;
+        }
+
+        .contact-info p {
+            margin-bottom: 5pt;
+            font-size: 10pt;
+            color: #333;
+        }
+
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .education-item {
+            margin-bottom: 12pt;
+        }
+
+        .education-item strong {
+            display: block;
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 3pt;
+        }
+
+        .education-item span {
+            font-size: 10pt;
+            color: #666;
+        }
+
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10pt;
+            font-size: 9pt;
+        }
+
+        .skills-table th {
+            background: #e0e0e0;
+            padding: 6pt;
+            text-align: left;
+            font-weight: 600;
+            border: 1px solid #ccc;
+        }
+
+        .skills-table td {
+            padding: 5pt;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        .skills-table ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .skills-table li {
+            margin-bottom: 3pt;
+        }
+
+        /* Main Content (Right Column) */
+        .main-content {
+            padding: 25mm 20mm;
+        }
+
+        .header {
+            margin-bottom: 20pt;
+        }
+
+        .header h1 {
+            font-size: 28pt;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 5pt;
+            line-height: 1.2;
+        }
+
+        .header .subtitle {
+            font-size: 14pt;
+            color: #666;
+            font-weight: 400;
+            margin-bottom: 15pt;
+        }
+
+        .section {
+            margin-bottom: 20pt;
+        }
+
+        .section h2 {
+            font-size: 16pt;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 12pt;
+            text-transform: uppercase;
+            letter-spacing: 0.5pt;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5pt;
+        }
+
+        .summary p {
+            text-align: justify;
+            margin-bottom: 10pt;
+            font-size: 10.5pt;
+            line-height: 1.7;
+        }
+
+        .experience-item {
+            margin-bottom: 18pt;
+            page-break-inside: avoid;
+        }
+
+        .exp-header {
+            margin-bottom: 8pt;
+        }
+
+        .exp-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #000;
+            display: block;
+            margin-bottom: 3pt;
+        }
+
+        .exp-company {
+            font-size: 11pt;
+            font-weight: 600;
+            color: #0066cc;
+            display: block;
+            margin-bottom: 3pt;
+        }
+
+        .exp-date {
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 8pt;
+        }
+
+        .exp-details {
+            font-size: 10pt;
+            line-height: 1.6;
+        }
+
+        .exp-details ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .exp-details li {
+            margin-bottom: 6pt;
+            padding-left: 15pt;
+            position: relative;
+        }
+
+        .exp-details li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        .exp-details strong {
+            color: #000;
+            font-weight: 600;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                max-width: 100%;
+                margin: 0;
+                box-shadow: none;
+            }
+
+            .sidebar {
+                page-break-inside: avoid;
+            }
+
+            .experience-item {
+                page-break-inside: avoid;
+            }
+
+            @page {
+                size: A4;
+                margin: 0;
+            }
+        }
+
+        @media screen {
+            body {
+                background: #e0e0e0;
+                padding: 20px;
+            }
+
+            .container {
+                box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar (Left) -->
+        <aside class="sidebar">
+            <div class="contact-info">
+                <h2>CONTATO</h2>
+                <p>elton.jd.goncalves@gmail.com</p>
+                <p>Belém, PA / Remoto</p>
+                <p><a href="https://www.linkedin.com/in/elton-dias-goncalves/" target="_blank">LinkedIn</a></p>
+                <p><a href="https://github.com/eltonjd" target="_blank">GitHub</a></p>
+            </div>
+
+            <div class="education">
+                <h2>FORMAÇÃO</h2>
+                <div class="education-item">
+                    <strong>Pós-Graduação</strong>
+                    <span>Arquitetura de Software – UFPA</span>
+                </div>
+                <div class="education-item">
+                    <strong>Bacharelado</strong>
+                    <span>Ciência da Computação – UFPA</span>
+                </div>
+            </div>
+
+            <div class="skills">
+                <h2>&lt;/&gt; SKILLS & TECNOLOGIAS</h2>
+                <table class="skills-table">
+                    <thead>
+                        <tr>
+                            <th>IA & Automação</th>
+                            <th>Linguagens</th>
+                            <th>Frameworks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>MCP</li>
+                                    <li>LangChain</li>
+                                    <li>OpenAI API</li>
+                                    <li>Claude API</li>
+                                    <li>n8n</li>
+                                    <li>RAG</li>
+                                    <li>Prompt Engineering</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Java (8-21)</li>
+                                    <li>Python</li>
+                                    <li>Node.js</li>
+                                    <li>TypeScript</li>
+                                    <li>SQL</li>
+                                    <li>PL/SQL</li>
+                                    <li>T-SQL</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Spring Boot</li>
+                                    <li>Spring Cloud</li>
+                                    <li>FastAPI</li>
+                                    <li>Django</li>
+                                    <li>Flask</li>
+                                    <li>Quarkus</li>
+                                    <li>Hibernate</li>
+                                    <li>Angular</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th>Cloud & DevOps</th>
+                            <th>Dados & Mensageria</th>
+                            <th>Arquitetura & Segurança</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>AWS</li>
+                                    <li>Docker</li>
+                                    <li>Kubernetes</li>
+                                    <li>OpenShift</li>
+                                    <li>ArgoCD</li>
+                                    <li>Terraform</li>
+                                    <li>GitHub Actions</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Oracle</li>
+                                    <li>PostgreSQL</li>
+                                    <li>MongoDB</li>
+                                    <li>DynamoDB</li>
+                                    <li>Kafka</li>
+                                    <li>RabbitMQ</li>
+                                    <li>Elasticsearch</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Microsserviços</li>
+                                    <li>Clean Architecture</li>
+                                    <li>DDD</li>
+                                    <li>SOLID</li>
+                                    <li>MED/BACEN</li>
+                                    <li>mTLS</li>
+                                    <li>FAPI</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </aside>
+
+        <!-- Main Content (Right) -->
+        <main class="main-content">
+            <div class="header">
+                <h1>Elton Jhon Dias Gonçalves</h1>
+                <div class="subtitle">Arquiteto de Software | Desenvolvedor Sênior (Java/Python/Cloud)</div>
+            </div>
+
+            <section class="summary section">
+                <h2>RESUMO</h2>
+                <p>
+                    Arquiteto de Software e Desenvolvedor Sênior com quase 20 anos de experiência em engenharia de software, especializado na transformação de problemas de negócios complexos em soluções tecnológicas escaláveis e resilientes. Expertise comprovada em <strong>Java (Spring Boot)</strong> e <strong>Python (FastAPI/Django)</strong> para construção de APIs de alta performance, microsserviços e sistemas de missão crítica.
+                </p>
+                <p>
+                    Atualmente liderando a arquitetura de ecossistemas de <strong>IA Vertical</strong> e integração com <strong>Model Context Protocol (MCP)</strong> e automação inteligente (<strong>n8n</strong>). Profundo conhecimento em <strong>Cloud (AWS/OpenShift)</strong>, <strong>DevOps (Docker/Kubernetes)</strong> e observabilidade, com histórico de otimização de ambientes e liderança técnica em grandes players como <strong>Banco do Brasil</strong>, <strong>TecBan</strong> e <strong>NTT DATA</strong>.
+                </p>
+            </section>
+
+            <section class="experience section">
+                <h2>EXPERIÊNCIA PROFISSIONAL</h2>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">EVAH Platform</span>
+                        <span class="exp-company">Arquiteto de IA & Desenvolvedor Líder</span>
+                        <span class="exp-date">Janeiro/2026 – Presente</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li><strong>Contexto:</strong> Criação de um ecossistema de IA Vertical capaz de executar ações reais em sistemas corporativos e ERPs.</li>
+                            <li>Desenvolvi servidores <strong>MCP (Model Context Protocol)</strong> em <strong>Python</strong> para conectar LLMs a bases de dados complexas do ERP Odoo, permitindo leitura e escrita segura de dados.</li>
+                            <li>Implementei fluxos de automação robustos via <strong>n8n</strong>, orquestrando chamadas de <strong>API</strong> entre Stripe (pagamentos), Clicksign (contratos) e o núcleo da IA.</li>
+                            <li>Utilizei <strong>Docker</strong> para containerização de todos os módulos (Assistant, Omni, ERP, Flow), facilitando o deploy e escalabilidade.</li>
+                            <li><strong>Resultado:</strong> Criação de uma plataforma funcional de "IA de Ação" que automatizou processos de agendamento e vendas, reduzindo o tempo de resposta operacional em 99% (Case Bira Veículos) e estabelecendo uma arquitetura modular pronta para escala.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Chaintech (Detran/Prodesp)</span>
+                        <span class="exp-company">Desenvolvedor Java Sênior / Arquiteto de Software</span>
+                        <span class="exp-date">2025</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li><strong>Contexto:</strong> Sistema crítico de órgão público com atraso de 6 meses e vulnerabilidades de segurança.</li>
+                            <li>Liderei a migração de microsserviços legados para <strong>Java Quarkus</strong>, otimizando o consumo de recursos e tempo de inicialização.</li>
+                            <li>Implementei segurança avançada em tokens <strong>JWT</strong> para mitigar riscos de elevação de privilégio.</li>
+                            <li><strong>Resultado:</strong> Entrega do sistema em 2 meses (recuperação do cronograma), garantindo conformidade regulatória e estabilidade em ambiente produtivo.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Accenture do Brasil (Projeto Sicredi)</span>
+                        <span class="exp-company">Consultor Sênior de Arquitetura</span>
+                        <span class="exp-date">2024 – 2025</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li>Realizei assessment arquitetural de microsserviços <strong>Java/Spring Boot</strong>, propondo melhorias de performance e resiliência (Circuit Breaker, Retry).</li>
+                            <li>Definição de padrões de <strong>API REST</strong> e políticas de governança de código (Security by Design).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Minsait Brasil / Banco do Brasil</span>
+                        <span class="exp-company">Arquiteto de Soluções Sênior (Cloud)</span>
+                        <span class="exp-date">2023 – 2024</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li>Atuou na modernização de aplicações para nuvem privada (<strong>OpenShift</strong>).</li>
+                            <li>Implementou pipelines de <strong>CI/CD</strong> e cultura <strong>GitOps</strong> com <strong>ArgoCD</strong>, gerenciando deploys de microsserviços em containers <strong>Docker</strong> e orquestração via <strong>Kubernetes</strong>.</li>
+                            <li>Otimizou a observabilidade de APIs críticas do banco.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">NTT DATA Brasil (Itaú, CNJ, Ambev)</span>
+                        <span class="exp-company">Especialista Java/Cloud</span>
+                        <span class="exp-date">2021 – 2023</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li>Desenvolveu e manteve arquiteturas serverless na <strong>AWS</strong> (Lambda/Python) e microsserviços <strong>Java Spring Boot</strong>.</li>
+                            <li>Atuou na engenharia reversa de COBOL para modernização de sistemas legados bancários, garantindo integridade transacional e alta disponibilidade com <strong>Kafka</strong> e <strong>SQS</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Foursys Tech Ltda (Banco Pan)</span>
+                        <span class="exp-company">Desenvolvedor Java Full Stack</span>
+                        <span class="exp-date">2021 – 2022</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li>Atuou na squad de Cartões e Faturas, desenvolvendo microsserviços em <strong>Java Spring Boot</strong> para processamento de transações financeiras.</li>
+                            <li>Garantiu a entrega de APIs resilientes para o fluxo de cartões, com suporte a upgrades de versão sem impacto para o cliente final.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">COSANPA (Companhia de Saneamento do Pará)</span>
+                        <span class="exp-company">Analista de Sistemas / TI</span>
+                        <span class="exp-date">2020 – 2021</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li>Gerenciou sistemas críticos de infraestrutura durante a pandemia.</li>
+                            <li>Realizou levantamento de requisitos e modelagem de processos (<strong>BPMN</strong>), além de estudos de viabilidade técnica para modernização de sistemas legados e implantação de soluções de mercado (CMMS).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">TecBan (Banco24Horas)</span>
+                        <span class="exp-company">Desenvolvedor Backend Sênior</span>
+                        <span class="exp-date">2019 – 2020</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li>Desenvolveu <strong>APIs</strong> para o ecossistema de <strong>Open Finance</strong> e Open Insurance, utilizando <strong>Node.js</strong> e <strong>Java</strong>.</li>
+                            <li>Implementou padrões de segurança rigorosos (mTLS, FAPI) e integrou sistemas de filas para processamento assíncrono de transações.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Grupo Panvel</span>
+                        <span class="exp-company">Líder Técnico / Desenvolvedor Back-end</span>
+                        <span class="exp-date">2018 – 2019</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li>Liderou a implementação de serviços de monitoramento de conectividade e redundância para o varejo farmacêutico.</li>
+                            <li>Desenvolveu soluções em <strong>Java Quarkus</strong> e <strong>Spring Boot</strong>, garantindo alta disponibilidade das operações de frente de caixa.</li>
+                            <li>Atuou na mentoria técnica de desenvolvedores júnior.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">I9Amazon / Biotec</span>
+                        <span class="exp-company">Desenvolvedor Full Stack / Arquiteto</span>
+                        <span class="exp-date">2018</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li>Desenvolveu soluções ponta a ponta, incluindo ERPs e aplicativos móveis (<strong>Ionic</strong>).</li>
+                            <li>Criou APIs RESTful modulares em <strong>Java</strong> e <strong>Node.js</strong>, integrando com front-ends em <strong>Angular</strong> para gestão de laboratórios e logística.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Vibe Desenvolvimento (Consultoria Banpará)</span>
+                        <span class="exp-company">Desenvolvedor Java Sênior / DBA</span>
+                        <span class="exp-date">2014 – 2018</span>
+                    </div>
+                    <div class="exp-details">
+                        <ul>
+                            <li>Atuou no Internet Banking do Banco do Estado do Pará.</li>
+                            <li>Especializou-se em lógica de negócios complexa e de missão crítica residente em banco de dados (<strong>Oracle PL/SQL</strong> e <strong>SQL Server T-SQL</strong>), garantindo performance e integridade em transações financeiras de alto volume.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
