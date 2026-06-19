@@ -31,6 +31,12 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 **Período:** Janeiro/2026 – Presente  
 - **Desenvolvimento e Integração:** Atuação no desenho de soluções e prestação de serviços especializados em engenharia de software no modelo PJ, com minuta contratual estabelecida em fevereiro de 2026.
 
+### 200DEV SVCS LTDA.
+**Cargo:** Arquiteto de Software / Desenvolvedor Sênior `[CLT]`  
+**Período:** Outubro/2025 – Dezembro/2025  
+- **Segurança e Conformidade Bancária:** Liderança na implementação do MED (Mecanismo Especial de Devolução) conforme a regulação do Banco Central do Brasil para o ciclo de 2026.
+- **Remediação de Falhas Críticas:** Identificação e resolução de vulnerabilidade crítica de segurança no fluxo de autenticação/autorização de tokens JWT que permitia elevação de privilégios de acesso. Refatorou a validação de credenciais pré-emissão de token para blindar a integridade transacional.
+
 ---
 
 *(As demais experiências serão consolidadas e adicionadas sequencialmente conforme o plano de criação)*
