@@ -34,8 +34,8 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 ### 200DEV SVCS LTDA.
 **Cargo:** Arquiteto de Software / Desenvolvedor Sênior `[CLT]`  
 **Período:** Outubro/2025 – Dezembro/2025  
-- **Segurança e Conformidade Bancária:** Liderança na implementação do MED (Mecanismo Especial de Devolução) conforme a regulação do Banco Central do Brasil para o ciclo de 2026.
-- **Remediação de Falhas Críticas:** Identificação e resolução de vulnerabilidade crítica de segurança no fluxo de autenticação/autorização de tokens JWT que permitia elevação de privilégios de acesso. Refatorou a validação de credenciais pré-emissão de token para blindar a integridade transacional.
+- **Remediação de Falhas Críticas ("Troubleshooting"):** Atuação especializada em remediação de vulnerabilidades de segurança e correção de falhas críticas de segurança em sistemas corporativos robustos ("troubleshooting").
+- **Engenharia de Software:** Desenvolvimento e otimização backend de microsserviços em Java para manter a resiliência e integridade das soluções de software.
 
 ### Accenture do Brasil (Projeto Sicredi)
 **Cargo:** Consultor Sênior de Arquitetura e Governança `[CLT]`  
@@ -56,7 +56,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 **Período:** Janeiro/2025 – Dezembro/2025  
 - **Recuperação de Projetos em Crise (Detran/Prodesp):** Assumiu a liderança técnica de projeto crítico com 6 meses de atraso severo. Reorganizou o fluxo de trabalho da equipe, atuou ativamente no desenvolvimento Full Stack e entregou a primeira fase funcional estável em apenas 2 meses.
 - **Modernização de Sistemas (Mainframe para Cloud Native):** Planejou e liderou a migração técnica de componentes legados de arquitetura Mainframe para Quarkus em ecossistema de containers (Docker/Kubernetes), visando redução de custos e alto desempenho.
-- **Segurança Transacional:** Conduziu auditorias de segurança avançadas em tokens JWT para mitigar vulnerabilidades de elevação de privilégios de acesso e garantir conformidade regulatória para o ecossistema financeiro (MED/BACEN).
+- **Segurança Transacional (MED / JWT):** Liderança técnica na implementação do MED (Mecanismo Especial de Devolução) conforme normativa do Banco Central para o ciclo de 2026. Realizou auditoria de segurança no fluxo de autenticação/autorização, identificando e corrigindo vulnerabilidade crítica em tokens JWT que permitia elevação de privilégios e interceptação indevida de permissões.
 
 ### EVAH Platform
 **Cargo:** Arquiteto de IA & Fundador (Projeto Pessoal)  
@@ -127,17 +127,17 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 - **Gestão de TI na Pandemia:** Planejamento e gerenciamento operacional de sistemas críticos de saneamento e infraestrutura de rede corporativa de atendimento durante o período de isolamento social da Covid-19.
 - **Modelagem de Processos & Viabilidade:** Mapeamento de processos internos de TI em notação BPMN e estudos de viabilidade de mercado (CMMS/TOTVS) para modernização dos sistemas de gestão de ativos e faturamento da empresa pública.
 
-### Do Bem Contabilidade (Startup)
-**Cargo:** CTO & Co-fundador  
-**Período:** Junho/2018 – Março/2021  
-- **Co-fundador Executivo:** Co-fundador e líder de produto e engenharia da startup contábil acelerada pelo programa Startup-PA, obtendo mais de R$ 200 mil em investimento financeiro.
-- **Arquitetura de Dados & DevOps:** Modelagem completa da base de dados relacional e infraestrutura em nuvem na AWS, estruturando o pipeline de CI/CD automatizado e as frentes de Área do Cliente e Área do Contador do ERP próprio.
-
 ### I9Amazon (Inoveamazon Tecnologia)
 **Cargo:** Consultor de Processos e Desenvolvimento `[PJ]`  
 **Período:** Julho/2018 – Junho/2019  
 - **Melhoria de Processos:** Consultoria técnica focada no mapeamento de gargalos e reestruturação do fluxo de ciclo de vida de desenvolvimento de software (SDLC) da consultoria.
 - **Arquitetura B2B:** Atuação no desenho de soluções e na especificação/desenvolvimento de módulos ERP integrados a portais móveis com Ionic/Angular.
+
+### Do Bem Contabilidade (Startup)
+**Cargo:** CTO & Co-fundador  
+**Período:** Junho/2018 – Março/2021  
+- **Co-fundador Executivo:** Co-fundador e líder de produto e engenharia da startup contábil acelerada pelo programa Startup-PA, obtendo mais de R$ 200 mil em investimento financeiro.
+- **Arquitetura de Dados & DevOps:** Modelagem completa da base de dados relacional e infraestrutura em nuvem na AWS, estruturando o pipeline de CI/CD automatizado e as frentes de Área do Cliente e Área do Contador do ERP próprio.
 
 ### Biotec (BioTec-Amazônia) & Solus
 **Cargo:** Prestador de Serviços / Desenvolvedor Full Stack `[PJ]`  
