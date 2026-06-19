@@ -14,8 +14,8 @@ Este plano atua como um backlog para consolidar, de forma isolada e interativa, 
 
 - `[x]` **Etapa 01:** Tinnova `[PJ]` (Proposta em 01/2026)
 - `[x]` **Etapa 02:** 200DEV SVCS LTDA. `[CLT]` (10/2025 – 12/2025)
-- `[/]` **Etapa 03:** Accenture do Brasil `[CLT]` (05/2025 – 10/2025)
-- `[ ]` **Etapa 04:** G4F Soluções `[CLT]` (02/2025 – 05/2025)
+- `[x]` **Etapa 03:** Accenture do Brasil `[CLT]` (05/2025 – 10/2025)
+- `[/]` **Etapa 04:** G4F Soluções `[CLT]` (02/2025 – 05/2025)
 - `[ ]` **Etapa 05:** Chaintech / XCOOP `[Cooperado]` (01/2025 – 12/2025)
 - `[ ]` **Etapa 06:** EVAH Platform `[Projeto Pessoal]` (01/2025 – Presente)
 - `[ ]` **Etapa 07:** South System (SOMA) `[PJ]` (Início em 24/01/2024)

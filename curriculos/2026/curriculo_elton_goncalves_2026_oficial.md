@@ -37,6 +37,13 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 - **Segurança e Conformidade Bancária:** Liderança na implementação do MED (Mecanismo Especial de Devolução) conforme a regulação do Banco Central do Brasil para o ciclo de 2026.
 - **Remediação de Falhas Críticas:** Identificação e resolução de vulnerabilidade crítica de segurança no fluxo de autenticação/autorização de tokens JWT que permitia elevação de privilégios de acesso. Refatorou a validação de credenciais pré-emissão de token para blindar a integridade transacional.
 
+### Accenture do Brasil (Projeto Sicredi)
+**Cargo:** Consultor Sênior de Arquitetura e Governança `[CLT]`  
+**Período:** Maio/2025 – Outubro/2025  
+- **Advisory Estratégico & Governança:** Atuação em comitê de elite de governança e arquitetura corporativa para o Banco Sicredi, servindo como conselheiro técnico estratégico para stakeholders e definindo padrões técnicos resilientes seguidos pelas squads.
+- **Assessment Arquitetural & Resiliência:** Condução de auditorias profundas de arquitetura e segurança em microsserviços Java/Spring Boot. Definição de padrões de API REST e proposição de melhorias de performance e tolerância a falhas utilizando padrões de resiliência (Circuit Breaker, Retry).
+- **Security by Design:** Planejamento e estabelecimento de diretrizes de codificação segura, elevando o nível de maturidade de governança de TI e mitigando vulnerabilidades críticas na camada de software.
+
 ---
 
 *(As demais experiências serão consolidadas e adicionadas sequencialmente conforme o plano de criação)*
