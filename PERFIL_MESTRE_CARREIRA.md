@@ -144,16 +144,15 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 ### 5. Detran/Prodesp (via Chaintech / XCOOP) | Arquiteto de Software / Líder Técnico [Cooperado]
 
 **Período:** Abril/2025 – Outubro/2025 (07/04/2025 – 03/10/2025) | Valor: R$ 21.000/mês (cooperado)
-**Contexto:** Projetos críticos de órgãos públicos (Detran/Prodesp) com alta criticidade regulatória e de segurança.
+**Contexto:** Projeto de sistema para o Detran/SP, gerenciado pela Prodesp (empresa de tecnologia do Governo do Estado de SP). O projeto acumulava 6 meses de atraso crítico — o cliente já considerava o cancelamento contratual — quando a Chaintech acionou o resgate.
 **Ação:**
 
-- Liderança técnica de projeto com 6 meses de atraso severo: reorganização do fluxo de trabalho e atuação ativa no desenvolvimento Full Stack
-- Planejamento e execução da migração de aplicações críticas de Mainframe para arquitetura Cloud Native com Quarkus (redução de custos e escalabilidade)
-- Implementação do MED (Mecanismo Especial de Devolução) conforme normativa BACEN para o ciclo de 2026
-- Auditoria de segurança no fluxo de autenticação/autorização: identificou vulnerabilidade crítica em tokens JWT que permitia interceptação e elevação de privilégios
-- Refatoração da lógica de autorização para validação pré-emissão de token
-  **Resultado:** Entrega completa em 2 meses (redução de 66% no tempo estimado); conformidade plena com normas BACEN; eliminação de risco de elevação de privilégios.
-  **Stack:** Java 17/21, Quarkus, Spring Boot, Spring Security, JWT, Angular, OpenShift, Kubernetes, Docker, GitOps, AWS, Microsserviços
+- Assunção da liderança técnica do projeto em crise: diagnóstico rápido, reorganização do time e definição de novo planejamento de entrega
+- Desenho da arquitetura da solução, substituindo a stack legada em JSF por uma arquitetura moderna com Angular no frontend e Java/Quarkus no backend
+- Gestão de engenharia de software: padronização de processos, definição de padrões de código e coordenação das entregas do time
+- Desenvolvimento ativo junto ao time para viabilizar a entrega dentro do prazo comprimido
+  **Resultado:** Projeto entregue em 2 meses — saindo de 6 meses de atraso para entrega completa em tempo recorde. Cliente (Detran) reverteu a decisão de cancelamento. Consolidação do papel de arquiteto-executor em projetos de recuperação crítica.
+  **Stack:** Java, Spring Boot, Quarkus, Angular, Microsserviços
 
 ---
 
