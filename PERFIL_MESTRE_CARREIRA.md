@@ -90,8 +90,8 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 - **1º contrato (CTPS):** 02/10/2025 – 30/12/2025 | Salário: R$ 11.000/mês + R$ 3.000 em benefícios
 - **2º contrato:** Março/Abril 2026 – Presente (recontratação) | Salário: R$ 13.000/mês + R$ 4.000 em benefícios
 
-**— 1º Contrato — Projeto: Segurança Bancária (cliente a confirmar)**
-**Contexto:** Atuação em ambiente bancário de missão crítica com foco em segurança.
+**— 1º Contrato — Projeto: Banco Votorantim (BV) | Segurança Bancária**
+**Contexto:** Atuação em ambiente bancário de missão crítica no Banco Votorantim (BV) com foco em segurança.
 **Ação:**
 
 - Troubleshooting especializado em remediação de vulnerabilidades de segurança e correção de falhas críticas em sistemas corporativos robustos
