@@ -70,7 +70,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 1. Tinnova — Cliente: PagBank | Desenvolvedor / Consultor de Tecnologia [PJ]
+### 1. PagBank (via Tinnova) | Desenvolvedor / Consultor de Tecnologia [PJ]
 
 **Período:** Janeiro/2026 – Presente | Valor: R$ 16.000/mês (PJ)
 **Contexto:** Tinnova é a consultoria contratante. O cliente final é o **PagBank** (PagSeguro). Atuação no produto de **gestão de taxas para maquininhas de cartão de crédito** — plataforma que gerencia toda a jornada de taxas, contratos e configurações para os clientes que utilizam as maquininhas PagBank. O produto é referenciado internamente como **BC**.
@@ -83,7 +83,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 2. 200DEV SVCS LTDA. | Arquiteto de Software / Desenvolvedor Sênior [CLT]
+### 2. Banco Votorantim — BV (via 200DEV) | Arquiteto de Software / Desenvolvedor Sênior [CLT]
 
 **Período:** Dois contratos:
 
@@ -110,7 +110,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 3. Accenture do Brasil — Projeto Sicredi | Consultor Sênior de Arquitetura e Governança [CLT]
+### 3. Sicredi (via Accenture do Brasil) | Consultor Sênior de Arquitetura e Governança [CLT]
 
 **Período (CTPS):** 12/05/2025 – 10/10/2025 | Salário: R$ 11.125,89/mês
 **Cargo oficial:** Tech Architecture Associate Manager
@@ -137,7 +137,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 5. Chaintech / XCOOP — Consultoria Detran/Prodesp | Arquiteto de Software / Líder Técnico [Cooperado]
+### 5. Detran/Prodesp (via Chaintech / XCOOP) | Arquiteto de Software / Líder Técnico [Cooperado]
 
 **Período:** Abril/2025 – Outubro/2025 (07/04/2025 – 03/10/2025) | Valor: R$ 21.000/mês (cooperado)
 **Contexto:** Projetos críticos de órgãos públicos (Detran/Prodesp) com alta criticidade regulatória e de segurança.
@@ -169,7 +169,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 7. Conquest One — Banco Pan | Desenvolvedor de Software Sênior [PJ]
+### 7. Banco Pan (via Conquest One) | Desenvolvedor de Software Sênior [PJ]
 
 **Período:** Setembro/2024 – Presente | Valor: R$ 16.000/mês (PJ)
 **Contexto:** Squad de cartões e faturas do Banco Pan em ambiente de missão crítica e transacionalidade massiva.
@@ -184,7 +184,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 8. South System (via Cooperativa SOMA) — Portobello | Desenvolvedor Backend Sênior [PJ]
+### 8. Portobello (via South System / SOMA) | Desenvolvedor Backend Sênior [PJ]
 
 **Período:** Janeiro/2024 – Setembro/2024 | Valor: R$ 90,00/hora (~R$ 16.200/mês em 180h)
 **Contexto:** Projeto Shop360 da Portobello, ambiente Enterprise de e-commerce de alta escala.
@@ -199,7 +199,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 9. Avantti (TecBan — Banco24Horas) | Consultor de Tecnologia / Especialista Open Finance [PJ]
+### 9. TecBan / Banco24Horas (via Avantti) | Consultor de Tecnologia / Especialista Open Finance [PJ]
 
 **Período:** Julho/2023 – Dezembro/2024 (início: 18/07/2023) | Valor: R$ 14.000/mês (PJ)
 **Contexto:** Open Finance/Insurance para o Banco24Horas e aplicativo cliente TecBan.
@@ -214,7 +214,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 10. Minsait Brasil (Indra Company) — Banco do Brasil | Arquiteto de Soluções Sênior [CLT]
+### 10. Banco do Brasil (via Minsait Brasil) | Arquiteto de Soluções Sênior [CLT]
 
 **Período (CTPS):** 08/05/2023 – 03/12/2024 | Salário: R$ 17.400/mês
 **Contexto:** Maior Data Center da América Latina. Ambiente on-premise e auto-gerenciado de altíssima escala.
