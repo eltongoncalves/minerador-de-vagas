@@ -139,7 +139,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ### 5. Chaintech / XCOOP — Consultoria Detran/Prodesp | Arquiteto de Software / Líder Técnico [Cooperado]
 
-**Período:** Janeiro/2025 – Dezembro/2025 | Valor: R$ 21.000/mês (cooperado)
+**Período:** Abril/2025 – Outubro/2025 (07/04/2025 – 03/10/2025) | Valor: R$ 21.000/mês (cooperado)
 **Contexto:** Projetos críticos de órgãos públicos (Detran/Prodesp) com alta criticidade regulatória e de segurança.
 **Ação:**
 
