@@ -241,11 +241,13 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 **Contexto:** Sistemas de e-commerce e varejo farmacêutico; frente de caixa (Omni PDV) de alta disponibilidade.
 **Ação:**
 
-- Liderança técnica de squad em desenvolvimento backend com Java Spring Boot/Quarkus para e-commerce e PDV das farmácias Panvel
-- Desenvolvimento de microsserviços robustos para altíssima disponibilidade operacional em cenários de contingência (offline) nos pontos de venda
-- Refinamento técnico de histórias (Grooming) e mentoria de desenvolvedores Júnior
-- Refatoração de consultas pesadas de estoque e logística em banco Oracle para performance em alta concorrência
-  **Resultado:** Otimização do fluxo de desenvolvimento; aumento da qualidade técnica das entregas; disponibilidade garantida na frente de caixa.
+- Desenvolvimento de microsserviços da frente de caixa das farmácias Panvel com Java, Spring Boot e Quarkus
+- Implementação de serviço para monitorar conectividade com banco de dados e APIs externas em tempo real
+- Desenvolvimento de funcionalidade de redirecionamento dinâmico para serviços locais em caso de indisponibilidade (modo contingência offline)
+- Projeto e implementação de rotina de sincronização automática de dados
+- Refatoração de consultas pesadas de estoque e logística em Oracle para performance em alta concorrência
+- Grooming de histórias e mentoria de desenvolvedores Júnior
+  **Resultado:** Alta disponibilidade garantida nas operações de varejo farmacêutico; desempenho otimizado em banco de dados; qualidade técnica elevada no squad.
   **Stack:** Java, Spring Boot, Quarkus, Angular, Oracle (PL/SQL), Microsserviços
 
 ---
@@ -294,7 +296,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 15. Companhia de Saneamento do Pará (COSANPA) | Analista de Sistemas [CLT]
+### 14. Companhia de Saneamento do Pará (COSANPA) | Analista de Sistemas [CLT]
 
 **Período (CTPS):** 01/04/2020 – 10/06/2021 | Salário: R$ 4.421,79/mês
 **Contexto:** Companhia pública de saneamento básico. Gestão durante a pandemia de COVID-19.
@@ -309,7 +311,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 16. Dobem Contabilidade | CTO & Co-fundador [Empreendedorismo]
+### 15. Dobem Contabilidade | CTO & Co-fundador [Empreendedorismo]
 
 **Período:** Junho/2018 – Março/2021
 **Contexto:** Marketplace B2B de contabilidade consultiva. Startup selecionada e acelerada pelo programa Startup-PA com aporte de R$ 200.000.
@@ -329,23 +331,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 17. Grupo Panvel (DIMED S/A) | Desenvolvedor Backend Sênior [PJ]
-
-**Período:** Março/2019 – Março/2020
-**Contexto:** Rede farmacêutica Panvel com ênfase em varejo e sistemas de PDV de alta disponibilidade. Contrato via CNPJ Do Bem Tecnologia (período de sobreposição com Do Bem).
-**Ação:**
-
-- Implementação de serviço para monitorar conectividade com banco de dados e APIs externas em tempo real
-- Desenvolvimento de funcionalidade de redirecionamento dinâmico para serviços locais em caso de indisponibilidade (modo contingência offline)
-- Projeto e implementação de rotina de sincronização automática de dados
-- Manutenção e evolução de microsserviços da frente de caixa das farmácias Panvel
-- Treinamento e supervisão de programadores júnior; mentoria técnica e grooming de histórias
-  **Resultado:** Alta disponibilidade garantida nas operações de varejo farmacêutico; evolução de squads críticos com governança reforçada.
-  **Stack:** Java, Quarkus, Spring Boot, Angular, Microsserviços, Oracle
-
----
-
-### 18. I9Amazon Tecnologia | Desenvolvedor Full Stack [PJ]
+### 16. I9Amazon Tecnologia | Desenvolvedor Full Stack [PJ]
 
 **Período:** Julho/2018 – Junho/2019 | Valor: R$ 2.650/mês (PJ via CNPJ Dobem)
 **Contexto:** Projetos de ERP e logística de exportação.
@@ -363,7 +349,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 19. Solus | Desenvolvedor / Arquiteto de Software [PJ]
+### 17. Solus | Desenvolvedor / Arquiteto de Software [PJ]
 
 **Período:** 2018 – 2019
 **Contexto:** Empresa contratante para desenvolvimento de sistema acadêmico para a Escola Superior da Amazônia (ESAMAZ).
@@ -376,7 +362,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 20. BioTec-Amazônia | Desenvolvedor Full Stack [PJ]
+### 18. BioTec-Amazônia | Desenvolvedor Full Stack [PJ]
 
 **Período:** 2018 – 2019
 **Contexto:** Rede Amazônica de Bionegócios — plataforma de biotecnologia do ecossistema produtivo do Pará.
@@ -394,7 +380,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 21. Vibe Desenvolvimento — Consultoria Banpará | Desenvolvedor Java Sênior / Especialista em BD [CLT]
+### 19. Vibe Desenvolvimento — Consultoria Banpará | Desenvolvedor Java Sênior / Especialista em BD [CLT]
 
 **Período (CTPS):** 22/12/2014 – 19/03/2018 | Salário final: R$ 7.593,84/mês
 **Contexto:** Internet Banking PF, PJ, Governo e Prefeitura do Banco do Estado do Pará (Banpará). Ambiente de missão crítica bancária.
@@ -419,7 +405,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 22. KIIWEB Tecnologia | Empreendedor / Desenvolvedor Full Stack [PJ]
+### 20. KIIWEB Tecnologia | Empreendedor / Desenvolvedor Full Stack [PJ]
 
 **Período:** Setembro/2012 – Novembro/2014
 **Contexto:** Empresa própria de software sob encomenda para PMEs.
@@ -435,7 +421,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 23. IMG Corretora de Seguros | Desenvolvedor Full Stack [PJ]
+### 21. IMG Corretora de Seguros | Desenvolvedor Full Stack [PJ]
 
 **Período:** Outubro/2010 – Setembro/2012
 **Contexto:** Corretora de seguros de médio porte com necessidade de CRM/ERP e módulos financeiros.
@@ -449,7 +435,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 24. UFRA — Projeto PARFOR | Desenvolvedor Full Stack / Webmaster [PJ]
+### 22. UFRA — Projeto PARFOR | Desenvolvedor Full Stack / Webmaster [PJ]
 
 **Período:** Agosto/2010 – Junho/2012
 **Contexto:** Programa Nacional de Formação de Professores (PARFOR) — alcance nacional.
@@ -464,7 +450,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 25. Bellivery — Belém Delivery Online | Co-fundador e CTO [Empreendedorismo]
+### 23. Bellivery — Belém Delivery Online | Co-fundador e CTO [Empreendedorismo]
 
 **Período:** Agosto/2007 – Julho/2010
 **Contexto:** Startup pioneira de delivery online em Belém, criada antes da popularização do iFood.
@@ -480,7 +466,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 26. Estágios Acadêmicos e Primeiras Experiências (2002 – 2011)
+### 24. Estágios Acadêmicos e Primeiras Experiências (2002 – 2011)
 
 **100% Amazônia | Estagiário Multidisciplinar [2010–2011]**
 
