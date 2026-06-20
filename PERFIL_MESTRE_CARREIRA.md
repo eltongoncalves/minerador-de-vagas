@@ -235,7 +235,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 11. Panvel Farmácias (Dimed S/A via Direction IT Consult) | Desenvolvedor Java / Líder Técnico [PJ]
+### 11. Panvel Farmácias (Dimed S/A via Direction IT Consult) | Desenvolvedor Java Sênior [PJ]
 
 **Período:** Abril/2022 – Maio/2023 (início: 20/04/2022) | Valor: R$ 17.000/mês
 **Contexto:** Sistemas de e-commerce e varejo farmacêutico; frente de caixa (Omni PDV) de alta disponibilidade.
