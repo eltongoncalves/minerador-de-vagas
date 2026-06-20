@@ -253,15 +253,15 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 13. Foursys Tech Ltda — Banco Pan | Desenvolvedor Java Full Stack [CLT]
+### 13. Psicologia Viva (via Foursys Tech Ltda) | Desenvolvedor Java Full Stack [CLT]
 
-**Período (CTPS):** 21/10/2021 – 10/01/2022 | Salário: R$ 3.000/mês
-**Contexto:** Squad de Cartão e Faturas do Banco Pan.
+**Período (CTPS):** 21/10/2021 – 10/01/2022 (~3 meses) | Salário: R$ 3.000/mês
+**Contexto:** Foursys é a consultoria contratante. O cliente final é a **Psicologia Viva**, startup de marketplace/plataforma de intermediação entre psicólogos e pacientes (telemedicina/saúde mental digital).
 **Ação:**
 
-- Desenvolvimento de microsserviços em Java Spring Boot para processamento de transações financeiras
-- Garantia de APIs resilientes com tratamento avançado de exceções e upgrades de versão sem impacto aos usuários
-  **Stack:** Java, Spring Boot, Microsserviços, SQL Server
+- Desenvolvimento de funcionalidades para a plataforma de intermediação entre psicólogos e clientes
+- Implementação de microsserviços em Java Spring Boot
+  **Stack:** Java 11, Spring Boot, Microsserviços
 
 ---
 
@@ -575,7 +575,7 @@ Tom: Estratégico, decisor, advisor
 
 ### Perfil B — Desenvolvedor Sênior Backend / Java
 
-Destacar: Conquest One/Banco Pan (BACEN), NTT DATA (Ambev/Itaú), South System (Elasticsearch/Quarkus), Vibe/Banpará (PL/SQL), Foursys/Banco Pan
+Destacar: Conquest One/Banco Pan (BACEN), NTT DATA (Ambev/Itaú), South System (Elasticsearch/Quarkus), Vibe/Banpará (PL/SQL), Foursys/Psicologia Viva
 Omitir: Experiências pré-2012, G4F, Basis (5 dias)
 Tom: Técnico, resultados mensuráveis, missão crítica
 
