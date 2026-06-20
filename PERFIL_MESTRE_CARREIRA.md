@@ -147,7 +147,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 **Contexto:** Projetos críticos de órgãos públicos (Detran/Prodesp) com alta criticidade regulatória e de segurança.
 **Ação:**
 
-- Assumiu a liderança técnica de projeto com 6 meses de atraso severo, reorganizou o fluxo de trabalho e atuou ativamente no desenvolvimento Full Stack
+- Liderança técnica de projeto com 6 meses de atraso severo: reorganização do fluxo de trabalho e atuação ativa no desenvolvimento Full Stack
 - Planejamento e execução da migração de aplicações críticas de Mainframe para arquitetura Cloud Native com Quarkus (redução de custos e escalabilidade)
 - Implementação do MED (Mecanismo Especial de Devolução) conforme normativa BACEN para o ciclo de 2026
 - Auditoria de segurança no fluxo de autenticação/autorização: identificou vulnerabilidade crítica em tokens JWT que permitia interceptação e elevação de privilégios
@@ -175,7 +175,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ### 7. Banco Pan (via Conquest One) | Desenvolvedor de Software Sênior [PJ]
 
-**Período:** Setembro/2024 – Presente | Valor: R$ 16.000/mês (PJ)
+**Período:** Setembro/2024 – Dezembro/2024 (~3 meses) | Valor: R$ 16.000/mês (PJ)
 **Contexto:** Squad de cartões e faturas do Banco Pan em ambiente de missão crítica e transacionalidade massiva.
 **Ação:**
 
@@ -278,17 +278,17 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 **Case CNJ — Projeto "Domicílio Eletrônico" (Troubleshooter):**
 
-- Assumiu liderança técnica do time de Frontend (Angular) de sistema judiciário de notificações com cronograma crítico atrasado
-- Identificou e resolveu falhas de integração entre as equipes de back-end (Java/Quarkus) e front-end (Angular)
-- Propôs e implementou servidor mock em Node.js para agilizar os testes desacoplados e garantir entrega no prazo
+- Liderança técnica do time de Frontend (Angular) de sistema judiciário de notificações com cronograma crítico atrasado
+- Identificação e resolução de falhas de integração entre as equipes de back-end (Java/Quarkus) e front-end (Angular)
+- Implementação de servidor mock em Node.js para agilizar testes desacoplados e garantir entrega no prazo
 - Stack: Java, Quarkus, AWS (Kubernetes, Terraform, Lambda, RDS), Angular, TypeScript, Node.js, Arquitetura Hexagonal
 
 **Case Ambev — Plataforma de Delivery (CRM, ERP, Portal e App):**
 
 - Contexto: Projeto de Plataforma de Delivery completa (CRM, ERP, Portal e App) para abertura de nova operação da Ambev no Panamá
-- Identificou obsolescência crítica no motor legado de geração de relatórios — risco direto para o prazo de abertura da operação internacional
-- Criou Prova de Conceito substituindo Jasper por Thymeleaf com Spring Boot para gerar relatórios em HTML/CSS e converter em PDF — solução mais ágil, leve e maintainable
-- Entregou o projeto em 2 semanas contra prazo original de 3 meses (**redução de 75%**), viabilizando a abertura da operação no Panamá dentro do prazo estipulado
+- Identificação de obsolescência crítica no motor legado de geração de relatórios — risco direto para o prazo de abertura da operação internacional
+- Criação de Prova de Conceito substituindo Jasper por Thymeleaf com Spring Boot para gerar relatórios em HTML/CSS e converter em PDF — solução mais ágil, leve e de fácil manutenção
+- Entrega do projeto em 2 semanas contra prazo original de 3 meses (**redução de 75%**), viabilizando a abertura da operação no Panamá dentro do prazo estipulado
 - Stack: Java, Spring Boot, Thymeleaf, Azure, Kubernetes, TypeScript, HTML, CSS
 
 **Resultado:** Migração de arquitetura Itaú com eliminação de custos de mainframe legado; resgate de cronograma no CNJ; redução de 75% no prazo na Ambev com impacto direto na abertura de operação internacional. Consolidação como arquiteto enterprise "troubleshooter".
@@ -414,8 +414,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 - Desenvolvimento de modelos de negócio, modelagem de bases de dados, coleta e análise de requisitos, prototipação e gestão com Scrum
 - Implementação de motor customizado de Split de Pagamentos (boleto, cartão, transferência) para o Projeto Aba Pai — lógica financeira complexa antes das APIs modernas de pagamento
 - Sites (WordPress, Joomla), e-commerce (PrestaShop, Magento) e sistemas web para PMEs
-- **Opah / CVC:** Projeto relacionado ao setor de turismo (CVC). (7 arquivos PDF de referência localizados em CLIENTES/Opah_CVC — período e escopo exatos a confirmar)
-- Projetos complementares identificados: **SADPA** (57 arquivos com diagramas ASTAH), **WRT_WCA** (frontend), **CHATBOT** (projeto de pesquisa com inscrição FINEP), **CURSO PROGRAMACAO_PRA_NEGOCIOS** (conteúdo educacional)
+- **Opah / CVC:** Projeto no setor de turismo (CVC)
 - Participação em edital **INEP** para projeto de IA no poder público
   **Stack:** PHP5, Zend Framework 2, Doctrine 2, CSS3, LESS, JavaScript, jQuery, HTML5, WordPress, Joomla, PrestaShop, Magento, Scrum
 
@@ -500,7 +499,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 **Connect Informática | Professor de Informática [2003–2004]**
 
 - Ensino de Windows, Office, internet e manutenção básica de computadores para iniciantes
-- Base da didática e capacidade de mentoria técnica exercida hoje como Tech Lead
+- Base da didática e capacidade de comunicação técnica que permeiam a carreira até hoje
 - Stack: Windows, Microsoft Office, Hardware, Internet
 
 **COMDAC — Conselho Municipal dos Direitos da Criança e do Adolescente de Belém | Estagiário de TI [2002]**
@@ -553,7 +552,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 ### Perfil A — Arquiteto de Software / Soluções Sênior
 
 Destacar: Accenture/Sicredi (governança), Minsait/BB (GitOps, Cloud), NTT DATA (Itaú migration), Chaintech (liderança em crise), Diferenciais 1+3+5
-Omitir: Experiências pré-2014, G4F, Basis (5 dias)
+Omitir: Experiências pré-2014, G4F
 Tom: Estratégico, decisor, advisor
 
 ### Perfil B — Desenvolvedor Sênior Backend / Java
