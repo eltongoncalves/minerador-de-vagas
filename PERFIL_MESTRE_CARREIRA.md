@@ -332,9 +332,24 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
+### 17. Grupo Panvel (DIMED S/A) | Desenvolvedor Backend Sênior [PJ]
+
+**Período:** Março/2019 – Março/2020
+**Contexto:** Rede farmacêutica Panvel com ênfase em varejo e sistemas de PDV de alta disponibilidade. Contrato via CNPJ Do Bem Tecnologia (período de sobreposição com Do Bem).
+**Ação:**
+- Implementação de serviço para monitorar conectividade com banco de dados e APIs externas em tempo real
+- Desenvolvimento de funcionalidade de redirecionamento dinâmico para serviços locais em caso de indisponibilidade (modo contingência offline)
+- Projeto e implementação de rotina de sincronização automática de dados
+- Manutenção e evolução de microsserviços da frente de caixa das farmácias Panvel
+- Treinamento e supervisão de programadores júnior; mentoria técnica e grooming de histórias
+**Resultado:** Alta disponibilidade garantida nas operações de varejo farmacêutico; evolução de squads críticos com governança reforçada.
+**Stack:** Java, Quarkus, Spring Boot, Angular, Microsserviços, Oracle
+
+---
+
 ### 18. I9Amazon (Inoveamazon Tecnologia) | Desenvolvedor Full Stack [PJ]
 
-**Período:** Julho/2018 – Junho/2019
+**Período:** Julho/2018 – Junho/2019 | Valor: R$ 2.650/mês (PJ via CNPJ Dobem)
 **Contexto:** Projetos de ERP e logística de exportação.
 **Ação:**
 
