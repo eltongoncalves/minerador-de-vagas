@@ -23,7 +23,7 @@ Este documento é a "Fonte da Verdade" da trajetória profissional completa. Con
 
 Com mais de 20 anos de carreira, meu perfil é de quem desenvolve produto — não apenas código. Tenho a capacidade de identificar um problema de negócio, propor uma solução, modelar a arquitetura, implementar e colocar em produção. É esse ciclo completo que me move.
 
-Construí essa trajetória em projetos de alta criticidade para o setor financeiro, com passagem por instituições como Itaú, Banco do Brasil, Sicredi, Banco Pan e Banco Votorantim. Um dos trabalhos que mais refletem esse perfil foi a migração dos sistemas legados de previdência do Itaú para uma arquitetura moderna na AWS — onde entrei desde a análise do legado em Mainframe/COBOL até a entrega das novas aplicações rodando em cloud.
+Construí essa trajetória em setores variados: do financeiro ao varejo, da saúde ao mercado de consumo. Participei da migração dos sistemas legados de previdência do Itaú para arquitetura moderna na AWS, do desenvolvimento da plataforma de delivery da Ambev, e da construção de produtos como a Psicologia Viva — uma plataforma de saúde mental que conecta psicólogos a pacientes. Também carrego experiência empreendedora real, tendo co-fundado e desenvolvido do zero um produto de delivery local.
 
 Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsserviços e ambientes cloud. Mas mais do que o stack, o que me diferencia é a visão de produto: a capacidade de transformar uma necessidade real em algo que funciona e entrega valor.
 
