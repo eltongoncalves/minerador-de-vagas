@@ -21,7 +21,11 @@ Este documento é a "Fonte da Verdade" da trajetória profissional completa. Con
 
 ## PERFIL PROFISSIONAL
 
-Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "Troubleshooter" de alto nível — o profissional chamado para destravar projetos críticos em atraso ou com falhas graves de segurança. Possui visão holística que une infraestrutura de baixo nível à vanguarda da Inteligência Artificial Vertical (Agentes Autônomos). Especialista em transitar entre legados pesados (Mainframe/COBOL) e arquiteturas modernas (Cloud Native, Quarkus, EDA), sempre com foco em ROI e valor de produto. Possui histórico comprovado de liderança técnica em instituições de grande porte (Banco do Brasil, Itaú, Ambev, Sicredi, TecBan, Banpará).
+Com mais de 20 anos de carreira, meu perfil é de quem desenvolve produto — não apenas código. Tenho a capacidade de identificar um problema de negócio, propor uma solução, modelar a arquitetura, implementar e colocar em produção. É esse ciclo completo que me move.
+
+Construí essa trajetória em projetos de alta criticidade para o setor financeiro, com passagem por instituições como Itaú, Banco do Brasil, Sicredi, Banco Pan e Banco Votorantim. Um dos trabalhos que mais refletem esse perfil foi a migração dos sistemas legados de previdência do Itaú para uma arquitetura moderna na AWS — onde entrei desde a análise do legado em Mainframe/COBOL até a entrega das novas aplicações rodando em cloud.
+
+Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsserviços e ambientes cloud. Mas mais do que o stack, o que me diferencia é a visão de produto: a capacidade de transformar uma necessidade real em algo que funciona e entrega valor.
 
 ---
 
