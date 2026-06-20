@@ -251,14 +251,14 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 12. Psicologia Viva (via Foursys Tech Ltda) | Desenvolvedor Java Full Stack [CLT]
+### 12. Psicologia Viva (via Foursys Tech Ltda) | Desenvolvedor Java Sênior [CLT]
 
 **Período (CTPS):** 21/10/2021 – 10/01/2022 (~3 meses) | Salário: R$ 3.000/mês
-**Contexto:** Foursys é a consultoria contratante. O cliente final é a **Psicologia Viva**, startup de marketplace/plataforma de intermediação entre psicólogos e pacientes (telemedicina/saúde mental digital).
+**Contexto:** Foursys é a consultoria contratante. O cliente final é a **Psicologia Viva**, startup de marketplace que conecta psicólogos a pacientes (telemedicina/saúde mental digital). Atuação como desenvolvedor backend, sem papel de liderança.
 **Ação:**
 
-- Desenvolvimento de funcionalidades para a plataforma de intermediação entre psicólogos e clientes
-- Implementação de microsserviços em Java Spring Boot
+- Desenvolvimento de microsserviços em Java/Spring Boot para a plataforma de agendamento e intermediação entre psicólogos e pacientes
+- Modelagem de tabelas e integração entre sistemas
   **Stack:** Java 11, Spring Boot, Microsserviços
 
 ---
