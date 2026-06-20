@@ -313,76 +313,51 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 15. Dobem Contabilidade | CTO & Co-fundador [Empreendedorismo]
+### 15. Do Bem Tecnologia | CTO & Co-fundador / Consultor de Software [Empreendedorismo/PJ]
 
 **Período:** Junho/2018 – Março/2021
-**Contexto:** Marketplace B2B de contabilidade consultiva. Startup selecionada e acelerada pelo programa Startup-PA com aporte de R$ 200.000.
-**Ação:**
-
-- Co-fundador e líder de produto e engenharia: SDLC completo desde arquitetura até gestão de roadmap
-- Desenvolvimento de **Chatbot Dobem** em Angular com Firebase (Firestore) para automatizar atendimentos e melhorar a experiência do usuário
-- Criação de **ERP completo** para gestão de contadores e empresas, incluindo funcionalidades para emissão de boletos e acompanhamento de atividades
-- Desenvolvimento de áreas exclusivas: **Área da Empresa** e **Área do Contador** com funcionalidades específicas para cada perfil
-- Site institucional Dobem Contabilidade + Blog com conteúdo para fortalecer presença digital
-- Projeção do sistema completo: criação de diagramas, modelagem de dados, definição da arquitetura
-- Deploy automatizado na AWS: CodePipeline (CI/CD), CodeBuild, CodeCommit, CodeDeploy — garantindo segurança e eficiência nos processos de entrega contínua
-- Contratação e treinamento de equipe; gestão de roadmap de produto
-  **Projetos desenvolvidos:** ERP | Área da empresa | Área do contador | Site Dobem | Blog Dobem | Chatbot Dobem
-  **Resultado:** Modelo de negócio validado; aporte financeiro de R$ 200k recebido; plataforma escalável construída; maturidade em Marketing, Vendas e Product Discovery.
-  **Stack:** Java 11/17/21, Spring Boot, Spring Data JPA, Hibernate, JUnit, Angular, Ionic 5/6/7, HTML5, CSS3, Bootstrap, TypeScript, JavaScript, jQuery, AWS (CloudFormation, ECR, ECS, EC2, CodePipeline, CodeBuild, CodeCommit, CodeDeploy, Lambda, SQS, RDS, DynamoDB), Python, Terraform, Firebase (Firestore)
+**Contexto:** Empresa própria com duas frentes simultâneas: desenvolvimento do produto **Do Bem Contabilidade** (startup B2B acelerada pelo programa Startup-PA com aporte de R$ 200.000) e prestação de serviços de software para clientes externos como software house.
 
 ---
 
-### 16. I9Amazon Tecnologia | Desenvolvedor Full Stack [PJ]
+**— Produto Próprio: Do Bem Contabilidade**
 
-**Período:** Julho/2018 – Junho/2019 | Valor: R$ 2.650/mês (PJ via CNPJ Dobem)
-**Contexto:** Projetos de ERP e logística de exportação.
-**Ação:**
+Marketplace B2B de contabilidade consultiva que conectava empresas a contadores especializados.
 
-- Desenvolvimento de aplicações webApp integradas a microsserviços em arquitetura Java EE
-- Back-end: APIs RESTful com Spring Boot, Spring Data JPA, Hibernate, Maven, Java 8, JUnit — modularização, exception handlers, profiles dev/prod/test
-- Front-end: HTML5, CSS3, Bootstrap, JavaScript, jQuery, Angular, Ionic 5/6
-- DevOps: Configuração e manutenção de servidor Linux com Nginx e Spring Boot standalone
-- **Projetos desenvolvidos:**
-  - Aplicativo de controle de estoque (mobile)
-  - WebApp ERP i9amazon
-  - ERP i9amazon (sistema completo)
-    **Stack:** Java 11/17/21, Spring Boot, Spring Data JPA, Hibernate, JPA, Maven, JUnit, HTML5, CSS3, Bootstrap, TypeScript, JavaScript, jQuery, Angular, Ionic 6, Nginx, Linux
+- Co-fundador e responsável por produto e engenharia: arquitetura, desenvolvimento e gestão de roadmap (SDLC completo)
+- Desenvolvimento de **ERP completo** para gestão de contadores e empresas (emissão de boletos, acompanhamento de atividades, **Área da Empresa** e **Área do Contador**)
+- Desenvolvimento de **Chatbot Dobem** em Angular com Firebase (Firestore) para automação de atendimentos
+- Site institucional + Blog; diagramas, modelagem de dados e definição de arquitetura
+- Deploy automatizado na AWS: CodePipeline (CI/CD), CodeBuild, CodeCommit, CodeDeploy
+- Contratação e treinamento de equipe
+  **Resultado:** Modelo de negócio validado; aporte de R$ 200k recebido; plataforma escalável entregue.
 
 ---
 
-### 17. Solus | Desenvolvedor / Arquiteto de Software [PJ]
+**— Consultoria (Clientes Externos — 2018/2019)**
 
-**Período:** 2018 – 2019
-**Contexto:** Empresa contratante para desenvolvimento de sistema acadêmico para a Escola Superior da Amazônia (ESAMAZ).
-**Ação:**
+**Case I9Amazon Tecnologia** — ERP e logística de exportação:
 
-- Desenvolvimento ponta a ponta do **SISMAC — Sistema Integrado de Gestão de Atividades Acadêmicas**
-- Módulos: matrículas, notas, históricos, análise de transferência (cursos de Farmácia, UNIFSA)
-- Atuação como desenvolvedor e arquiteto da solução, desde levantamento de requisitos até entrega
-  **Stack:** Spring Boot, Spring Data JPA, Hibernate, JPA, Maven, Java 8, JUnit, Angular, Ionic 5, HTML5, CSS3, Bootstrap, JavaScript, jQuery
+- Desenvolvimento de ERP completo (WebApp + mobile): controle de estoque, logística de exportação
+- Back-end com Spring Boot, Spring Data JPA, Hibernate; front-end Angular/Ionic; servidor Linux com Nginx
 
----
+**Case Solus / ESAMAZ** — Sistema acadêmico:
 
-### 18. BioTec-Amazônia | Desenvolvedor Full Stack [PJ]
+- Desenvolvimento ponta a ponta do **SISMAC — Sistema Integrado de Gestão de Atividades Acadêmicas** para a Escola Superior da Amazônia (ESAMAZ)
+- Módulos: matrículas, notas, históricos, análise de transferência; atuação como desenvolvedor e arquiteto
 
-**Período:** 2018 – 2019
-**Contexto:** Rede Amazônica de Bionegócios — plataforma de biotecnologia do ecossistema produtivo do Pará.
-**Ação:**
+**Case BioTec-Amazônia** — Plataforma de biotecnologia:
 
-- **Rede Amazônica de Bionegócios:** Sistema web para cadastro e disseminação de laboratórios de biotecnologia
-  - Integração com Plataforma Lattes (CNPq) e Observatório de CT&I do Governo do Pará
-  - Módulos: Laboratórios, Instituições, Unidades, Serviços, Segmentos, Área de atuação, Certificações, Notícias
-- **Sistema Rede de Insumos Georreferenciados:** Mapeamento de insumos biológicos (açaí, cacau) em camadas georreferenciadas
-  - Módulo administrativo: Usuários, Camadas de Insumos, Instituições, Importação em massa com detecção de duplicidades
-  - Módulo público de mapa interativo
-    **Stack Backend:** Spring Boot, Spring Data JPA, Hibernate, JPA, Maven, Java 8, JUnit
-    **Stack Frontend:** Angular, Ionic 5, HTML5, CSS3, Bootstrap, JavaScript, jQuery
-    **Stack Legacy/PHP (sistema inicial):** PHP, MySQL, Georreferenciamento
+- **Rede Amazônica de Bionegócios:** sistema web para cadastro de laboratórios com integração à Plataforma Lattes (CNPq) e Observatório de CT&I do Governo do Pará
+- **Sistema Rede de Insumos Georreferenciados:** mapeamento de insumos biológicos (açaí, cacau) em camadas georreferenciadas com módulo público de mapa interativo
 
 ---
 
-### 19. Vibe Desenvolvimento — Consultoria Banpará | Desenvolvedor Java Sênior / Especialista em BD [CLT]
+**Stack geral:** Java 8/11/17/21, Spring Boot, Spring Data JPA, Hibernate, JUnit, Angular, Ionic 5/6/7, HTML5, CSS3, Bootstrap, TypeScript, JavaScript, jQuery, AWS (ECS, EC2, CodePipeline, CodeBuild, Lambda, SQS, RDS, DynamoDB, CloudFormation), Python, Terraform, Firebase (Firestore), Nginx, Linux, PHP, MySQL
+
+---
+
+### 16. Vibe Desenvolvimento — Consultoria Banpará | Desenvolvedor Java Sênior / Especialista em BD [CLT]
 
 **Período (CTPS):** 22/12/2014 – 19/03/2018 | Salário final: R$ 7.593,84/mês
 **Contexto:** Internet Banking PF, PJ, Governo e Prefeitura do Banco do Estado do Pará (Banpará). Ambiente de missão crítica bancária.
@@ -407,7 +382,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 20. KIIWEB Tecnologia | Empreendedor / Desenvolvedor Full Stack [PJ]
+### 17. KIIWEB Tecnologia | Empreendedor / Desenvolvedor Full Stack [PJ]
 
 **Período:** Setembro/2012 – Novembro/2014
 **Contexto:** Empresa própria de software sob encomenda para PMEs.
@@ -422,7 +397,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 21. IMG Corretora de Seguros | Desenvolvedor Full Stack [PJ]
+### 18. IMG Corretora de Seguros | Desenvolvedor Full Stack [PJ]
 
 **Período:** Outubro/2010 – Setembro/2012
 **Contexto:** Corretora de seguros de médio porte com necessidade de CRM/ERP e módulos financeiros.
@@ -436,7 +411,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 22. UFRA — Projeto PARFOR | Desenvolvedor Full Stack / Webmaster [PJ]
+### 19. UFRA — Projeto PARFOR | Desenvolvedor Full Stack / Webmaster [PJ]
 
 **Período:** Agosto/2010 – Junho/2012
 **Contexto:** Programa Nacional de Formação de Professores (PARFOR) — alcance nacional.
@@ -451,7 +426,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 23. Bellivery — Belém Delivery Online | Co-fundador e CTO [Empreendedorismo]
+### 20. Bellivery — Belém Delivery Online | Co-fundador e CTO [Empreendedorismo]
 
 **Período:** Agosto/2007 – Julho/2010
 **Contexto:** Startup pioneira de delivery online em Belém, criada antes da popularização do iFood.
@@ -467,7 +442,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 24. Estágios Acadêmicos e Primeiras Experiências (2002 – 2011)
+### 21. Estágios Acadêmicos e Primeiras Experiências (2002 – 2011)
 
 **100% Amazônia | Estagiário Multidisciplinar [2010–2011]**
 
