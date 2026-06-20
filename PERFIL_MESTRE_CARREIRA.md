@@ -83,7 +83,10 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 - Manutenção e evolução do sistema Business Condition: implementação de novas regras de negócio para configuração de ofertas e condições comerciais
 - Desenvolvimento de funcionalidades para gestão do ciclo de vida das condições: criação, ativação, expiração e substituição de ofertas por perfil de lojista
 - Integração entre o BC e os demais sistemas da plataforma PagBank (adquirência, faturamento, contratos)
-  **Stack:** Java, Spring Boot, Microsserviços
+- Desenvolvimento e manutenção de pipelines de dados com **Apache Airflow**: criação de DAGs para extração e processamento de grandes volumes de dados para análise
+- Modelagem de banco de dados e levantamento de requisitos junto às áreas de negócio
+- Suporte e resolução de incidentes em produção
+  **Stack:** Java, Kotlin, Spring Boot, Apache Airflow, Microsserviços
 
 ---
 
