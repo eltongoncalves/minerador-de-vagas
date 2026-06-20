@@ -74,16 +74,16 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 1. PagBank (via Tinnova) | Desenvolvedor / Consultor de Tecnologia [PJ]
+### 1. PagBank (via Tinnova) | Desenvolvedor Java Sênior [PJ]
 
 **Período:** Janeiro/2026 – Presente | Valor: R$ 16.000/mês (PJ)
-**Contexto:** Tinnova é a consultoria contratante. O cliente final é o **PagBank** (PagSeguro). Atuação no produto de **gestão de taxas para maquininhas de cartão de crédito** — plataforma que gerencia toda a jornada de taxas, contratos e configurações para os clientes que utilizam as maquininhas PagBank. O produto é referenciado internamente como **BC**.
+**Contexto:** Tinnova é a consultoria contratante. O cliente final é o **PagBank** (PagSeguro). Atuação no produto **Business Condition (BC)** — sistema central de gestão de condições comerciais e taxas para os lojistas que utilizam as maquininhas de adquirência do PagBank. O BC controla toda a jornada de negociação: ofertas de taxa zero, condições especiais por prazo (ex: 1% no boleto por 6 meses), taxas de antecipação de recebíveis e configurações personalizadas por cliente. É um produto de missão crítica, pois impacta diretamente a receita e os contratos comerciais do PagBank com seus lojistas.
 **Ação:**
 
-- Desenvolvimento de novas funcionalidades para o produto BC (gestão de taxas e contratos de maquininhas)
-- Manutenção e suporte a clientes da plataforma
+- Manutenção e evolução do sistema Business Condition: implementação de novas regras de negócio para configuração de ofertas e condições comerciais
+- Desenvolvimento de funcionalidades para gestão do ciclo de vida das condições: criação, ativação, expiração e substituição de ofertas por perfil de lojista
+- Integração entre o BC e os demais sistemas da plataforma PagBank (adquirência, faturamento, contratos)
   **Stack:** Java, Spring Boot, Microsserviços
-  **Nota currículo:** Incluir com descrição genérica quando aplicável.
 
 ---
 
