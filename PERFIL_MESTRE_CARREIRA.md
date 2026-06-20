@@ -312,7 +312,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 16. Do Bem Contabilidade | CTO & Co-fundador [Empreendedorismo]
+### 16. Dobem Contabilidade | CTO & Co-fundador [Empreendedorismo]
 
 **Período:** Junho/2018 – Março/2021
 **Contexto:** Marketplace B2B de contabilidade consultiva. Startup selecionada e acelerada pelo programa Startup-PA com aporte de R$ 200.000.
@@ -337,17 +337,18 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 **Período:** Março/2019 – Março/2020
 **Contexto:** Rede farmacêutica Panvel com ênfase em varejo e sistemas de PDV de alta disponibilidade. Contrato via CNPJ Do Bem Tecnologia (período de sobreposição com Do Bem).
 **Ação:**
+
 - Implementação de serviço para monitorar conectividade com banco de dados e APIs externas em tempo real
 - Desenvolvimento de funcionalidade de redirecionamento dinâmico para serviços locais em caso de indisponibilidade (modo contingência offline)
 - Projeto e implementação de rotina de sincronização automática de dados
 - Manutenção e evolução de microsserviços da frente de caixa das farmácias Panvel
 - Treinamento e supervisão de programadores júnior; mentoria técnica e grooming de histórias
-**Resultado:** Alta disponibilidade garantida nas operações de varejo farmacêutico; evolução de squads críticos com governança reforçada.
-**Stack:** Java, Quarkus, Spring Boot, Angular, Microsserviços, Oracle
+  **Resultado:** Alta disponibilidade garantida nas operações de varejo farmacêutico; evolução de squads críticos com governança reforçada.
+  **Stack:** Java, Quarkus, Spring Boot, Angular, Microsserviços, Oracle
 
 ---
 
-### 18. I9Amazon (Inoveamazon Tecnologia) | Desenvolvedor Full Stack [PJ]
+### 18. I9Amazon Tecnologia | Desenvolvedor Full Stack [PJ]
 
 **Período:** Julho/2018 – Junho/2019 | Valor: R$ 2.650/mês (PJ via CNPJ Dobem)
 **Contexto:** Projetos de ERP e logística de exportação.
@@ -484,6 +485,11 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ### 26. Estágios Acadêmicos e Primeiras Experiências (2002 – 2011)
 
+**100% Amazônia | Estagiário Multidisciplinar [2010–2011]**
+
+- Manutenção de sites, suporte operacional e automação de processos em empresa de exportação
+- Stack: HTML, CSS, JavaScript, Suporte Técnico
+
 **Caixa Econômica Federal — GIFUG/BE | Estagiário em Desenvolvimento [2008–2009]**
 
 - Desenvolvimento e manutenção do site institucional do órgão GIFUG/BE em ASP.NET
@@ -508,11 +514,6 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 - Breve contato com desenvolvimento e manutenção de sites em Joomla
 - Stack: Redes físicas, Joomla, PHP
 
-**100% Amazônia | Estagiário Multidisciplinar [2010–2011]**
-
-- Manutenção de sites, suporte operacional e automação de processos em empresa de exportação
-- Stack: HTML, CSS, JavaScript, Suporte Técnico
-
 **Connect Informática | Professor de Informática [2003–2004]**
 
 - Ensino de Windows, Office, internet e manutenção básica de computadores para iniciantes
@@ -531,6 +532,15 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 - **Pós-Graduação em Arquitetura de Software** — Universidade Federal do Pará (UFPA)
 - **Bacharelado em Ciência da Computação** — Universidade Federal do Pará (UFPA)
 - **Técnico em Informática** — Instituto Monitor (São Paulo/SP, 2012, registrado pelo MEC)
+
+---
+
+## PRÊMIOS E RECONHECIMENTOS
+
+- 🏆 **1º Lugar — Prêmio Empreendedorismo Sustentável | Programa Amazônia 2020 (Santander Universidades Brasil) | 2013**
+  Projeto: **Web Resíduo Tecnológico – WRT** (UFRA)
+  Participação técnica como co-desenvolvedor do projeto liderado por Edkeyse Dias Gonçalves.
+  Selecionado entre 180+ projetos de 9 universidades federais da região Norte. Premiação: R$ 50.000.
 
 ---
 
