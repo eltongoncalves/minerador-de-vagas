@@ -246,14 +246,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 12. Basis Tecnologia da Informação S.A. | Arquiteto de Software [CLT]
-
-**Período (CTPS):** 24/01/2022 – 28/01/2022 (5 dias) | Salário: R$ 8.000/mês
-**Nota:** Contrato de experiência rescindido unilateralmente pela empresa dentro do período de 5 dias. Não incluir em currículos públicos (período irrelevante).
-
----
-
-### 13. Psicologia Viva (via Foursys Tech Ltda) | Desenvolvedor Java Full Stack [CLT]
+### 12. Psicologia Viva (via Foursys Tech Ltda) | Desenvolvedor Java Full Stack [CLT]
 
 **Período (CTPS):** 21/10/2021 – 10/01/2022 (~3 meses) | Salário: R$ 3.000/mês
 **Contexto:** Foursys é a consultoria contratante. O cliente final é a **Psicologia Viva**, startup de marketplace/plataforma de intermediação entre psicólogos e pacientes (telemedicina/saúde mental digital).
@@ -265,7 +258,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ---
 
-### 14. NTT DATA Brasil (antiga Everis) — Projetos Itaú, CNJ e Ambev | Consultor Sênior / Especialista AWS [CLT]
+### 13. NTT DATA Brasil (antiga Everis) — Projetos Itaú, CNJ e Ambev | Consultor Sênior / Especialista AWS [CLT]
 
 **Período (CTPS):** 14/06/2021 – 01/02/2023 | Salário final: R$ 17.709,87/mês
 **Contexto:** Consultoria global com frentes bancária, judiciária e de bens de consumo.
