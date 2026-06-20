@@ -13,6 +13,8 @@ Este documento é a "Fonte da Verdade" da trajetória profissional completa. Con
 - **E-mail:** elton.jd.goncalves@gmail.com
 - **LinkedIn:** linkedin.com/in/elton-dias-goncalves/
 - **GitHub:** github.com/eltonjd
+- **CNPJ PJ (atual):** 46.418.343/0001-71 — ELTON JHON DIAS GONCALVES CONSULTORIA EM TECNOLOGIA
+- **CNPJ PJ (anterior):** 32.281.120/0001-09 — DOBEM TECNOLOGIA E CONTABILIDADE LTDA
 
 ---
 
@@ -296,8 +298,15 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 ### 19. Biotec (BioTec-Amazônia) & Solus — ESAMAZ | Desenvolvedor Full Stack [PJ]
 **Período:** 2018 – 2019
 **Ação:**
-- **Biotec:** Modelagem de banco de dados e desenvolvimento de sistema PHP para a Rede Amazônica de Bionegócios com catalogação e mapas de biodiversidade com dados georreferenciados
-- **Solus/ESAMAZ:** Desenvolvimento ponta a ponta de sistema acadêmico de gestão integrado (módulos de matrículas, notas e históricos)
+- **Biotec (Rede Amazônica de Bionegócios):** Sistema web PHP para cadastro e disseminação de laboratórios de biotecnologia.
+  - Integração com Plataforma Lattes (CNPq) e Observatório de CT&I do Governo do Pará
+  - Módulos: Laboratórios, Instituições, Unidades, Serviços, Segmentos, Área de atuação, Certificações, Notícias
+- **Biotec (Sistema Rede de Insumos Georreferenciados):** Mapeamento de insumos biológicos (açaí, cacau) em camadas georreferenciadas
+  - Módulo administrativo (Usuários, Camadas de Insumos, Instituições, Importação em massa com detecção de duplicidades)
+  - Módulo público de mapa interativo
+- **Solus/ESAMAZ (Sistema Acadêmico):** Desenvolvimento ponta a ponta de sistema acadêmico de gestão integrado para a Escola Superior da Amazônia
+  - Módulos: matrículas, notas, históricos, análise de transferência (Farmácia, UNIFSA)
+  - Inclui SISMAC — Sistema Integrado de Gestão de Atividades Acadêmicas
 **Stack:** PHP, MySQL, Georreferenciamento, Angular, Java
 
 ---
@@ -309,10 +318,12 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 - Desenvolvimento e manutenção do sistema de acesso a dados bancários (contas, saldos, extratos) para Internet Banking PF, PJ, Governo e Prefeitura
 - Programação intensiva de lógica financeira crítica diretamente no banco de dados: Oracle (PL/SQL avançado — Procedures, Triggers, Functions, Views Materializadas) e SQL Server (T-SQL avançado)
 - Desenvolvimento do Sistema de Análise do Perfil do Investidor (API) para classificação de correntistas (conservador/moderado/arrojado)
+- Desenvolvimento do **Sistema VPJ (Visão Projeto)** — ferramenta interna de gestão e acompanhamento de projetos
+- Implantação de metodologia **MPS Nível G** (Melhoria de Processo de Software Brasileiro) para maturidade de desenvolvimento
 - Levantamento de requisitos, diagramas UML, modelagem ER e web services para integração entre sistemas
 - Integração com Web Services e APIs externas; suporte contínuo aos sistemas do Internet Bank
 **Resultado:** 4 anos de estabilidade, segurança e performance em soluções bancárias. Domínio profundo de integridade atômica e performance transacional em escala massiva.
-**Stack:** Java (J2EE), .NET (C#), ASP.NET, HTML5, XML, JavaScript, Oracle (PL/SQL), SQL Server (T-SQL), Web Services, UML
+**Stack:** Java (J2EE), .NET (C#), ASP.NET, HTML5, XML, JavaScript, Oracle (PL/SQL), SQL Server (T-SQL), Web Services, UML, MPS-BR
 
 ---
 
@@ -323,6 +334,10 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 - Desenvolvimento de modelos de negócio, modelagem de bases de dados, coleta e análise de requisitos, prototipação e gestão com Scrum
 - Implementação de motor customizado de Split de Pagamentos (boleto, cartão, transferência) para o Projeto Aba Pai — lógica financeira complexa antes das APIs modernas de pagamento
 - Sites (WordPress, Joomla), e-commerce (PrestaShop, Magento) e sistemas web para PMEs
+- **Opah / CVC:** Projeto relacionado ao setor de turismo (CVC). (7 arquivos PDF de referência localizados em CLIENTES/Opah_CVC — período e escopo exatos a confirmar)
+- Desenvolvimento de projeto **ZARPAR** — sistema de passagens de barco (1.822 arquivos, PHP/CSS/HTML). Produto relevante dada a logística fluvial amazônica.
+- Projetos complementares identificados: **SADPA** (57 arquivos com diagramas ASTAH), **WRT_WCA** (frontend), **CHATBOT** (projeto de pesquisa com inscrição FINEP), **CURSO PROGRAMACAO_PRA_NEGOCIOS** (conteúdo educacional)
+- Participação em edital **INEP** para projeto de IA no poder público
 **Stack:** PHP5, Zend Framework 2, Doctrine 2, CSS3, LESS, JavaScript, jQuery, HTML5, WordPress, Joomla, PrestaShop, Magento, Scrum
 
 ---
@@ -359,6 +374,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 - Modelagem de dados, portal completo, área administrativa e integração com Google Maps API (geolocalização)
 - Levantamento de requisitos, arquitetura, operação comercial e atração de parceiros restaurantes
 - Modelo de negócio baseado em venda de anúncios; mais de 400 clientes conquistados
+- Desenvolvimento paralelo do sistema **ZARPAR** — plataforma de venda de passagens de barco (relevante na logística fluvial do Pará), com base PHP/CSS/HTML de grande porte (1.822 arquivos)
 **Resultado:** Portal lançado em bellivery.com.br; modelo validado; aprendizado do mantra "Planejar para não refazer"; DNA empreendedor e visão de produto consolidados.
 **Stack:** PHP, MySQL, Google Maps API, HTML, CSS, JavaScript
 
@@ -404,7 +420,16 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 - **Pós-Graduação em Arquitetura de Software** — Universidade Federal do Pará (UFPA)
 - **Bacharelado em Ciência da Computação** — Universidade Federal do Pará (UFPA)
-- **Técnico em Informática** — Instituto Monitor
+- **Técnico em Informática** — Instituto Monitor (São Paulo/SP, 2012, registrado pelo MEC)
+
+---
+
+## EVENTOS, PALESTRAS E FORMAÇÃO COMPLEMENTAR
+
+- **Palestrante** — Semana Nacional de Ciência e Tecnologia (Out/2009, 48h, MCT/Belém): Palestra *"As novas fronteiras do comércio digital"* — marco de visão empreendedora e tech antes da era das startups no Brasil
+- XXVIII Congresso da Sociedade Brasileira de Computação (SBC) — Mini-curso JAI 4: *"TV Digital Interativa no Brasil se Faz com Ginga"* (Jul/2008, 80h, Centro de Convenções Hangar)
+- Programa Campus Mobile São Paulo — Instituto Claro / LSI-TEC da USP (Mar–Ago/2011, 4h): Desenvolvimento de projetos inovadores para dispositivos móveis
+- SETEPS (Secretaria Executiva de Trabalho e Promoção Social) — Curso Profissionalizante e Secretariado Contábil pelo CNI (Jan/2004, 60h): Módulos de Gestão de Negócios, Atendimento ao Público, Contabilidade Básica
 
 ---
 
@@ -439,5 +464,5 @@ Tom: Inovador, pioneiro, prático com ROI
 
 ---
 
-**Última atualização:** Junho/2026
+**Última atualização:** Junho/2026 — v2.1 (leitura completa de todos os PDFs históricos 2013–2025 + contratos PJ + análise de Gmail)
 **Status:** Fonte da verdade consolidada — derivar currículos customizados a partir deste documento

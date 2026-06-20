@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit -m ' *)",
+      "Bash(rm -f /Users/eltongoncalves/Desenv/minerador-de-vagas/.git/index.lock)",
+      "Bash(rm -f /Users/eltongoncalves/Desenv/minerador-de-vagas/.git/HEAD.lock)"
+    ]
+  }
+}

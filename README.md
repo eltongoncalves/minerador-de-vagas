@@ -1,50 +1,79 @@
-# 🏗️ MINERADOR DE VAGAS - THE RESUME FACTORY
-
-Este repositório é um ecossistema inteligente para gestão de carreira e geração de currículos altamente customizados para **Elton Jhon Dias Gonçalves**.
-
----
-
-## 📁 ESTRUTURA DO WORKSPACE
-
-O projeto está organizado para separar dados brutos, diretrizes de estilo e resultados finais:
-
-- **`curriculos/`**: Versões prontas para uso.
-  - `CURRICULO_2026.md`: Dossiê consolidado de trajetória.
-  - `CORRICULO_ELTON_2026_REFERENCIA.md`: Modelo de referência atualizado.
-- **`dados_brutos/`**: Fontes primárias de informação.
-  - `historico_profissional_bate_papo.md`: Diálogos detalhados sobre cada experiência.
-  - `CTPSDigital_...pdf`: Registros oficiais de trabalho.
-  - `EXTRACAO_TEXTO_CURRICULOS.md`: Texto extraído dos currículos antigos (PDF/DOCX).
-  - `curriculos_elton/`: Pasta com os 31 arquivos históricos originais.
-- **`diretrizes/`**: Regras de negócio para a IA.
-  - `prompt_sobriedade.md`: Guia de tom e estilo executivo (evita clichês).
-  - `PLANEJAMENTO_CRIACAO_CURRICULO.md`: Histórico de planejamento do projeto.
-- **`ferramentas/`**: Scripts de suporte.
-  - `read_docx.py`: Extrator de texto de arquivos Word.
-  - `extract_linkedin.py`: Script para tentativas de extração via LinkedIn.
-- **`arquivo/`**: Versões obsoletas e backups para auditoria.
+# 🏗️ MINERADOR DE VAGAS — THE RESUME FACTORY
+**Elton Jhon Dias Gonçalves** | Gestão de carreira e geração de currículos customizados
 
 ---
 
-## 🧠 O CORAÇÃO DO PROJETO
+## ⚠️ REGRA DE OURO
 
-### [PERFIL_MESTRE_CARREIRA.md](PERFIL_MESTRE_CARREIRA.md)
-Este é o arquivo mais importante do repositório. Ele funciona como uma **Knowledge Base (Base de Conhecimento)** que contém:
-- Matriz completa de competências técnicas.
-- Deep Dive em todas as experiências (Contexto, Ação e Resultado).
-- Diferenciais estratégicos e "cicatrizes de guerra".
+O `PERFIL_MESTRE_CARREIRA.md` é **USO INTERNO**. Nunca compartilhar com RH ou recrutadores.
+Os currículos em `curriculos/2026/` são os documentos públicos derivados dele.
+
+---
+
+## 📁 ESTRUTURA
+
+```
+minerador-de-vagas/
+│
+├── analises_e_perfis/
+│   ├── perfil_mestre/
+│   │   └── PERFIL_MESTRE_CARREIRA.md   ← FONTE DA VERDADE (interno)
+│   └── historico_e_analise/            ← Análises intermediárias (referência)
+│
+├── curriculos/
+│   ├── 2026/                           ← Currículos ativos e prontos para uso
+│   │   ├── CURRICULO_ARQUITETO_2026.md         (Perfil A)
+│   │   ├── CURRICULO_DESENVOLVEDOR_SENIOR_2026.md  (Perfil B)
+│   │   ├── CURRICULO_ELTON_GONCALVES_2026_LAYOUT_PDF.html
+│   │   ├── curriculo-elton-goncalves - 2026.pdf
+│   │   └── _arquivo/                   ← Versões obsoletas de 2026
+│   │
+│   └── _historico/                     ← PDFs históricos 2013–2025 (somente leitura)
+│       ├── 2013/
+│       ├── 2014/
+│       ├── 2018/
+│       ├── 2020/
+│       ├── 2021/
+│       ├── 2023/
+│       ├── 2024/
+│       └── 2025/
+│
+├── diretrizes/                         ← Como gerar currículos customizados
+│   ├── GUIA_CUSTOMIZACAO_CURRICULOS.md
+│   ├── PLANEJAMENTO_CRIACAO_CURRICULO.md
+│   └── prompt_sobriedade.md
+│
+├── fontes_comprobandos/                ← Documentos oficiais (CTPS, contratos, Lattes)
+│   ├── contratos/
+│   ├── ctps/
+│   └── lattes_e_linkedin/
+│
+└── ferramentas/                        ← Scripts de extração (Python)
+```
+
+---
+
+## 🎯 PERFIS DE CURRÍCULO ATIVOS
+
+| Arquivo | Perfil | Para que tipo de vaga |
+|---|---|---|
+| `CURRICULO_ARQUITETO_2026.md` | Perfil A | Arquiteto de Software, Advisory, Governança, Tech Lead Sênior |
+| `CURRICULO_DESENVOLVEDOR_SENIOR_2026.md` | Perfil B | Desenvolvedor Sênior Backend/Java, Missão Crítica |
+
+**Perfil C (AI Architect):** Ainda não gerado — usar PERFIL_MESTRE + diretrizes/GUIA para criar quando necessário.
 
 ---
 
 ## 🚀 COMO GERAR UM NOVO CURRÍCULO
 
-Para gerar uma versão customizada, siga as instruções no **[GUIA_CUSTOMIZACAO_CURRICULOS.md](GUIA_CUSTOMIZACAO_CURRICULOS.md)**.
-
-A ideia central é usar a IA como seu "Redator Executivo", fornecendo o Perfil Mestre e a vaga desejada para que ela gere um documento focado no que o recrutador realmente busca.
+1. Leia a vaga com atenção e identifique as palavras-chave
+2. Abra `analises_e_perfis/perfil_mestre/PERFIL_MESTRE_CARREIRA.md` como contexto
+3. Siga as instruções em `diretrizes/GUIA_CUSTOMIZACAO_CURRICULOS.md`
+4. Use o prompt de `diretrizes/prompt_sobriedade.md` para garantir tom executivo
 
 ---
 
-## 📊 HISTÓRICO RÁPIDO
-- **Total de Currículos Históricos:** 31 (2013-2025).
-- **Status Atual:** 2026 Ready.
-- **Foco Atual:** AI Architect (Vertical AI & Agentes Autônomos).
+## 📊 STATS
+- **22 anos de trajetória** (2003–2026)
+- **25 experiências profissionais** documentadas no Perfil Mestre
+- **Última atualização do Perfil Mestre:** Junho/2026 (v2.1 — histórico completo extraído)
