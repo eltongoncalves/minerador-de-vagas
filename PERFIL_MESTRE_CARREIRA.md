@@ -322,15 +322,18 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 **— Produto Próprio: Do Bem Contabilidade**
 
-Marketplace B2B de contabilidade consultiva que conectava empresas a contadores especializados.
+Marketplace B2B de contabilidade consultiva — plataforma híbrida (Web + Mobile) que conectava empresários a contadores especializados remotamente. Proposta de valor: única plataforma do mercado que cuidava do marketing para o contador e oferecia suporte em tempo real ao cliente.
 
 - Co-fundador e responsável por produto e engenharia: arquitetura, desenvolvimento e gestão de roadmap (SDLC completo)
-- Desenvolvimento de **ERP completo** para gestão de contadores e empresas (emissão de boletos, acompanhamento de atividades, **Área da Empresa** e **Área do Contador**)
+- **Módulo Empresário (cliente):** Dashboard com timeline de demandas e obrigações contábeis; ferramenta de diagnóstico e planejamento contábil; canal de solicitação de serviços avulsos e contínuos
+- **Módulo Contador:** Gerenciador de demandas e prazos; gerador automatizado de orçamentos; sistema de notificação por e-mail para alertas de prazo e envio de documentos
 - Desenvolvimento de **Chatbot Dobem** em Angular com Firebase (Firestore) para automação de atendimentos
+- Integrações com ecossistema de terceiros: **Conta Azul** (ERP financeiro), **Gestta** (gestão de escritório contábil), **Pluggy** (Open Finance/bancário), **DocuSign** (assinaturas eletrônicas), **Omie** (ERP + Academy)
 - Site institucional + Blog; diagramas, modelagem de dados e definição de arquitetura
 - Deploy automatizado na AWS: CodePipeline (CI/CD), CodeBuild, CodeCommit, CodeDeploy
-- Contratação e treinamento de equipe
-  **Resultado:** Modelo de negócio validado; aporte de R$ 200k recebido; plataforma escalável entregue.
+- Contratação e treinamento de equipe; pitch decks para programas de aceleração (Inovativa Brasil)
+- **Modelo de negócio:** mensalidades a partir de R$ 280 (média R$ 600 para MPEs) + 30% de taxa sobre conexões com contadores externos
+  **Resultado:** Modelo de negócio validado; aceleração pelo programa StartupPA com aporte de R$ 200k; plataforma escalável entregue com múltiplas integrações.
 
 ---
 
