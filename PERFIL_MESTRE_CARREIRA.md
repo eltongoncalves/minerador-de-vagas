@@ -453,7 +453,7 @@ Arquiteto de Software com mais de 20 anos de trajetória, reconhecido como um "T
 
 ### 24. UFRA — Projeto PARFOR | Desenvolvedor Full Stack / Webmaster [PJ]
 
-**Período:** Fevereiro/2009 – Outubro/2012
+**Período:** Agosto/2010 – Junho/2012
 **Contexto:** Programa Nacional de Formação de Professores (PARFOR) — alcance nacional.
 **Ação:**
 
