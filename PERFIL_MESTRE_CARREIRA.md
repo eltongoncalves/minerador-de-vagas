@@ -207,7 +207,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ### 9. TecBan / Banco24Horas (via Avantti) | Consultor de Tecnologia / Especialista Open Finance [PJ]
 
-**Período:** Julho/2023 – Dezembro/2024 (início: 18/07/2023) | Valor: R$ 14.000/mês (PJ)
+**Período:** 18/07/2023 – 17/06/2024 | Valor: R$ 14.000/mês (PJ)
 **Contexto:** Open Finance/Insurance para o Banco24Horas e aplicativo cliente TecBan.
 **Ação:**
 
@@ -313,14 +313,14 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ---
 
-### 15. Do Bem Tecnologia | CTO & Co-fundador / Consultor de Software [Empreendedorismo/PJ]
+### 15. Dobem Tecnologia | CTO & Co-fundador / Consultor de Software [Empreendedorismo/PJ]
 
 **Período:** Junho/2018 – Março/2021
 **Contexto:** Empresa própria com duas frentes simultâneas: desenvolvimento do produto **Do Bem Contabilidade** (startup B2B acelerada pelo programa Startup-PA com aporte de R$ 200.000) e prestação de serviços de software para clientes externos como software house.
 
 ---
 
-**— Produto Próprio: Do Bem Contabilidade**
+**— Produto Próprio: Dobem Contabilidade**
 
 Marketplace B2B de contabilidade consultiva — plataforma híbrida (Web + Mobile) que conectava empresários a contadores especializados remotamente. Proposta de valor: única plataforma do mercado que cuidava do marketing para o contador e oferecia suporte em tempo real ao cliente.
 
