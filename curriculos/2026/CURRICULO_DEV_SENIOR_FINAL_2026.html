@@ -360,6 +360,25 @@
   }
   .earlier-highlights strong { color: var(--blue); }
 
+  /* Evita corte de blocos no PDF */
+  .exp-item,
+  .award-item,
+  .sidebar-section,
+  .exp-stack,
+  .exp-case,
+  .exp-context,
+  .earlier table {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .exp-item { page-break-before: auto; }
+
+  li {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
   @media print {
     body { background: white; font-size: 11px; }
     .page {
@@ -368,7 +387,34 @@
       border-radius: 0;
       max-width: 100%;
     }
+    .btn-export { display: none !important; }
+    .exp-item, .award-item, .sidebar-section, li {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
   }
+
+  .btn-export {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 999;
+    background: var(--blue);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.2s;
+  }
+  .btn-export:hover { background: var(--navy); }
+  .btn-export.loading { opacity: 0.7; cursor: wait; }
 </style>
 </head>
 <body>
@@ -740,5 +786,61 @@
 
   </main>
 </div>
+
+<button class="btn-export" onclick="exportarPDF(this)">
+  ⬇ Exportar PDF
+</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script>
+  function exportarPDF(btn) {
+    btn.classList.add('loading');
+    btn.textContent = 'Gerando PDF…';
+
+    const elemento = document.querySelector('.page');
+
+    // Salva estilos originais
+    const estiloOriginal = elemento.style.cssText;
+
+    // Expande o .page para preencher a largura total antes de capturar
+    elemento.style.maxWidth = '100%';
+    elemento.style.margin   = '0';
+    elemento.style.borderRadius = '0';
+    elemento.style.boxShadow    = 'none';
+
+    const opcoes = {
+      margin:      0,
+      filename:    'Elton_Goncalves_CV_2026.pdf',
+      image:       { type: 'jpeg', quality: 0.98 },
+      html2canvas: {
+        scale:           2,
+        useCORS:         true,
+        letterRendering: true,
+        scrollY:         -window.scrollY,
+        windowWidth:     elemento.scrollWidth || 1200
+      },
+      jsPDF: {
+        unit:        'mm',
+        format:      'a4',
+        orientation: 'portrait'
+      },
+      pagebreak: {
+        mode:  ['css', 'legacy'],
+        avoid: ['.exp-item', '.award-item', '.sidebar-section', '.exp-stack', 'li']
+      }
+    };
+
+    html2pdf()
+      .set(opcoes)
+      .from(elemento)
+      .save()
+      .then(() => {
+        // Restaura estilos originais
+        elemento.style.cssText = estiloOriginal;
+        btn.classList.remove('loading');
+        btn.innerHTML = '⬇ Exportar PDF';
+      });
+  }
+</script>
 </body>
 </html>
