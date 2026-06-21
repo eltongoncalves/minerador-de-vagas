@@ -9,11 +9,13 @@ linkedin.com/in/elton-dias-goncalves • github.com/eltonjd
 
 ## SOBRE MIM
 
-Com mais de 20 anos de carreira, meu perfil é de quem desenvolve produto — não apenas código. Tenho a capacidade de identificar um problema de negócio, propor uma solução, modelar a arquitetura, implementar e colocar em produção. É esse ciclo completo que me move.
+Nesses 20 anos de experiência em desenvolvimento e arquitetura de software, tenho atuado em projetos de alta complexidade para empresas como **Itaú**, **Banco do Brasil** e **Ambev**. Meu perfil transita entre o técnico e o estratégico — e o que me move é a solução, pois consigo ver o ciclo completo: entender o problema, desenhar a solução e entregar algo que funciona em produção.
 
-Construí essa trajetória em setores variados: financeiro, varejo, saúde, consumo e setor público. Participei da migração dos sistemas legados de previdência do Itaú para arquitetura moderna na AWS, do desenvolvimento da plataforma de delivery da Ambev, e de produtos de Open Finance para o ecossistema Banco24Horas. Também carrego experiência empreendedora real, tendo co-fundado e desenvolvido do zero um produto SaaS de contabilidade digital acelerado com aporte de R$ 200 mil.
+Tenho domínio sólido em Java, Spring Boot, microsserviços e cloud AWS, com experiência em arquiteturas distribuídas, segurança bancária e modernização de sistemas legados.
 
-Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsserviços e ambientes cloud. Mas mais do que o stack, o que me diferencia é a visão de produto: a capacidade de transformar uma necessidade real em algo que funciona e entrega valor.
+Também carrego uma perspectiva empreendedora real: co-fundei e desenvolvi do zero um SaaS de contabilidade digital que ajudou muitos contadores.
+
+O que me diferencia é a capacidade de transformar complexidade em soluções que escalam e geram valor.
 
 ---
 
@@ -37,7 +39,7 @@ Tenho domínio sólido em Java e ecossistema Spring, arquiteturas de microsservi
 
 ## EXPERIÊNCIA PROFISSIONAL
 
-### PagBank — Desenvolvedor Java Sênior `[PJ via Tinnova]`
+### PagBank — Engenheiro de Software Sênior `[PJ via Tinnova]`
 **Janeiro/2026 – Presente**
 
 Atuação no produto **Business Condition (BC)** — sistema central de gestão de condições comerciais e taxas para lojistas que utilizam as maquininhas de adquirência do PagBank. Produto de missão crítica com impacto direto na receita da empresa.
@@ -51,8 +53,23 @@ Atuação no produto **Business Condition (BC)** — sistema central de gestão 
 
 ---
 
-### Detran/Prodesp — Desenvolvedor Sênior / Resgate de Projeto `[Cooperado via Chaintech / XCOOP]`
-**Abril/2025 – Outubro/2025**
+### Sicredi — Consultor Sênior de Arquitetura e Governança `[via Accenture do Brasil]`
+**Maio/2025 – Dezembro/2025**
+
+Atuação em comitê de elite de governança, segurança e arquitetura corporativa de uma das maiores cooperativas de crédito do Brasil.
+
+- Assessment arquitetural completo de microsserviços Java/Spring Boot, identificando falhas de segurança e gargalos de performance
+- Definição de modelos de arquitetura baseados em **Security by Design**, com proposição de padrões de resiliência (Circuit Breaker, Retry)
+- Estabelecimento de políticas de codificação segura e fluxos de aprovação técnica adotados pelas squads
+- Defesa de soluções técnicas em reuniões estratégicas com stakeholders de alto nível
+- **Resultado:** Elevação da maturidade de governança de TI e fortalecimento da segurança sistêmica contra vulnerabilidades críticas
+
+*Stack: Java, Spring Boot, Microsserviços, Security by Design, Arquitetura Bancária*
+
+---
+
+### Detran/Prodesp — Engenheiro de Software Sênior / Arquiteto de Software `[via Chaintech]`
+**Dezembro/2024 – Maio/2025**
 
 Projeto de sistema para o Detran/SP, gerenciado pela Prodesp, com 6 meses de atraso crítico — cliente considerava cancelamento contratual.
 
@@ -65,7 +82,7 @@ Projeto de sistema para o Detran/SP, gerenciado pela Prodesp, com 6 meses de atr
 
 ---
 
-### Banco do Brasil — Especialista Técnico Sênior `[CLT via Minsait Brasil]`
+### Banco do Brasil — Arquiteto de Soluções Sênior `[CLT via Minsait Brasil]`
 **Maio/2023 – Dezembro/2024**
 
 Maior Data Center da América Latina. Ambiente on-premise de altíssima escala e criticidade.
@@ -80,7 +97,7 @@ Maior Data Center da América Latina. Ambiente on-premise de altíssima escala e
 
 ---
 
-### NTT DATA Brasil — Consultor Sênior / Especialista AWS `[CLT]`
+### NTT DATA Brasil — Engenheiro de Software Sênior / Arquiteto de Software `[CLT]`
 **Junho/2021 – Fevereiro/2023**
 
 Consultoria global com atuação em três projetos: bancário (Itaú), judiciário (CNJ) e bens de consumo (Ambev).
@@ -112,7 +129,7 @@ Consultoria global com atuação em três projetos: bancário (Itaú), judiciár
 
 ---
 
-### Do Bem Tecnologia — CTO & Co-fundador / Consultor de Software `[Empreendedorismo/PJ]`
+### Dobem Tecnologia — CTO & Co-fundador / Consultor de Software `[Empreendedorismo/PJ]`
 **Junho/2018 – Março/2020**
 
 Empresa própria com duas frentes: produto SaaS próprio e software house para clientes externos.
@@ -137,13 +154,25 @@ Empresa própria com duas frentes: produto SaaS próprio e software house para c
 - Migração assíncrona Firebase → Amazon DynamoDB com Node.js
 - Backend Node.js para app Banco24Horas: geolocalização, recompensas e resgate de prêmios
 
-*Outros clientes: I9Amazon (ERP + mobile), Solus/ESAMAZ (sistema acadêmico SISMAC), BioTec-Amazônia (plataforma de bionegócios georreferenciada)*
+*I9Amazon:*
+- Desenvolvimento de sistema ERP completo (gestão de estoque, pedidos e financeiro) integrado a aplicativo mobile
+- Stack: Java/Spring Boot + Ionic/Angular, com backend em nuvem e sincronização offline
+
+*Solus / ESAMAZ:*
+- Desenvolvimento do sistema acadêmico SISMAC para a Escola Superior da Amazônia
+- Módulos de matrícula, grade curricular, lançamento de notas e emissão de declarações
+- Stack: Java, SQL Server, JSF
+
+*BioTec-Amazônia:*
+- Plataforma web de bionegócios com mapa georreferenciado de ativos da biodiversidade amazônica
+- Cadastro e consulta de espécies, produtores e oportunidades de negócio por região
+- Stack: PHP, MySQL, Google Maps API
 
 *Stack: Java 8/11/17/21, Spring Boot, Quarkus, Angular, Ionic, Node.js, AWS (ECS, Lambda, SQS, RDS, CodePipeline), Firebase, DynamoDB, Oracle (PL/SQL), mTLS, FAPI, JWT, Python, Terraform*
 
 ---
 
-### Vibe Desenvolvimento — Banco do Estado do Pará (Banpará) — Desenvolvedor Java Sênior `[CLT]`
+### Vibe Desenvolvimento — Banco do Estado do Pará (Banpará) — Desenvolvedor de Software Sênior `[CLT]`
 **Dezembro/2014 – Março/2018**
 
 Internet Banking PF, PJ, Governo e Prefeitura do Banpará — missão crítica bancária por mais de 3 anos.
@@ -188,7 +217,7 @@ Trajetória iniciada em 2002, com passagens por estágios, empreendedorismo e pr
 
 ---
 
-## PRÊMIOS E RECONHECIMENTOS
+## PRÊMIOS E DESTAQUES
 
 - 🏆 **1º Lugar — Prêmio Empreendedorismo Sustentável | Programa Amazônia 2020 (Santander Universidades Brasil) | 2013**
   Projeto Web Resíduo Tecnológico – WRT (UFRA). Selecionado entre 180+ projetos de 9 universidades federais da região Norte.
@@ -196,9 +225,11 @@ Trajetória iniciada em 2002, com passagens por estágios, empreendedorismo e pr
 - 🚀 **Empresa Acelerada — Programa StartupPA (Governo do Estado do Pará) | 2019**
   Do Bem Contabilidade selecionada entre centenas de startups do ecossistema paraense. Aporte de R$ 200.000 para desenvolvimento e escala da plataforma B2B de contabilidade digital.
 
+- 🎤 **Palestrante — Semana Nacional de Ciência e Tecnologia (MCT/Belém, 2009)**
+  *"As novas fronteiras do comércio digital"*
+
 ---
 
 ## OUTROS
 
-- **Palestrante** — Semana Nacional de Ciência e Tecnologia (MCT/Belém, 2009): *"As novas fronteiras do comércio digital"*
 - Idiomas: Português (nativo), Inglês (leitura técnica avançada)

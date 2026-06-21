@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elton Jhon Dias Gonçalves — Senior Software Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #0f2444;
+    --blue: #1a56a0;
+    --accent: #2e7eed;
+    --light-blue: #dbeafe;
+    --text: #1e293b;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --bg: #f8fafc;
+    --white: #ffffff;
+    --sidebar-w: 280px;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+  }
+
+  .page {
+    max-width: 1050px;
+    margin: 24px auto;
+    background: var(--white);
+    box-shadow: 0 4px 32px rgba(0,0,0,0.10);
+    border-radius: 12px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: var(--sidebar-w) 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    grid-column: 1 / -1;
+    background: var(--navy);
+    padding: 36px 40px 28px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .header-name h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+  }
+
+  .header-name h2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #93c5fd;
+    margin-top: 6px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .header-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+  }
+
+  .header-contacts a,
+  .header-contacts span {
+    font-size: 12px;
+    color: #cbd5e1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .header-contacts a:hover { color: #93c5fd; }
+
+  .header-contacts .dot {
+    width: 5px; height: 5px;
+    background: var(--accent);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    background: #f1f5f9;
+    padding: 28px 22px;
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+
+  .sidebar-section h3 {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--accent);
+  }
+
+  /* Skills */
+  .skill-group { margin-bottom: 10px; }
+  .skill-group-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 5px;
+  }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag {
+    background: var(--white);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 10.5px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  .tag.accent {
+    background: var(--light-blue);
+    border-color: #bfdbfe;
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  /* Education */
+  .edu-item { margin-bottom: 10px; }
+  .edu-item .degree {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.4;
+  }
+  .edu-item .school {
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  /* Awards */
+  .award-item {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+  }
+  .award-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+  .award-text .award-title {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.4;
+  }
+  .award-text .award-desc {
+    font-size: 10.5px;
+    color: var(--muted);
+    margin-top: 2px;
+    line-height: 1.4;
+  }
+
+  /* Others */
+  .other-item {
+    font-size: 11.5px;
+    color: var(--text);
+    margin-bottom: 6px;
+    line-height: 1.4;
+  }
+  .other-item strong { color: var(--blue); }
+
+  /* ── MAIN ── */
+  .main {
+    padding: 28px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow: hidden;
+  }
+
+  .section-title {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--blue);
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--accent);
+    margin-bottom: 14px;
+  }
+
+  /* Summary */
+  .summary p {
+    font-size: 13px;
+    color: var(--text);
+    line-height: 1.7;
+    margin-bottom: 8px;
+  }
+  .summary p:last-child { margin-bottom: 0; }
+
+  /* Experience */
+  .exp-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    padding-left: 14px;
+  }
+  .exp-item::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 6px;
+    width: 4px; height: calc(100% - 26px);
+    background: var(--border);
+    border-radius: 2px;
+  }
+  .exp-item:first-child::before { background: var(--accent); }
+  .exp-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .exp-company {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.3;
+  }
+
+  .exp-period {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+    background: var(--light-blue);
+    padding: 2px 8px;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+
+  .exp-role {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--blue);
+    margin-bottom: 6px;
+  }
+
+  .exp-context {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+
+  .exp-case {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 8px 0 4px;
+  }
+
+  .exp-bullets { list-style: none; padding: 0; }
+  .exp-bullets li {
+    font-size: 12px;
+    color: var(--text);
+    padding-left: 14px;
+    position: relative;
+    margin-bottom: 3px;
+    line-height: 1.5;
+  }
+  .exp-bullets li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 10px;
+    top: 2px;
+  }
+
+  .exp-stack {
+    margin-top: 8px;
+    font-size: 10.5px;
+    color: var(--muted);
+  }
+  .exp-stack strong { color: var(--blue); }
+
+  .result-badge {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 10.5px;
+    font-weight: 600;
+    padding: 1px 8px;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+
+  /* Earlier experiences table */
+  .earlier {
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 18px;
+  }
+  .earlier p {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  .earlier table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11.5px;
+  }
+  .earlier table th {
+    text-align: left;
+    font-weight: 600;
+    color: var(--blue);
+    padding: 4px 8px;
+    border-bottom: 1px solid var(--border);
+    font-size: 11px;
+  }
+  .earlier table td {
+    padding: 4px 8px;
+    color: var(--text);
+    border-bottom: 1px solid #f1f5f9;
+  }
+  .earlier table tr:last-child td { border-bottom: none; }
+  .earlier table td:first-child { color: var(--muted); white-space: nowrap; }
+  .earlier-highlights {
+    margin-top: 10px;
+    font-size: 11.5px;
+    color: var(--text);
+    line-height: 1.5;
+  }
+  .earlier-highlights strong { color: var(--blue); }
+
+  @media print {
+    body { background: white; font-size: 11px; }
+    .page {
+      margin: 0;
+      box-shadow: none;
+      border-radius: 0;
+      max-width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-name">
+      <h1>Elton Jhon Dias Gonçalves</h1>
+      <h2>Engenheiro de Software Sênior / Arquiteto de Software</h2>
+    </div>
+    <div class="header-contacts">
+      <span><span class="dot"></span> Belém, PA — remoto</span>
+      <a href="mailto:elton.jd.goncalves@gmail.com"><span class="dot"></span> elton.jd.goncalves@gmail.com</a>
+      <a href="tel:+5591983538941"><span class="dot"></span> +55 (91) 98353-8941</a>
+      <a href="https://linkedin.com/in/elton-dias-goncalves" target="_blank"><span class="dot"></span> linkedin.com/in/elton-dias-goncalves</a>
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <div class="sidebar-section">
+      <h3>Competências</h3>
+
+      <div class="skill-group">
+        <div class="skill-group-label">Backend</div>
+        <div class="tags">
+          <span class="tag accent">Java 8–21</span>
+          <span class="tag accent">Spring Boot</span>
+          <span class="tag accent">Quarkus</span>
+          <span class="tag">Kotlin</span>
+          <span class="tag">Spring Cloud</span>
+          <span class="tag">Spring Security</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Python</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-label">Arquitetura</div>
+        <div class="tags">
+          <span class="tag accent">Microsserviços</span>
+          <span class="tag">Clean Architecture</span>
+          <span class="tag">DDD</span>
+          <span class="tag">SOLID</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">EDA</span>
+          <span class="tag">Hexagonal</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-label">Cloud & DevOps</div>
+        <div class="tags">
+          <span class="tag accent">AWS</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Kubernetes</span>
+          <span class="tag">OpenShift</span>
+          <span class="tag">Terraform</span>
+          <span class="tag">ArgoCD</span>
+          <span class="tag">Apache Airflow</span>
+          <span class="tag">GitOps</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-label">Banco de Dados</div>
+        <div class="tags">
+          <span class="tag">Oracle PL/SQL</span>
+          <span class="tag">SQL Server</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">DynamoDB</span>
+          <span class="tag">Elasticsearch</span>
+          <span class="tag">Firebase</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-label">Segurança & Finanças</div>
+        <div class="tags">
+          <span class="tag accent">Open Finance</span>
+          <span class="tag">mTLS / FAPI</span>
+          <span class="tag">JWT / OAuth2</span>
+          <span class="tag">Security by Design</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-label">Frontend / Mobile</div>
+        <div class="tags">
+          <span class="tag">Angular</span>
+          <span class="tag">Ionic</span>
+          <span class="tag">TypeScript</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-label">Qualidade</div>
+        <div class="tags">
+          <span class="tag">JUnit</span>
+          <span class="tag">SonarQube</span>
+          <span class="tag">TDD</span>
+          <span class="tag">Scrum / Kanban</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Formação</h3>
+      <div class="edu-item">
+        <div class="degree">Pós-Graduação em Arquitetura de Software</div>
+        <div class="school">Universidade Federal do Pará — UFPA</div>
+      </div>
+      <div class="edu-item">
+        <div class="degree">Bacharelado em Ciência da Computação</div>
+        <div class="school">Universidade Federal do Pará — UFPA</div>
+      </div>
+      <div class="edu-item">
+        <div class="degree">Técnico em Informática</div>
+        <div class="school">Instituto Monitor (MEC, 2012)</div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Prêmios e Destaques</h3>
+      <div class="award-item">
+        <div class="award-icon">🏆</div>
+        <div class="award-text">
+          <div class="award-title">1º Lugar — Prêmio Empreendedorismo Sustentável</div>
+          <div class="award-desc">Programa Amazônia 2020 · Santander Universidades · 2013<br>Projeto WRT (UFRA) — 180+ projetos, 9 universidades federais do Norte</div>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="award-icon">🚀</div>
+        <div class="award-text">
+          <div class="award-title">Empresa Acelerada — Programa StartupPA</div>
+          <div class="award-desc">Governo do Estado do Pará · 2019<br>Do Bem Contabilidade · Aporte R$ 200.000</div>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="award-icon">🎤</div>
+        <div class="award-text">
+          <div class="award-title">Palestrante — Semana Nacional de Ciência e Tecnologia</div>
+          <div class="award-desc">MCT · Belém · 2009<br><em>"As novas fronteiras do comércio digital"</em></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Outros</h3>
+      <div class="other-item"><strong>Idiomas:</strong> Português (nativo) · Inglês (técnico avançado)</div>
+    </div>
+
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+
+    <!-- SOBRE MIM -->
+    <section>
+      <div class="section-title">Sobre Mim</div>
+      <div class="summary">
+        <p>Nesses 20 anos de experiência em desenvolvimento e arquitetura de software, tenho atuado em projetos de alta complexidade para empresas como <strong>Itaú</strong>, <strong>Banco do Brasil</strong> e <strong>Ambev</strong>. Meu perfil transita entre o técnico e o estratégico — e o que me move é a solução, pois consigo ver o ciclo completo: entender o problema, desenhar a solução e entregar algo que funciona em produção.</p>
+        <p>Tenho domínio sólido em Java, Spring Boot, microsserviços e cloud AWS, com experiência em arquiteturas distribuídas, segurança bancária e modernização de sistemas legados.</p>
+        <p>Também carrego uma perspectiva empreendedora real: co-fundei e desenvolvi do zero um SaaS de contabilidade digital que ajudou muitos contadores.</p>
+        <p>O que me diferencia é a capacidade de transformar complexidade em soluções que escalam e geram valor.</p>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section>
+      <div class="section-title">Experiência Profissional</div>
+
+      <!-- PagBank -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <div class="exp-company">PagBank</div>
+          <div class="exp-period">Jan/2026 – Presente</div>
+        </div>
+        <div class="exp-role">Engenheiro de Software Sênior &nbsp;·&nbsp; via Tinnova</div>
+        <div class="exp-context">Produto <strong>Business Condition (BC)</strong> — sistema central de gestão de condições comerciais e taxas para lojistas das maquininhas de adquirência. Missão crítica com impacto direto na receita da empresa.</div>
+        <ul class="exp-bullets">
+          <li>Novas regras de negócio: ofertas de taxa zero, taxas de antecipação de recebíveis e condições por perfil de lojista</li>
+          <li>Pipelines de dados com <strong>Apache Airflow</strong> para extração e processamento analítico em larga escala</li>
+          <li>Modelagem de banco de dados, levantamento de requisitos e integração entre sistemas</li>
+          <li>Suporte e resolução de incidentes em produção</li>
+        </ul>
+        <div class="exp-stack"><strong>Stack:</strong> Java · Kotlin · Spring Boot · Apache Airflow · Microsserviços</div>
+      </div>
+
+      <!-- Sicredi -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <div class="exp-company">Sicredi</div>
+          <div class="exp-period">Mai/2025 – Dez/2025</div>
+        </div>
+        <div class="exp-role">Consultor Sênior de Arquitetura e Governança &nbsp;·&nbsp; via Accenture do Brasil</div>
+        <div class="exp-context">Comitê de elite de governança, segurança e arquitetura corporativa de uma das maiores cooperativas de crédito do Brasil.</div>
+        <ul class="exp-bullets">
+          <li>Assessment arquitetural completo de microsserviços Java/Spring Boot, identificando falhas de segurança e gargalos de performance</li>
+          <li>Definição de modelos de arquitetura baseados em <strong>Security by Design</strong>, com proposição de padrões de resiliência (Circuit Breaker, Retry)</li>
+          <li>Estabelecimento de políticas de codificação segura e fluxos de aprovação técnica adotados pelas squads</li>
+          <li>Defesa de soluções técnicas em reuniões estratégicas com stakeholders de alto nível</li>
+          <li><span class="badge">Resultado</span> Elevação da maturidade de governança de TI e fortalecimento da segurança sistêmica contra vulnerabilidades críticas</li>
+        </ul>
+        <div class="exp-stack"><strong>Stack:</strong> Java · Spring Boot · Microsserviços · Security by Design · Arquitetura Bancária</div>
+      </div>
+
+      <!-- Chaintech -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <div class="exp-company">Detran/Prodesp</div>
+          <div class="exp-period">Dez/2024 – Mai/2025</div>
+        </div>
+        <div class="exp-role">Engenheiro de Software Sênior / Arquiteto de Software &nbsp;·&nbsp; via Chaintech</div>
+        <div class="exp-context">Projeto com 6 meses de atraso crítico — cliente (Detran/SP) considerava cancelamento contratual.</div>
+        <ul class="exp-bullets">
+          <li>Diagnóstico técnico e reorganização completa do plano de entrega</li>
+          <li>Redesenho da arquitetura: substituição de stack legada em <strong>JSF</strong> por Angular + Java/Quarkus</li>
+          <li>Desenvolvimento ativo junto ao time dentro do prazo comprimido</li>
+          <li><span class="result-badge">✓ Projeto entregue em 2 meses · Cliente reverteu cancelamento</span></li>
+        </ul>
+        <div class="exp-stack"><strong>Stack:</strong> Java · Spring Boot · Quarkus · Angular · Microsserviços</div>
+      </div>
+
+      <!-- Minsait / BB -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <div class="exp-company">Banco do Brasil</div>
+          <div class="exp-period">Mai/2023 – Dez/2024</div>
+        </div>
+        <div class="exp-role">Arquiteto de Soluções Sênior &nbsp;·&nbsp; via Minsait Brasil</div>
+        <div class="exp-context">Maior Data Center da América Latina — ambiente on-premise de altíssima escala e criticidade.</div>
+        <ul class="exp-bullets">
+          <li>Implantação de cultura <strong>GitOps com ArgoCD</strong> sobre OpenShift (Enterprise Kubernetes) para deploys em escala massiva</li>
+          <li>Desenvolvimento de API de Desagendamento Spotfire em <strong>Java/Quarkus</strong></li>
+          <li>Consultoria em modernização e padronização de APIs para múltiplos times</li>
+          <li>Participação estratégica na implantação da solução H2O (análise de dados automatizada)</li>
+          <li>Mentoria técnica de desenvolvedores e apresentação de soluções à alta administração</li>
+        </ul>
+        <div class="exp-stack"><strong>Stack:</strong> Java · Quarkus · OpenShift · Kubernetes · Helm · ArgoCD · Docker · Python · Terraform · Kibana</div>
+      </div>
+
+      <!-- NTT DATA -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <div class="exp-company">NTT DATA Brasil</div>
+          <div class="exp-period">Jun/2021 – Fev/2023</div>
+        </div>
+        <div class="exp-role">Engenheiro de Software Sênior / Arquiteto de Software</div>
+        <div class="exp-context">Consultoria global com atuação em três projetos: bancário (Itaú), judiciário (CNJ) e bens de consumo (Ambev).</div>
+
+        <div class="exp-case">Case Itaú — Migração Mainframe → AWS (Previdência)</div>
+        <ul class="exp-bullets">
+          <li>Análise de sistemas Mainframe/COBOL e migração para arquitetura Serverless na AWS</li>
+          <li>Microsserviços em Python e Java com Lambda, ECS, Kafka, SQS e Aurora</li>
+        </ul>
+
+        <div class="exp-case">Case CNJ — Domicílio Eletrônico (Troubleshooter)</div>
+        <ul class="exp-bullets">
+          <li>Liderança técnica de Frontend (Angular) em projeto judiciário com cronograma crítico atrasado</li>
+          <li>Servidor mock em Node.js para testes desacoplados; cronograma resgatado e entrega no prazo</li>
+        </ul>
+
+        <div class="exp-case">Case Ambev — Plataforma de Delivery (Panamá)</div>
+        <ul class="exp-bullets">
+          <li>PoC substituindo Jasper por Thymeleaf/Spring Boot para geração de relatórios</li>
+          <li><span class="result-badge">✓ Entrega em 2 semanas vs. 3 meses originais (−75%) · Viabilizou abertura internacional</span></li>
+        </ul>
+
+        <div class="exp-stack"><strong>Stack:</strong> Java · Python · AWS (Lambda, ECS, SQS, DynamoDB, Aurora) · Terraform · Quarkus · Node.js · Spring Boot · Mainframe/COBOL · Kafka · Angular · Kubernetes</div>
+      </div>
+
+      <!-- COSANPA -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <div class="exp-company">COSANPA — Companhia de Saneamento do Pará</div>
+          <div class="exp-period">Abr/2020 – Jun/2021</div>
+        </div>
+        <div class="exp-role">Analista de Sistemas</div>
+        <ul class="exp-bullets">
+          <li>Gestão e manutenção de sistemas críticos de infraestrutura pública durante a pandemia</li>
+          <li>Análise de viabilidade técnica para sistemas CMMS e mapeamento de processos em BPMN</li>
+          <li>Desenvolvimento e suporte de sistemas internos em conformidade com processos públicos</li>
+        </ul>
+        <div class="exp-stack"><strong>Stack:</strong> SQL Server · PHP · JasperReports · BPMN</div>
+      </div>
+
+      <!-- Do Bem -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <div class="exp-company">Dobem Tecnologia</div>
+          <div class="exp-period">Jun/2018 – Mar/2020</div>
+        </div>
+        <div class="exp-role">CTO & Co-fundador / Consultor de Software</div>
+        <div class="exp-context">Empresa própria com duas frentes: produto SaaS próprio e software house para clientes externos.</div>
+
+        <div class="exp-case">Produto — Do Bem Contabilidade (acelerada StartupPA · aporte R$ 200k)</div>
+        <ul class="exp-bullets">
+          <li>Plataforma híbrida (Web + Mobile) conectando empresários a contadores especializados</li>
+          <li>Módulo Empresário: dashboard, planejamento contábil, solicitação de serviços</li>
+          <li>Módulo Contador: gerenciador de demandas, gerador de orçamentos, notificações</li>
+          <li>Integrações: Conta Azul, Gestta, Pluggy (Open Finance), DocuSign, Omie · Deploy AWS CI/CD</li>
+        </ul>
+
+        <div class="exp-case">Consultoria — Cases</div>
+        <ul class="exp-bullets">
+          <li><strong>Panvel Farmácias:</strong> microsserviços de PDV (Omni), monitoramento de conectividade, modo contingência offline, sync automático de dados e otimização de consultas Oracle para alta concorrência</li>
+          <li><strong>TecBan / Banco24Horas:</strong> APIs Open Finance Fases 2 e 3 (BACEN/SUSEP), segurança FAPI + mTLS + JWT, migração Firebase → DynamoDB, backend Node.js para app de geolocalização e recompensas</li>
+          <li><strong>I9Amazon:</strong> desenvolvimento de ERP completo (estoque, pedidos e financeiro) integrado a aplicativo mobile — Java/Spring Boot + Ionic/Angular</li>
+          <li><strong>Solus / ESAMAZ:</strong> sistema acadêmico SISMAC para a Escola Superior da Amazônia — módulos de matrícula, grade curricular, notas e emissão de declarações — Java, SQL Server, JSF</li>
+          <li><strong>BioTec-Amazônia:</strong> plataforma web de bionegócios com mapa georreferenciado da biodiversidade amazônica; cadastro de espécies, produtores e oportunidades por região — PHP, MySQL, Google Maps API</li>
+        </ul>
+
+        <div class="exp-stack"><strong>Stack:</strong> Java 8–21 · Spring Boot · Quarkus · Angular · Ionic · Node.js · AWS · Firebase · DynamoDB · Oracle PL/SQL · mTLS · FAPI · JWT · Python · Terraform</div>
+      </div>
+
+      <!-- Banpará -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <div class="exp-company">Vibe Desenvolvimento — Banpará</div>
+          <div class="exp-period">Dez/2014 – Mar/2018</div>
+        </div>
+        <div class="exp-role">Desenvolvedor de Software Sênior</div>
+        <div class="exp-context">Internet Banking PF, PJ, Governo e Prefeitura do Banco do Estado do Pará — missão crítica bancária por mais de 3 anos.</div>
+        <ul class="exp-bullets">
+          <li>Desenvolvimento e manutenção de 6 sistemas do Internet Banking (IBK, IBJ, IBG, IBP, API, CE)</li>
+          <li>Lógica financeira crítica em <strong>Oracle PL/SQL</strong> (Procedures, Triggers, Functions, Views) e SQL Server T-SQL</li>
+          <li>Sistema de Análise do Perfil do Investidor: classificação conservador / moderado / arrojado</li>
+          <li>Implantação de metodologia <strong>MPS-BR Nível G</strong> para maturidade de processo de software</li>
+          <li>Levantamento de requisitos, UML, web services e integração com sistemas externos</li>
+        </ul>
+        <div class="exp-stack"><strong>Stack:</strong> Java J2EE · .NET (C#, VB.NET) · Oracle PL/SQL · SQL Server T-SQL · ASP.NET · Web Services · MPS-BR</div>
+      </div>
+
+    </section>
+
+    <!-- EXPERIÊNCIAS ANTERIORES -->
+    <section>
+      <div class="section-title">Experiências Anteriores (2002–2014)</div>
+      <div class="earlier">
+        <p>Trajetória iniciada em 2002, com passagens por estágios, empreendedorismo e projetos freelance que consolidaram as bases técnicas e a visão de produto.</p>
+        <table>
+          <thead>
+            <tr><th>Período</th><th>Empresa</th><th>Função</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>2012–2014</td><td>KIIWEB Tecnologia</td><td>Empreendedor / Desenvolvedor Full Stack</td></tr>
+            <tr><td>2010–2012</td><td>IMG Corretora de Seguros</td><td>Desenvolvedor Full Stack</td></tr>
+            <tr><td>2010–2012</td><td>UFRA — Projeto PARFOR</td><td>Desenvolvedor Full Stack / Webmaster</td></tr>
+            <tr><td>2010–2011</td><td>100% Amazônia</td><td>Estagiário Multidisciplinar</td></tr>
+            <tr><td>2009–2010</td><td>WTEC Consultoria</td><td>Estagiário de Desenvolvimento Web</td></tr>
+            <tr><td>2009</td><td>UFPA</td><td>Estagiário em Desenvolvimento Web</td></tr>
+            <tr><td>2008–2009</td><td>Caixa Econômica Federal</td><td>Estagiário em Desenvolvimento</td></tr>
+            <tr><td>2007–2010</td><td>Bellivery — Belém Delivery Online</td><td>Co-fundador e CTO</td></tr>
+            <tr><td>2007</td><td>UFRA</td><td>Estagiário em Suporte de Redes</td></tr>
+            <tr><td>2003–2004</td><td>Connect Informática</td><td>Professor de Informática</td></tr>
+            <tr><td>2002</td><td>COMDAC</td><td>Estagiário de TI</td></tr>
+          </tbody>
+        </table>
+        <div class="earlier-highlights">
+          <strong>Destaques:</strong> Co-fundação da Bellivery (400+ clientes) · Gerenciador de Eventos PARFOR adotado nacionalmente (−80% equipe operacional) · CRM/ERP para corretora de seguros · Motor de split de pagamentos na KIIWEB
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+</body>
+</html>
