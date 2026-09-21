@@ -39,8 +39,8 @@ O que me diferencia é a capacidade de transformar complexidade em soluções qu
 
 ## EXPERIÊNCIA PROFISSIONAL
 
-### PagBank — Engenheiro de Software Sênior `[PJ via Tinnova]`
-**Janeiro/2026 – Presente**
+### Banco Votorantin — Engenheiro de Software Sênior `[CLT via 200Devs]`
+**Outubro/2025 – Presente**
 
 Atuação no produto **Business Condition (BC)** — sistema central de gestão de condições comerciais e taxas para lojistas que utilizam as maquininhas de adquirência do PagBank. Produto de missão crítica com impacto direto na receita da empresa.
 
@@ -54,7 +54,7 @@ Atuação no produto **Business Condition (BC)** — sistema central de gestão 
 ---
 
 ### Sicredi — Consultor Sênior de Arquitetura e Governança `[via Accenture do Brasil]`
-**Maio/2025 – Dezembro/2025**
+**Maio/2025 – Out/2025**
 
 Atuação em comitê de elite de governança, segurança e arquitetura corporativa de uma das maiores cooperativas de crédito do Brasil.
 
