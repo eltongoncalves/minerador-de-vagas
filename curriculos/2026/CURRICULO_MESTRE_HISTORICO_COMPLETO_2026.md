@@ -57,18 +57,19 @@ O bloco de maio-outubro/2025 é o mais denso da sua carreira: **CLT (Accenture) 
 
 Business Condition (BC) é o sistema central de gestão de condições comerciais e taxas para os lojistas que usam as maquininhas de adquirência do PagBank — produto de missão crítica com impacto direto na receita da empresa.
 
-- Evoluí regras de negócio de ofertas comerciais no sistema Business Condition (BC) — taxa zero, antecipação de recebíveis, condições por perfil de lojista —, **medido por** [a confirmar], **ao** desenvolver em Java, Kotlin e Spring Boot
-- Implementei pipelines de dados analíticos, **medido por** [a confirmar], **ao** orquestrar DAGs em Apache Airflow para extração e processamento em larga escala
-- Dei suporte à integração entre sistemas e ao levantamento de requisitos de negócio, **medido por** [a confirmar], **ao** modelar o banco de dados do produto e atuar na resolução de incidentes em produção
+- Evoluí regras de negócio de ofertas comerciais no sistema Business Condition (BC) — taxa zero, antecipação de recebíveis, condições por perfil de lojista —, **ao** desenvolver em Java, Kotlin e Spring Boot
+- Escalei o processamento analítico do produto, **ao** orquestrar pipelines de dados (DAGs) em Apache Airflow para extração e processamento em larga escala
+- Dei suporte à integração entre sistemas e ao levantamento de requisitos junto às áreas de negócio, **ao** modelar o banco de dados do produto e atuar na resolução de incidentes em produção
 
 *Stack: Java, Kotlin, Spring Boot, Apache Airflow, Microsserviços*
+*Métricas de impacto ainda não quantificadas — experiência em andamento, sem números de entrega consolidados ainda.*
 
 ---
 
 ### Banco Votorantim — BV (via 200DEV SVCS LTDA) — 1º contrato — Dev Backend `[CLT]` 🟢
 **Período:** 02/10/2025 – 30/12/2025 | Salário: R$ 11.000/mês | Foco: segurança bancária / MED (Mecanismo Especial de Devolução)
 
-- Corrigi falhas críticas em sistemas corporativos, **medido por** remediação de vulnerabilidades de segurança identificadas, **ao** fazer troubleshooting especializado nos microsserviços em Java
+- Corrigi falhas críticas de segurança em sistemas corporativos do BV, **ao** fazer troubleshooting especializado e remediar vulnerabilidades identificadas nos microsserviços em Java
 - Liderei a conformidade regulatória do BV para o ciclo BACEN 2026, **medido por** implementação completa do MED (Mecanismo Especial de Devolução), **ao** desenvolver e otimizar backend de microsserviços em Java/Spring Boot
 
 *Stack: Java, Spring Boot, Microsserviços, Segurança Bancária, MED/BACEN*
@@ -105,7 +106,7 @@ Business Condition (BC) é o sistema central de gestão de condições comerciai
 **Período:** 20/02/2025 – 20/05/2025 | Salário: R$ 10.920/mês
 
 - Mantive sistemas corporativos de alta complexidade em operação, **medido por** entrega estável para clientes dos setores público e privado, **ao** desenvolver e manter soluções Java/Spring Boot
-- Ampliei a escalabilidade de integrações, **medido por** [a confirmar], **ao** implementar soluções com foco em Spring Data JPA
+- Contribuí para a escalabilidade de integrações do sistema, **ao** implementar soluções com foco em Spring Data JPA
 
 *Stack: Java, Spring Boot, Arquitetura Corporativa, Spring Data JPA*
 
@@ -237,7 +238,7 @@ Business Condition (BC) é o sistema central de gestão de condições comerciai
 ### Vibe Desenvolvimento — Banco do Estado do Pará (Banpará) — Desenvolvedor Java Sênior / Especialista em BD `[CLT]` 🟢
 **Período:** 22/12/2014 – 19/03/2018 | Salário final: R$ 7.593,84/mês | Também atendeu Basa (Banco da Amazônia) e SEFAZ-PA como clientes, além do Banpará
 
-- Sustentei 6 sistemas do Internet Banking (IBK, IBJ — incluindo o site lojista —, IBG, IBP, API, CE) em operação contínua, **medido por** disponibilidade ininterrupta por mais de 3 anos, **ao** desenvolver e manter lógica financeira crítica em Oracle PL/SQL e SQL Server T-SQL, com Stored Procedures, Functions e Views avançadas
+- Sustentei 6 sistemas do Internet Banking (IBK, IBJ — incluindo o site lojista —, IBG, IBP, API, CE) em operação contínua, incluindo o acesso a dados bancários dos usuários (contas, saldos, extratos), **medido por** disponibilidade ininterrupta por mais de 3 anos, **ao** desenvolver e manter lógica financeira crítica em Oracle PL/SQL e SQL Server T-SQL, com Stored Procedures, Functions e Views avançadas
 - Entreguei o Sistema de Análise do Perfil do Investidor, **medido por** classificação automática conservador/moderado/arrojado aplicada a produtos financeiros, **ao** desenhar as regras de negócio e a modelagem de dados via diagramas UML/DER
 - Elevei a maturidade de processo da equipe, **medido por** certificação MPS-BR Nível G obtida, **ao** implantar a metodologia junto ao time
 - Padronizei o fluxo de suporte, **medido por** rastreabilidade de chamados entre as frentes PF/PJ/Governo/Prefeitura, **ao** usar a ferramenta ITSM Cherwell
@@ -334,4 +335,4 @@ Tudo que precisa da sua análise ou confirmação está aqui, em um só lugar �
 ---
 
 **Fontes cruzadas:** CTPS Digital (emissão 08/01/2026), Extrato de Outros Vínculos (CNIS), Extrato CAGED/MTE (consulta 22/09/2026), `PERFIL_MESTRE_CARREIRA.md`, `HISTORICO_CONSOLIDADO.md`, `HISTORICO_EMPRESAS.md`, LinkedIn PDF exportado, contrato de consultoria PJ, e ~20 currículos históricos em PDF/HTML (2013–2026).
-**Última atualização:** 22/09/2026 — currículo reformatado para separar experiências (limpas, sem anotações inline) da tabela única de pontos de atenção ao final; IMG Corretora consolidada dentro da KIIWEB; Basis, Opah/CVC e Kodak/Conselho Tutelar removidos; Tinnova/PagBank com datas confirmadas pelo usuário (20/02/2026–20/08/2026).
+**Última atualização:** 22/09/2026 — currículo reformatado para separar experiências (limpas, sem anotações inline) da tabela única de pontos de atenção ao final; IMG Corretora consolidada dentro da KIIWEB; Basis, Opah/CVC e Kodak/Conselho Tutelar removidos; Tinnova/PagBank com datas confirmadas pelo usuário (20/02/2026–20/08/2026); segunda passada editorial (recrutador + especialista técnico) revisando bullets contra os currículos antigos — removidos "medido por [a confirmar]" forçados sem métrica real (PagBank, G4F, BV 1º contrato), corrigida redundância X≈Y no BV 1º contrato, e reincorporado detalhe autêntico da fonte mais recente na Vibe (acesso a contas/saldos/extratos).
